@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Interface
+  commentId: N:MainRobot.Robot.Navigation.Interface
+  id: MainRobot.Robot.Navigation.Interface
+  children:
+  - MainRobot.Robot.Navigation.Interface.IMovement
+  - MainRobot.Robot.Navigation.Interface.INavigation
+  - MainRobot.Robot.Navigation.Interface.INavigationMover
+  - MainRobot.Robot.Navigation.Interface.IPathFinding
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Navigation.Interface
+  nameWithType: MainRobot.Robot.Navigation.Interface
+  fullName: MainRobot.Robot.Navigation.Interface
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Navigation.Interface.IMovement
+  commentId: T:MainRobot.Robot.Navigation.Interface.IMovement
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.IMovement.html
+  name: IMovement
+  nameWithType: IMovement
+  fullName: MainRobot.Robot.Navigation.Interface.IMovement
+- uid: MainRobot.Robot.Navigation.Interface.INavigation
+  commentId: T:MainRobot.Robot.Navigation.Interface.INavigation
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.INavigation.html
+  name: INavigation
+  nameWithType: INavigation
+  fullName: MainRobot.Robot.Navigation.Interface.INavigation
+- uid: MainRobot.Robot.Navigation.Interface.INavigationMover
+  commentId: T:MainRobot.Robot.Navigation.Interface.INavigationMover
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.INavigationMover.html
+  name: INavigationMover
+  nameWithType: INavigationMover
+  fullName: MainRobot.Robot.Navigation.Interface.INavigationMover
+- uid: MainRobot.Robot.Navigation.Interface.IPathFinding
+  commentId: T:MainRobot.Robot.Navigation.Interface.IPathFinding
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.IPathFinding.html
+  name: IPathFinding
+  nameWithType: IPathFinding
+  fullName: MainRobot.Robot.Navigation.Interface.IPathFinding
+- uid: MainRobot.Robot.Navigation.Interface
+  commentId: N:MainRobot.Robot.Navigation.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Interface
+  nameWithType: MainRobot.Robot.Navigation.Interface
+  fullName: MainRobot.Robot.Navigation.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Interface.html

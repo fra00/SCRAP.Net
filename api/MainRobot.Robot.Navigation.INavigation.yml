@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.INavigation
+  commentId: T:MainRobot.Robot.Navigation.INavigation
+  id: INavigation
+  parent: MainRobot.Robot.Navigation
+  children:
+  - MainRobot.Robot.Navigation.INavigation.NavigateTo(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.INavigation.NavigateToRecharge
+  - MainRobot.Robot.Navigation.INavigation.PlaceInRecharge
+  - MainRobot.Robot.Navigation.INavigation.ResetNavigation(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.INavigation.UpdatePosition(MainRobot.Common.RPoint,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: INavigation
+  nameWithType: INavigation
+  fullName: MainRobot.Robot.Navigation.INavigation
+  type: Interface
+  source:
+    id: INavigation
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\INavigation.cs
+    startLine: 4
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  syntax:
+    content: public interface INavigation
+    content.vb: Public Interface INavigation
+- uid: MainRobot.Robot.Navigation.INavigation.ResetNavigation(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.INavigation.ResetNavigation(MainRobot.Common.RPoint)
+  id: ResetNavigation(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.INavigation
+  langs:
+  - csharp
+  - vb
+  name: ResetNavigation(RPoint?)
+  nameWithType: INavigation.ResetNavigation(RPoint?)
+  fullName: MainRobot.Robot.Navigation.INavigation.ResetNavigation(MainRobot.Common.RPoint?)
+  type: Method
+  source:
+    id: ResetNavigation
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\INavigation.cs
+    startLine: 10
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Stop navigation and restart
+  example: []
+  syntax:
+    content: Task ResetNavigation(RPoint? endPoint = null)
+    parameters:
+    - id: endPoint
+      type: MainRobot.Common.RPoint
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function ResetNavigation(endPoint As RPoint = Nothing) As Task
+  overload: MainRobot.Robot.Navigation.INavigation.ResetNavigation*
+  nameWithType.vb: INavigation.ResetNavigation(RPoint)
+  fullName.vb: MainRobot.Robot.Navigation.INavigation.ResetNavigation(MainRobot.Common.RPoint)
+  name.vb: ResetNavigation(RPoint)
+- uid: MainRobot.Robot.Navigation.INavigation.NavigateTo(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.INavigation.NavigateTo(MainRobot.Common.RPoint)
+  id: NavigateTo(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.INavigation
+  langs:
+  - csharp
+  - vb
+  name: NavigateTo(RPoint)
+  nameWithType: INavigation.NavigateTo(RPoint)
+  fullName: MainRobot.Robot.Navigation.INavigation.NavigateTo(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: NavigateTo
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\INavigation.cs
+    startLine: 16
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Navigate to point
+  example: []
+  syntax:
+    content: Task NavigateTo(RPoint end)
+    parameters:
+    - id: end
+      type: MainRobot.Common.RPoint
+      description: Point to navigate
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function NavigateTo([end] As RPoint) As Task
+  overload: MainRobot.Robot.Navigation.INavigation.NavigateTo*
+- uid: MainRobot.Robot.Navigation.INavigation.NavigateToRecharge
+  commentId: M:MainRobot.Robot.Navigation.INavigation.NavigateToRecharge
+  id: NavigateToRecharge
+  parent: MainRobot.Robot.Navigation.INavigation
+  langs:
+  - csharp
+  - vb
+  name: NavigateToRecharge()
+  nameWithType: INavigation.NavigateToRecharge()
+  fullName: MainRobot.Robot.Navigation.INavigation.NavigateToRecharge()
+  type: Method
+  source:
+    id: NavigateToRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\INavigation.cs
+    startLine: 21
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Navigate to recharge position
+  example: []
+  syntax:
+    content: Task NavigateToRecharge()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function NavigateToRecharge() As Task
+  overload: MainRobot.Robot.Navigation.INavigation.NavigateToRecharge*
+- uid: MainRobot.Robot.Navigation.INavigation.UpdatePosition(MainRobot.Common.RPoint,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.INavigation.UpdatePosition(MainRobot.Common.RPoint,System.Int32)
+  id: UpdatePosition(MainRobot.Common.RPoint,System.Int32)
+  parent: MainRobot.Robot.Navigation.INavigation
+  langs:
+  - csharp
+  - vb
+  name: UpdatePosition(RPoint, int)
+  nameWithType: INavigation.UpdatePosition(RPoint, int)
+  fullName: MainRobot.Robot.Navigation.INavigation.UpdatePosition(MainRobot.Common.RPoint, int)
+  type: Method
+  source:
+    id: UpdatePosition
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\INavigation.cs
+    startLine: 27
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Update current position
+  example: []
+  syntax:
+    content: void UpdatePosition(RPoint nextPoint, int angle)
+    parameters:
+    - id: nextPoint
+      type: MainRobot.Common.RPoint
+      description: ''
+    - id: angle
+      type: System.Int32
+      description: ''
+    content.vb: Sub UpdatePosition(nextPoint As RPoint, angle As Integer)
+  overload: MainRobot.Robot.Navigation.INavigation.UpdatePosition*
+  nameWithType.vb: INavigation.UpdatePosition(RPoint, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.INavigation.UpdatePosition(MainRobot.Common.RPoint, Integer)
+  name.vb: UpdatePosition(RPoint, Integer)
+- uid: MainRobot.Robot.Navigation.INavigation.PlaceInRecharge
+  commentId: M:MainRobot.Robot.Navigation.INavigation.PlaceInRecharge
+  id: PlaceInRecharge
+  parent: MainRobot.Robot.Navigation.INavigation
+  langs:
+  - csharp
+  - vb
+  name: PlaceInRecharge()
+  nameWithType: INavigation.PlaceInRecharge()
+  fullName: MainRobot.Robot.Navigation.INavigation.PlaceInRecharge()
+  type: Method
+  source:
+    id: PlaceInRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\INavigation.cs
+    startLine: 32
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Place robot in recharge
+  example: []
+  syntax:
+    content: Task PlaceInRecharge()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function PlaceInRecharge() As Task
+  overload: MainRobot.Robot.Navigation.INavigation.PlaceInRecharge*
+references:
+- uid: MainRobot.Robot.Navigation
+  commentId: N:MainRobot.Robot.Navigation
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation
+  nameWithType: MainRobot.Robot.Navigation
+  fullName: MainRobot.Robot.Navigation
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+- uid: MainRobot.Robot.Navigation.INavigation.ResetNavigation*
+  commentId: Overload:MainRobot.Robot.Navigation.INavigation.ResetNavigation
+  href: MainRobot.Robot.Navigation.INavigation.html#MainRobot_Robot_Navigation_INavigation_ResetNavigation_MainRobot_Common_RPoint_
+  name: ResetNavigation
+  nameWithType: INavigation.ResetNavigation
+  fullName: MainRobot.Robot.Navigation.INavigation.ResetNavigation
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.Robot.Navigation.INavigation.NavigateTo*
+  commentId: Overload:MainRobot.Robot.Navigation.INavigation.NavigateTo
+  href: MainRobot.Robot.Navigation.INavigation.html#MainRobot_Robot_Navigation_INavigation_NavigateTo_MainRobot_Common_RPoint_
+  name: NavigateTo
+  nameWithType: INavigation.NavigateTo
+  fullName: MainRobot.Robot.Navigation.INavigation.NavigateTo
+- uid: MainRobot.Robot.Navigation.INavigation.NavigateToRecharge*
+  commentId: Overload:MainRobot.Robot.Navigation.INavigation.NavigateToRecharge
+  href: MainRobot.Robot.Navigation.INavigation.html#MainRobot_Robot_Navigation_INavigation_NavigateToRecharge
+  name: NavigateToRecharge
+  nameWithType: INavigation.NavigateToRecharge
+  fullName: MainRobot.Robot.Navigation.INavigation.NavigateToRecharge
+- uid: MainRobot.Robot.Navigation.INavigation.UpdatePosition*
+  commentId: Overload:MainRobot.Robot.Navigation.INavigation.UpdatePosition
+  href: MainRobot.Robot.Navigation.INavigation.html#MainRobot_Robot_Navigation_INavigation_UpdatePosition_MainRobot_Common_RPoint_System_Int32_
+  name: UpdatePosition
+  nameWithType: INavigation.UpdatePosition
+  fullName: MainRobot.Robot.Navigation.INavigation.UpdatePosition
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Navigation.INavigation.PlaceInRecharge*
+  commentId: Overload:MainRobot.Robot.Navigation.INavigation.PlaceInRecharge
+  href: MainRobot.Robot.Navigation.INavigation.html#MainRobot_Robot_Navigation_INavigation_PlaceInRecharge
+  name: PlaceInRecharge
+  nameWithType: INavigation.PlaceInRecharge
+  fullName: MainRobot.Robot.Navigation.INavigation.PlaceInRecharge

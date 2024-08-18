@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Configuration
+  commentId: T:MainRobot.Configuration
+  id: Configuration
+  parent: MainRobot
+  children:
+  - MainRobot.Configuration.CAMERA_IP_PAS
+  - MainRobot.Configuration.CAMERA_IP_URL
+  - MainRobot.Configuration.CAMERA_IP_USR
+  - MainRobot.Configuration.FAKE_HW
+  - MainRobot.Configuration.FAKE_REMOTE_ARDUINO
+  - MainRobot.Configuration.HTTP_URL_COMUNICATION
+  - MainRobot.Configuration.PATH_ESPEAK
+  - MainRobot.Configuration.SERIAL_ARRAY_SEPARETOR
+  - MainRobot.Configuration.SERIAL_END_MESSAGE
+  - MainRobot.Configuration.SERIAL_NAME
+  - MainRobot.Configuration.SERIAL_SEPARETOR
+  - MainRobot.Configuration.SERIAL_SPEED
+  - MainRobot.Configuration.SERIAL_START_MESSAGE_ARDU
+  - MainRobot.Configuration.SERIAL_START_MESSAGE_RPI
+  - MainRobot.Configuration.TCP_URL_COMUNICATION
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: Configuration
+  fullName: MainRobot.Configuration
+  type: Class
+  source:
+    id: Configuration
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 5
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  summary: ''
+  example: []
+  syntax:
+    content: public static class Configuration
+    content.vb: Public Module Configuration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Configuration.PATH_ESPEAK
+  commentId: F:MainRobot.Configuration.PATH_ESPEAK
+  id: PATH_ESPEAK
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: PATH_ESPEAK
+  nameWithType: Configuration.PATH_ESPEAK
+  fullName: MainRobot.Configuration.PATH_ESPEAK
+  type: Field
+  source:
+    id: PATH_ESPEAK
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string PATH_ESPEAK
+    return:
+      type: System.String
+    content.vb: Public Shared PATH_ESPEAK As String
+- uid: MainRobot.Configuration.SERIAL_NAME
+  commentId: F:MainRobot.Configuration.SERIAL_NAME
+  id: SERIAL_NAME
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_NAME
+  nameWithType: Configuration.SERIAL_NAME
+  fullName: MainRobot.Configuration.SERIAL_NAME
+  type: Field
+  source:
+    id: SERIAL_NAME
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string SERIAL_NAME
+    return:
+      type: System.String
+    content.vb: Public Shared SERIAL_NAME As String
+- uid: MainRobot.Configuration.SERIAL_SPEED
+  commentId: F:MainRobot.Configuration.SERIAL_SPEED
+  id: SERIAL_SPEED
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_SPEED
+  nameWithType: Configuration.SERIAL_SPEED
+  fullName: MainRobot.Configuration.SERIAL_SPEED
+  type: Field
+  source:
+    id: SERIAL_SPEED
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 10
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static int SERIAL_SPEED
+    return:
+      type: System.Int32
+    content.vb: Public Shared SERIAL_SPEED As Integer
+- uid: MainRobot.Configuration.SERIAL_SEPARETOR
+  commentId: F:MainRobot.Configuration.SERIAL_SEPARETOR
+  id: SERIAL_SEPARETOR
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_SEPARETOR
+  nameWithType: Configuration.SERIAL_SEPARETOR
+  fullName: MainRobot.Configuration.SERIAL_SEPARETOR
+  type: Field
+  source:
+    id: SERIAL_SEPARETOR
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 11
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string SERIAL_SEPARETOR
+    return:
+      type: System.String
+    content.vb: Public Shared SERIAL_SEPARETOR As String
+- uid: MainRobot.Configuration.SERIAL_ARRAY_SEPARETOR
+  commentId: F:MainRobot.Configuration.SERIAL_ARRAY_SEPARETOR
+  id: SERIAL_ARRAY_SEPARETOR
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_ARRAY_SEPARETOR
+  nameWithType: Configuration.SERIAL_ARRAY_SEPARETOR
+  fullName: MainRobot.Configuration.SERIAL_ARRAY_SEPARETOR
+  type: Field
+  source:
+    id: SERIAL_ARRAY_SEPARETOR
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 12
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string SERIAL_ARRAY_SEPARETOR
+    return:
+      type: System.String
+    content.vb: Public Shared SERIAL_ARRAY_SEPARETOR As String
+- uid: MainRobot.Configuration.SERIAL_START_MESSAGE_RPI
+  commentId: F:MainRobot.Configuration.SERIAL_START_MESSAGE_RPI
+  id: SERIAL_START_MESSAGE_RPI
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_START_MESSAGE_RPI
+  nameWithType: Configuration.SERIAL_START_MESSAGE_RPI
+  fullName: MainRobot.Configuration.SERIAL_START_MESSAGE_RPI
+  type: Field
+  source:
+    id: SERIAL_START_MESSAGE_RPI
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 13
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string SERIAL_START_MESSAGE_RPI
+    return:
+      type: System.String
+    content.vb: Public Shared SERIAL_START_MESSAGE_RPI As String
+- uid: MainRobot.Configuration.SERIAL_START_MESSAGE_ARDU
+  commentId: F:MainRobot.Configuration.SERIAL_START_MESSAGE_ARDU
+  id: SERIAL_START_MESSAGE_ARDU
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_START_MESSAGE_ARDU
+  nameWithType: Configuration.SERIAL_START_MESSAGE_ARDU
+  fullName: MainRobot.Configuration.SERIAL_START_MESSAGE_ARDU
+  type: Field
+  source:
+    id: SERIAL_START_MESSAGE_ARDU
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 14
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string SERIAL_START_MESSAGE_ARDU
+    return:
+      type: System.String
+    content.vb: Public Shared SERIAL_START_MESSAGE_ARDU As String
+- uid: MainRobot.Configuration.SERIAL_END_MESSAGE
+  commentId: F:MainRobot.Configuration.SERIAL_END_MESSAGE
+  id: SERIAL_END_MESSAGE
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: SERIAL_END_MESSAGE
+  nameWithType: Configuration.SERIAL_END_MESSAGE
+  fullName: MainRobot.Configuration.SERIAL_END_MESSAGE
+  type: Field
+  source:
+    id: SERIAL_END_MESSAGE
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 15
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string SERIAL_END_MESSAGE
+    return:
+      type: System.String
+    content.vb: Public Shared SERIAL_END_MESSAGE As String
+- uid: MainRobot.Configuration.HTTP_URL_COMUNICATION
+  commentId: F:MainRobot.Configuration.HTTP_URL_COMUNICATION
+  id: HTTP_URL_COMUNICATION
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: HTTP_URL_COMUNICATION
+  nameWithType: Configuration.HTTP_URL_COMUNICATION
+  fullName: MainRobot.Configuration.HTTP_URL_COMUNICATION
+  type: Field
+  source:
+    id: HTTP_URL_COMUNICATION
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 18
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string HTTP_URL_COMUNICATION
+    return:
+      type: System.String
+    content.vb: Public Shared HTTP_URL_COMUNICATION As String
+- uid: MainRobot.Configuration.TCP_URL_COMUNICATION
+  commentId: F:MainRobot.Configuration.TCP_URL_COMUNICATION
+  id: TCP_URL_COMUNICATION
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: TCP_URL_COMUNICATION
+  nameWithType: Configuration.TCP_URL_COMUNICATION
+  fullName: MainRobot.Configuration.TCP_URL_COMUNICATION
+  type: Field
+  source:
+    id: TCP_URL_COMUNICATION
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 20
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string TCP_URL_COMUNICATION
+    return:
+      type: System.String
+    content.vb: Public Shared TCP_URL_COMUNICATION As String
+- uid: MainRobot.Configuration.CAMERA_IP_URL
+  commentId: F:MainRobot.Configuration.CAMERA_IP_URL
+  id: CAMERA_IP_URL
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: CAMERA_IP_URL
+  nameWithType: Configuration.CAMERA_IP_URL
+  fullName: MainRobot.Configuration.CAMERA_IP_URL
+  type: Field
+  source:
+    id: CAMERA_IP_URL
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 22
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string CAMERA_IP_URL
+    return:
+      type: System.String
+    content.vb: Public Shared CAMERA_IP_URL As String
+- uid: MainRobot.Configuration.CAMERA_IP_USR
+  commentId: F:MainRobot.Configuration.CAMERA_IP_USR
+  id: CAMERA_IP_USR
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: CAMERA_IP_USR
+  nameWithType: Configuration.CAMERA_IP_USR
+  fullName: MainRobot.Configuration.CAMERA_IP_USR
+  type: Field
+  source:
+    id: CAMERA_IP_USR
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 23
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string CAMERA_IP_USR
+    return:
+      type: System.String
+    content.vb: Public Shared CAMERA_IP_USR As String
+- uid: MainRobot.Configuration.CAMERA_IP_PAS
+  commentId: F:MainRobot.Configuration.CAMERA_IP_PAS
+  id: CAMERA_IP_PAS
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: CAMERA_IP_PAS
+  nameWithType: Configuration.CAMERA_IP_PAS
+  fullName: MainRobot.Configuration.CAMERA_IP_PAS
+  type: Field
+  source:
+    id: CAMERA_IP_PAS
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 24
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static string CAMERA_IP_PAS
+    return:
+      type: System.String
+    content.vb: Public Shared CAMERA_IP_PAS As String
+- uid: MainRobot.Configuration.FAKE_HW
+  commentId: F:MainRobot.Configuration.FAKE_HW
+  id: FAKE_HW
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: FAKE_HW
+  nameWithType: Configuration.FAKE_HW
+  fullName: MainRobot.Configuration.FAKE_HW
+  type: Field
+  source:
+    id: FAKE_HW
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 26
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static bool FAKE_HW
+    return:
+      type: System.Boolean
+    content.vb: Public Shared FAKE_HW As Boolean
+- uid: MainRobot.Configuration.FAKE_REMOTE_ARDUINO
+  commentId: F:MainRobot.Configuration.FAKE_REMOTE_ARDUINO
+  id: FAKE_REMOTE_ARDUINO
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: FAKE_REMOTE_ARDUINO
+  nameWithType: Configuration.FAKE_REMOTE_ARDUINO
+  fullName: MainRobot.Configuration.FAKE_REMOTE_ARDUINO
+  type: Field
+  source:
+    id: FAKE_REMOTE_ARDUINO
+    path: C:\Condivisa\Progetti\Robot\Configuration.cs
+    startLine: 27
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  syntax:
+    content: public static bool FAKE_REMOTE_ARDUINO
+    return:
+      type: System.Boolean
+    content.vb: Public Shared FAKE_REMOTE_ARDUINO As Boolean
+references:
+- uid: MainRobot
+  commentId: N:MainRobot
+  href: MainRobot.html
+  name: MainRobot
+  nameWithType: MainRobot
+  fullName: MainRobot
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

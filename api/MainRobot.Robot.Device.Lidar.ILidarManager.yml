@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager
+  commentId: T:MainRobot.Robot.Device.Lidar.ILidarManager
+  id: ILidarManager
+  parent: MainRobot.Robot.Device.Lidar
+  children:
+  - MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar(MainRobot.Common.RPoint,System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}})
+  - MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar(System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Action{System.Int32,System.Int32})
+  - MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar(System.Action{System.Int32,System.Int32})
+  - MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar
+  langs:
+  - csharp
+  - vb
+  name: ILidarManager
+  nameWithType: ILidarManager
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager
+  type: Interface
+  source:
+    id: ILidarManager
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\Lidar\ILidarManager.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: public interface ILidarManager
+    content.vb: Public Interface ILidarManager
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar
+  commentId: M:MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar
+  id: ReadRawLidar
+  parent: MainRobot.Robot.Device.Lidar.ILidarManager
+  langs:
+  - csharp
+  - vb
+  name: ReadRawLidar()
+  nameWithType: ILidarManager.ReadRawLidar()
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar()
+  type: Method
+  source:
+    id: ReadRawLidar
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\Lidar\ILidarManager.cs
+    startLine: 5
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: Task<IEnumerable<(int, float)>?> ReadRawLidar()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}}
+    content.vb: Function ReadRawLidar() As Task(Of IEnumerable(Of (Integer, Single)))
+  overload: MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar*
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar(System.Action{System.Int32,System.Int32})
+  commentId: M:MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar(System.Action{System.Int32,System.Int32})
+  id: ReadLidar(System.Action{System.Int32,System.Int32})
+  parent: MainRobot.Robot.Device.Lidar.ILidarManager
+  langs:
+  - csharp
+  - vb
+  name: ReadLidar(Action<int, int>)
+  nameWithType: ILidarManager.ReadLidar(Action<int, int>)
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar(System.Action<int, int>)
+  type: Method
+  source:
+    id: ReadLidar
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\Lidar\ILidarManager.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: Task<IEnumerable<(int, float)>?> ReadLidar(Action<int, int> callbackPointReceived)
+    parameters:
+    - id: callbackPointReceived
+      type: System.Action{System.Int32,System.Int32}
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}}
+    content.vb: Function ReadLidar(callbackPointReceived As Action(Of Integer, Integer)) As Task(Of IEnumerable(Of (Integer, Single)))
+  overload: MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar*
+  nameWithType.vb: ILidarManager.ReadLidar(Action(Of Integer, Integer))
+  fullName.vb: MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar(System.Action(Of Integer, Integer))
+  name.vb: ReadLidar(Action(Of Integer, Integer))
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar(MainRobot.Common.RPoint,System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}})
+  commentId: M:MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar(MainRobot.Common.RPoint,System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}})
+  id: FindAngleFromLidar(MainRobot.Common.RPoint,System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}})
+  parent: MainRobot.Robot.Device.Lidar.ILidarManager
+  langs:
+  - csharp
+  - vb
+  name: FindAngleFromLidar(RPoint, IEnumerable<(int, float)>, IEnumerable<(int, float)>)
+  nameWithType: ILidarManager.FindAngleFromLidar(RPoint, IEnumerable<(int, float)>, IEnumerable<(int, float)>)
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar(MainRobot.Common.RPoint, System.Collections.Generic.IEnumerable<(int, float)>, System.Collections.Generic.IEnumerable<(int, float)>)
+  type: Method
+  source:
+    id: FindAngleFromLidar
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\Lidar\ILidarManager.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: int? FindAngleFromLidar(RPoint center, IEnumerable<(int, float)> before, IEnumerable<(int, float)> after)
+    parameters:
+    - id: center
+      type: MainRobot.Common.RPoint
+    - id: before
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}
+    - id: after
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Function FindAngleFromLidar(center As RPoint, before As IEnumerable(Of (Integer, Single)), after As IEnumerable(Of (Integer, Single))) As Integer?
+  overload: MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar*
+  nameWithType.vb: ILidarManager.FindAngleFromLidar(RPoint, IEnumerable(Of (Integer, Single)), IEnumerable(Of (Integer, Single)))
+  fullName.vb: MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar(MainRobot.Common.RPoint, System.Collections.Generic.IEnumerable(Of (Integer, Single)), System.Collections.Generic.IEnumerable(Of (Integer, Single)))
+  name.vb: FindAngleFromLidar(RPoint, IEnumerable(Of (Integer, Single)), IEnumerable(Of (Integer, Single)))
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar(System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Action{System.Int32,System.Int32})
+  commentId: M:MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar(System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Action{System.Int32,System.Int32})
+  id: MapRawLidar(System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}},System.Action{System.Int32,System.Int32})
+  parent: MainRobot.Robot.Device.Lidar.ILidarManager
+  langs:
+  - csharp
+  - vb
+  name: MapRawLidar(IEnumerable<(int, float)>?, Action<int, int>)
+  nameWithType: ILidarManager.MapRawLidar(IEnumerable<(int, float)>?, Action<int, int>)
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar(System.Collections.Generic.IEnumerable<(int, float)>?, System.Action<int, int>)
+  type: Method
+  source:
+    id: MapRawLidar
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\Lidar\ILidarManager.cs
+    startLine: 8
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: IEnumerable<(int, float)>? MapRawLidar(IEnumerable<(int, float)>? rawData, Action<int, int> callbackPointReceived)
+    parameters:
+    - id: rawData
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}
+    - id: callbackPointReceived
+      type: System.Action{System.Int32,System.Int32}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}
+    content.vb: Function MapRawLidar(rawData As IEnumerable(Of (Integer, Single)), callbackPointReceived As Action(Of Integer, Integer)) As IEnumerable(Of (Integer, Single))
+  overload: MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar*
+  nameWithType.vb: ILidarManager.MapRawLidar(IEnumerable(Of (Integer, Single)), Action(Of Integer, Integer))
+  fullName.vb: MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar(System.Collections.Generic.IEnumerable(Of (Integer, Single)), System.Action(Of Integer, Integer))
+  name.vb: MapRawLidar(IEnumerable(Of (Integer, Single)), Action(Of Integer, Integer))
+references:
+- uid: MainRobot.Robot.Device.Lidar
+  commentId: N:MainRobot.Robot.Device.Lidar
+  href: MainRobot.html
+  name: MainRobot.Robot.Device.Lidar
+  nameWithType: MainRobot.Robot.Device.Lidar
+  fullName: MainRobot.Robot.Device.Lidar
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.Lidar
+    name: Lidar
+    href: MainRobot.Robot.Device.Lidar.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.Lidar
+    name: Lidar
+    href: MainRobot.Robot.Device.Lidar.html
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar
+  href: MainRobot.Robot.Device.Lidar.ILidarManager.html#MainRobot_Robot_Device_Lidar_ILidarManager_ReadRawLidar
+  name: ReadRawLidar
+  nameWithType: ILidarManager.ReadRawLidar
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.ReadRawLidar
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<(int, float)>>
+  nameWithType: Task<IEnumerable<(int, float)>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<(int, float)>>
+  nameWithType.vb: Task(Of IEnumerable(Of (Integer, Single)))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of (Integer, Single)))
+  name.vb: Task(Of IEnumerable(Of (Integer, Single)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar
+  href: MainRobot.Robot.Device.Lidar.ILidarManager.html#MainRobot_Robot_Device_Lidar_ILidarManager_ReadLidar_System_Action_System_Int32_System_Int32__
+  name: ReadLidar
+  nameWithType: ILidarManager.ReadLidar
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.ReadLidar
+- uid: System.Action{System.Int32,System.Int32}
+  commentId: T:System.Action{System.Int32,System.Int32}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<int, int>
+  nameWithType: Action<int, int>
+  fullName: System.Action<int, int>
+  nameWithType.vb: Action(Of Integer, Integer)
+  fullName.vb: System.Action(Of Integer, Integer)
+  name.vb: Action(Of Integer, Integer)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar
+  href: MainRobot.Robot.Device.Lidar.ILidarManager.html#MainRobot_Robot_Device_Lidar_ILidarManager_FindAngleFromLidar_MainRobot_Common_RPoint_System_Collections_Generic_IEnumerable_System_ValueTuple_System_Int32_System_Single___System_Collections_Generic_IEnumerable_System_ValueTuple_System_Int32_System_Single___
+  name: FindAngleFromLidar
+  nameWithType: ILidarManager.FindAngleFromLidar
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.FindAngleFromLidar
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,System.Single}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<(int, float)>
+  nameWithType: IEnumerable<(int, float)>
+  fullName: System.Collections.Generic.IEnumerable<(int, float)>
+  nameWithType.vb: IEnumerable(Of (Integer, Single))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of (Integer, Single))
+  name.vb: IEnumerable(Of (Integer, Single))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar
+  href: MainRobot.Robot.Device.Lidar.ILidarManager.html#MainRobot_Robot_Device_Lidar_ILidarManager_MapRawLidar_System_Collections_Generic_IEnumerable_System_ValueTuple_System_Int32_System_Single___System_Action_System_Int32_System_Int32__
+  name: MapRawLidar
+  nameWithType: ILidarManager.MapRawLidar
+  fullName: MainRobot.Robot.Device.Lidar.ILidarManager.MapRawLidar

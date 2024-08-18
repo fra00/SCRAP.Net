@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  commentId: T:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  id: IHelperInvisibleWall
+  parent: MainRobot.Robot.Navigation.Helpers
+  children:
+  - MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load
+  - MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save
+  langs:
+  - csharp
+  - vb
+  name: IHelperInvisibleWall
+  nameWithType: IHelperInvisibleWall
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  type: Interface
+  source:
+    id: IHelperInvisibleWall
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Helpers\HelperInvisibleWall.cs
+    startLine: 63
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Helpers
+  syntax:
+    content: public interface IHelperInvisibleWall
+    content.vb: Public Interface IHelperInvisibleWall
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load
+  commentId: M:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load
+  id: Load
+  parent: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: IHelperInvisibleWall.Load()
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load()
+  type: Method
+  source:
+    id: Load
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Helpers\HelperInvisibleWall.cs
+    startLine: 64
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Helpers
+  syntax:
+    content: void Load()
+    content.vb: Sub Load()
+  overload: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load*
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save
+  commentId: M:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save
+  id: Save
+  parent: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: IHelperInvisibleWall.Save()
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save()
+  type: Method
+  source:
+    id: Save
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Helpers\HelperInvisibleWall.cs
+    startLine: 65
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Helpers
+  syntax:
+    content: void Save()
+    content.vb: Sub Save()
+  overload: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save*
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add(MainRobot.Common.RPoint)
+  id: Add(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  langs:
+  - csharp
+  - vb
+  name: Add(RPoint)
+  nameWithType: IHelperInvisibleWall.Add(RPoint)
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: Add
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Helpers\HelperInvisibleWall.cs
+    startLine: 66
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Helpers
+  syntax:
+    content: void Add(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    content.vb: Sub Add(point As RPoint)
+  overload: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add*
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove(MainRobot.Common.RPoint)
+  id: Remove(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  langs:
+  - csharp
+  - vb
+  name: Remove(RPoint)
+  nameWithType: IHelperInvisibleWall.Remove(RPoint)
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: Remove
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Helpers\HelperInvisibleWall.cs
+    startLine: 67
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Helpers
+  syntax:
+    content: void Remove(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    content.vb: Sub Remove(point As RPoint)
+  overload: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove*
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find(MainRobot.Common.RPoint)
+  id: Find(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  langs:
+  - csharp
+  - vb
+  name: Find(RPoint)
+  nameWithType: IHelperInvisibleWall.Find(RPoint)
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: Find
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Helpers\HelperInvisibleWall.cs
+    startLine: 68
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Helpers
+  syntax:
+    content: bool Find(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    return:
+      type: System.Boolean
+    content.vb: Function Find(point As RPoint) As Boolean
+  overload: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find*
+references:
+- uid: MainRobot.Robot.Navigation.Helpers
+  commentId: N:MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Helpers
+  nameWithType: MainRobot.Robot.Navigation.Helpers
+  fullName: MainRobot.Robot.Navigation.Helpers
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load*
+  commentId: Overload:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html#MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_Load
+  name: Load
+  nameWithType: IHelperInvisibleWall.Load
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Load
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save*
+  commentId: Overload:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html#MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_Save
+  name: Save
+  nameWithType: IHelperInvisibleWall.Save
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Save
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add*
+  commentId: Overload:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html#MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_Add_MainRobot_Common_RPoint_
+  name: Add
+  nameWithType: IHelperInvisibleWall.Add
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Add
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove*
+  commentId: Overload:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html#MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_Remove_MainRobot_Common_RPoint_
+  name: Remove
+  nameWithType: IHelperInvisibleWall.Remove
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Remove
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find*
+  commentId: Overload:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html#MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_Find_MainRobot_Common_RPoint_
+  name: Find
+  nameWithType: IHelperInvisibleWall.Find
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.Find
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

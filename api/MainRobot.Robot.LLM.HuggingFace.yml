@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.LLM.HuggingFace
+  commentId: N:MainRobot.Robot.LLM.HuggingFace
+  id: MainRobot.Robot.LLM.HuggingFace
+  children:
+  - MainRobot.Robot.LLM.HuggingFace.LLLMApiCall
+  - MainRobot.Robot.LLM.HuggingFace.LLMHuggingFace
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.LLM.HuggingFace
+  nameWithType: MainRobot.Robot.LLM.HuggingFace
+  fullName: MainRobot.Robot.LLM.HuggingFace
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.LLM.HuggingFace.LLLMApiCall
+  commentId: T:MainRobot.Robot.LLM.HuggingFace.LLLMApiCall
+  href: MainRobot.Robot.LLM.HuggingFace.LLLMApiCall.html
+  name: LLLMApiCall
+  nameWithType: LLLMApiCall
+  fullName: MainRobot.Robot.LLM.HuggingFace.LLLMApiCall
+- uid: MainRobot.Robot.LLM.HuggingFace.LLMHuggingFace
+  commentId: T:MainRobot.Robot.LLM.HuggingFace.LLMHuggingFace
+  href: MainRobot.Robot.LLM.HuggingFace.LLMHuggingFace.html
+  name: LLMHuggingFace
+  nameWithType: LLMHuggingFace
+  fullName: MainRobot.Robot.LLM.HuggingFace.LLMHuggingFace

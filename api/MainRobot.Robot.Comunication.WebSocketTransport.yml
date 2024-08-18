@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.WebSocketTransport
+  commentId: N:MainRobot.Robot.Comunication.WebSocketTransport
+  id: MainRobot.Robot.Comunication.WebSocketTransport
+  children:
+  - MainRobot.Robot.Comunication.WebSocketTransport.ActionType
+  - MainRobot.Robot.Comunication.WebSocketTransport.IWebSocketCommand
+  - MainRobot.Robot.Comunication.WebSocketTransport.WebSocketCommand
+  - MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  - MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Comunication.WebSocketTransport
+  nameWithType: MainRobot.Robot.Comunication.WebSocketTransport
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.ActionType
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.ActionType
+  href: MainRobot.Robot.Comunication.WebSocketTransport.ActionType.html
+  name: ActionType
+  nameWithType: ActionType
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.ActionType
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.IWebSocketCommand
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.IWebSocketCommand
+  parent: MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.Robot.Comunication.WebSocketTransport.IWebSocketCommand.html
+  name: IWebSocketCommand
+  nameWithType: IWebSocketCommand
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.IWebSocketCommand
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketCommand
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketCommand
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketCommand.html
+  name: WebSocketCommand
+  nameWithType: WebSocketCommand
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketCommand
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.html
+  name: WebSocketHandler
+  nameWithType: WebSocketHandler
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  parent: MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData.html
+  name: WebSocketOutputData
+  nameWithType: WebSocketOutputData
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+- uid: MainRobot.Robot.Comunication.WebSocketTransport
+  commentId: N:MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.WebSocketTransport
+  nameWithType: MainRobot.Robot.Comunication.WebSocketTransport
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport
+    name: WebSocketTransport
+    href: MainRobot.Robot.Comunication.WebSocketTransport.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport
+    name: WebSocketTransport
+    href: MainRobot.Robot.Comunication.WebSocketTransport.html

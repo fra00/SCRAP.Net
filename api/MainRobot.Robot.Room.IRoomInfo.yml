@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Room.IRoomInfo
+  commentId: T:MainRobot.Robot.Room.IRoomInfo
+  id: IRoomInfo
+  parent: MainRobot.Robot.Room
+  children:
+  - MainRobot.Robot.Room.IRoomInfo.GetPointRoom(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IRoomInfo
+  nameWithType: IRoomInfo
+  fullName: MainRobot.Robot.Room.IRoomInfo
+  type: Interface
+  source:
+    id: IRoomInfo
+    path: C:\Condivisa\Progetti\Robot\Robot\Room\IRoomInfo.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Room
+  syntax:
+    content: public interface IRoomInfo
+    content.vb: Public Interface IRoomInfo
+- uid: MainRobot.Robot.Room.IRoomInfo.GetPointRoom(System.String)
+  commentId: M:MainRobot.Robot.Room.IRoomInfo.GetPointRoom(System.String)
+  id: GetPointRoom(System.String)
+  parent: MainRobot.Robot.Room.IRoomInfo
+  langs:
+  - csharp
+  - vb
+  name: GetPointRoom(string)
+  nameWithType: IRoomInfo.GetPointRoom(string)
+  fullName: MainRobot.Robot.Room.IRoomInfo.GetPointRoom(string)
+  type: Method
+  source:
+    id: GetPointRoom
+    path: C:\Condivisa\Progetti\Robot\Robot\Room\IRoomInfo.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Room
+  syntax:
+    content: RPoint? GetPointRoom(string room)
+    parameters:
+    - id: room
+      type: System.String
+    return:
+      type: MainRobot.Common.RPoint
+    content.vb: Function GetPointRoom(room As String) As RPoint
+  overload: MainRobot.Robot.Room.IRoomInfo.GetPointRoom*
+  nameWithType.vb: IRoomInfo.GetPointRoom(String)
+  fullName.vb: MainRobot.Robot.Room.IRoomInfo.GetPointRoom(String)
+  name.vb: GetPointRoom(String)
+references:
+- uid: MainRobot.Robot.Room
+  commentId: N:MainRobot.Robot.Room
+  href: MainRobot.html
+  name: MainRobot.Robot.Room
+  nameWithType: MainRobot.Robot.Room
+  fullName: MainRobot.Robot.Room
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Room
+    name: Room
+    href: MainRobot.Robot.Room.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Room
+    name: Room
+    href: MainRobot.Robot.Room.html
+- uid: MainRobot.Robot.Room.IRoomInfo.GetPointRoom*
+  commentId: Overload:MainRobot.Robot.Room.IRoomInfo.GetPointRoom
+  href: MainRobot.Robot.Room.IRoomInfo.html#MainRobot_Robot_Room_IRoomInfo_GetPointRoom_System_String_
+  name: GetPointRoom
+  nameWithType: IRoomInfo.GetPointRoom
+  fullName: MainRobot.Robot.Room.IRoomInfo.GetPointRoom
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html

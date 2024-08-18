@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestLidar
+  commentId: N:TestLidar
+  id: TestLidar
+  children:
+  - TestLidar.Form1
+  langs:
+  - csharp
+  - vb
+  name: TestLidar
+  nameWithType: TestLidar
+  fullName: TestLidar
+  type: Namespace
+  assemblies:
+  - TestLidar
+references:
+- uid: TestLidar.Form1
+  commentId: T:TestLidar.Form1
+  href: TestLidar.Form1.html
+  name: Form1
+  nameWithType: Form1
+  fullName: TestLidar.Form1

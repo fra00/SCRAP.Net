@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.Interface.ICommandQueue
+  commentId: T:MainRobot.Robot.Comunication.Interface.ICommandQueue
+  id: ICommandQueue
+  parent: MainRobot.Robot.Comunication.Interface
+  children:
+  - MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICommandQueue
+  nameWithType: ICommandQueue
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandQueue
+  type: Interface
+  source:
+    id: ICommandQueue
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandQueue.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: public interface ICommandQueue
+    content.vb: Public Interface ICommandQueue
+- uid: MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue(System.String,System.String)
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue(System.String,System.String)
+  id: Enqueue(System.String,System.String)
+  parent: MainRobot.Robot.Comunication.Interface.ICommandQueue
+  langs:
+  - csharp
+  - vb
+  name: Enqueue(string, string)
+  nameWithType: ICommandQueue.Enqueue(string, string)
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue(string, string)
+  type: Method
+  source:
+    id: Enqueue
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandQueue.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> Enqueue(string command, string logDescriptionCmd)
+    parameters:
+    - id: command
+      type: System.String
+    - id: logDescriptionCmd
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function Enqueue(command As String, logDescriptionCmd As String) As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue*
+  nameWithType.vb: ICommandQueue.Enqueue(String, String)
+  fullName.vb: MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue(String, String)
+  name.vb: Enqueue(String, String)
+references:
+- uid: MainRobot.Robot.Comunication.Interface
+  commentId: N:MainRobot.Robot.Comunication.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.Interface
+  nameWithType: MainRobot.Robot.Comunication.Interface
+  fullName: MainRobot.Robot.Comunication.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+- uid: MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue
+  href: MainRobot.Robot.Comunication.Interface.ICommandQueue.html#MainRobot_Robot_Comunication_Interface_ICommandQueue_Enqueue_System_String_System_String_
+  name: Enqueue
+  nameWithType: ICommandQueue.Enqueue
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandQueue.Enqueue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+  commentId: T:System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ComunicationCommandReceived>
+  nameWithType: Task<ComunicationCommandReceived>
+  fullName: System.Threading.Tasks.Task<MainRobot.Robot.Comunication.Model.ComunicationCommandReceived>
+  nameWithType.vb: Task(Of ComunicationCommandReceived)
+  fullName.vb: System.Threading.Tasks.Task(Of MainRobot.Robot.Comunication.Model.ComunicationCommandReceived)
+  name.vb: Task(Of ComunicationCommandReceived)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+    name: ComunicationCommandReceived
+    href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+    name: ComunicationCommandReceived
+    href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

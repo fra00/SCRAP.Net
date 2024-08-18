@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.Interface
+  commentId: N:MainRobot.Robot.Comunication.Interface
+  id: MainRobot.Robot.Comunication.Interface
+  children:
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication
+  - MainRobot.Robot.Comunication.Interface.ICommandQueue
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Comunication.Interface
+  nameWithType: MainRobot.Robot.Comunication.Interface
+  fullName: MainRobot.Robot.Comunication.Interface
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  commentId: T:MainRobot.Robot.Comunication.Interface.ICommandComunication
+  parent: MainRobot.Robot.Comunication.Interface
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html
+  name: ICommandComunication
+  nameWithType: ICommandComunication
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication
+- uid: MainRobot.Robot.Comunication.Interface.ICommandQueue
+  commentId: T:MainRobot.Robot.Comunication.Interface.ICommandQueue
+  parent: MainRobot.Robot.Comunication.Interface
+  href: MainRobot.Robot.Comunication.Interface.ICommandQueue.html
+  name: ICommandQueue
+  nameWithType: ICommandQueue
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandQueue
+- uid: MainRobot.Robot.Comunication.Interface
+  commentId: N:MainRobot.Robot.Comunication.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.Interface
+  nameWithType: MainRobot.Robot.Comunication.Interface
+  fullName: MainRobot.Robot.Comunication.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html

@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: LidarLD20Driver.Interface.ISerial
+  commentId: T:LidarLD20Driver.Interface.ISerial
+  id: ISerial
+  parent: LidarLD20Driver.Interface
+  children:
+  - LidarLD20Driver.Interface.ISerial.CloseSerial
+  - LidarLD20Driver.Interface.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  - LidarLD20Driver.Interface.ISerial.WriteLine(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISerial
+  nameWithType: ISerial
+  fullName: LidarLD20Driver.Interface.ISerial
+  type: Interface
+  source:
+    remote:
+      path: LidarLD20/Interface/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/NETLidarLD20.git
+    id: ISerial
+    path: ../LidarLD20Driver/LidarLD20/Interface/ISerial.cs
+    startLine: 2
+  assemblies:
+  - LidarLD20Driver
+  namespace: LidarLD20Driver.Interface
+  syntax:
+    content: public interface ISerial
+    content.vb: Public Interface ISerial
+- uid: LidarLD20Driver.Interface.ISerial.CloseSerial
+  commentId: M:LidarLD20Driver.Interface.ISerial.CloseSerial
+  id: CloseSerial
+  parent: LidarLD20Driver.Interface.ISerial
+  langs:
+  - csharp
+  - vb
+  name: CloseSerial()
+  nameWithType: ISerial.CloseSerial()
+  fullName: LidarLD20Driver.Interface.ISerial.CloseSerial()
+  type: Method
+  source:
+    remote:
+      path: LidarLD20/Interface/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/NETLidarLD20.git
+    id: CloseSerial
+    path: ../LidarLD20Driver/LidarLD20/Interface/ISerial.cs
+    startLine: 4
+  assemblies:
+  - LidarLD20Driver
+  namespace: LidarLD20Driver.Interface
+  syntax:
+    content: void CloseSerial()
+    content.vb: Sub CloseSerial()
+  overload: LidarLD20Driver.Interface.ISerial.CloseSerial*
+- uid: LidarLD20Driver.Interface.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  commentId: M:LidarLD20Driver.Interface.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  id: OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  parent: LidarLD20Driver.Interface.ISerial
+  langs:
+  - csharp
+  - vb
+  name: OpenSerialByte(string, int, Action<byte[]>)
+  nameWithType: ISerial.OpenSerialByte(string, int, Action<byte[]>)
+  fullName: LidarLD20Driver.Interface.ISerial.OpenSerialByte(string, int, System.Action<byte[]>)
+  type: Method
+  source:
+    remote:
+      path: LidarLD20/Interface/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/NETLidarLD20.git
+    id: OpenSerialByte
+    path: ../LidarLD20Driver/LidarLD20/Interface/ISerial.cs
+    startLine: 5
+  assemblies:
+  - LidarLD20Driver
+  namespace: LidarLD20Driver.Interface
+  syntax:
+    content: void OpenSerialByte(string serialName, int speed, Action<byte[]> dataReceivedHandler)
+    parameters:
+    - id: serialName
+      type: System.String
+    - id: speed
+      type: System.Int32
+    - id: dataReceivedHandler
+      type: System.Action{System.Byte[]}
+    content.vb: Sub OpenSerialByte(serialName As String, speed As Integer, dataReceivedHandler As Action(Of Byte()))
+  overload: LidarLD20Driver.Interface.ISerial.OpenSerialByte*
+  nameWithType.vb: ISerial.OpenSerialByte(String, Integer, Action(Of Byte()))
+  fullName.vb: LidarLD20Driver.Interface.ISerial.OpenSerialByte(String, Integer, System.Action(Of Byte()))
+  name.vb: OpenSerialByte(String, Integer, Action(Of Byte()))
+- uid: LidarLD20Driver.Interface.ISerial.WriteLine(System.String)
+  commentId: M:LidarLD20Driver.Interface.ISerial.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: LidarLD20Driver.Interface.ISerial
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string)
+  nameWithType: ISerial.WriteLine(string)
+  fullName: LidarLD20Driver.Interface.ISerial.WriteLine(string)
+  type: Method
+  source:
+    remote:
+      path: LidarLD20/Interface/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/NETLidarLD20.git
+    id: WriteLine
+    path: ../LidarLD20Driver/LidarLD20/Interface/ISerial.cs
+    startLine: 6
+  assemblies:
+  - LidarLD20Driver
+  namespace: LidarLD20Driver.Interface
+  syntax:
+    content: void WriteLine(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub WriteLine(message As String)
+  overload: LidarLD20Driver.Interface.ISerial.WriteLine*
+  nameWithType.vb: ISerial.WriteLine(String)
+  fullName.vb: LidarLD20Driver.Interface.ISerial.WriteLine(String)
+  name.vb: WriteLine(String)
+references:
+- uid: LidarLD20Driver.Interface
+  commentId: N:LidarLD20Driver.Interface
+  href: LidarLD20Driver.html
+  name: LidarLD20Driver.Interface
+  nameWithType: LidarLD20Driver.Interface
+  fullName: LidarLD20Driver.Interface
+  spec.csharp:
+  - uid: LidarLD20Driver
+    name: LidarLD20Driver
+    href: LidarLD20Driver.html
+  - name: .
+  - uid: LidarLD20Driver.Interface
+    name: Interface
+    href: LidarLD20Driver.Interface.html
+  spec.vb:
+  - uid: LidarLD20Driver
+    name: LidarLD20Driver
+    href: LidarLD20Driver.html
+  - name: .
+  - uid: LidarLD20Driver.Interface
+    name: Interface
+    href: LidarLD20Driver.Interface.html
+- uid: LidarLD20Driver.Interface.ISerial.CloseSerial*
+  commentId: Overload:LidarLD20Driver.Interface.ISerial.CloseSerial
+  href: LidarLD20Driver.Interface.ISerial.html#LidarLD20Driver_Interface_ISerial_CloseSerial
+  name: CloseSerial
+  nameWithType: ISerial.CloseSerial
+  fullName: LidarLD20Driver.Interface.ISerial.CloseSerial
+- uid: LidarLD20Driver.Interface.ISerial.OpenSerialByte*
+  commentId: Overload:LidarLD20Driver.Interface.ISerial.OpenSerialByte
+  href: LidarLD20Driver.Interface.ISerial.html#LidarLD20Driver_Interface_ISerial_OpenSerialByte_System_String_System_Int32_System_Action_System_Byte____
+  name: OpenSerialByte
+  nameWithType: ISerial.OpenSerialByte
+  fullName: LidarLD20Driver.Interface.ISerial.OpenSerialByte
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Action{System.Byte[]}
+  commentId: T:System.Action{System.Byte[]}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<byte[]>
+  nameWithType: Action<byte[]>
+  fullName: System.Action<byte[]>
+  nameWithType.vb: Action(Of Byte())
+  fullName.vb: System.Action(Of Byte())
+  name.vb: Action(Of Byte())
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LidarLD20Driver.Interface.ISerial.WriteLine*
+  commentId: Overload:LidarLD20Driver.Interface.ISerial.WriteLine
+  href: LidarLD20Driver.Interface.ISerial.html#LidarLD20Driver_Interface_ISerial_WriteLine_System_String_
+  name: WriteLine
+  nameWithType: ISerial.WriteLine
+  fullName: LidarLD20Driver.Interface.ISerial.WriteLine

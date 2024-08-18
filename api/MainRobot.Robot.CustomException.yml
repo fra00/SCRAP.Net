@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.CustomException
+  commentId: N:MainRobot.Robot.CustomException
+  id: MainRobot.Robot.CustomException
+  children:
+  - MainRobot.Robot.CustomException.ExceptionRunCommand
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.CustomException
+  nameWithType: MainRobot.Robot.CustomException
+  fullName: MainRobot.Robot.CustomException
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.CustomException.ExceptionRunCommand
+  commentId: T:MainRobot.Robot.CustomException.ExceptionRunCommand
+  href: MainRobot.Robot.CustomException.ExceptionRunCommand.html
+  name: ExceptionRunCommand
+  nameWithType: ExceptionRunCommand
+  fullName: MainRobot.Robot.CustomException.ExceptionRunCommand

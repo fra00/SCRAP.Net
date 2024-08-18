@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Helpers
+  commentId: N:MainRobot.Robot.Navigation.Helpers
+  id: MainRobot.Robot.Navigation.Helpers
+  children:
+  - MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall
+  - MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Navigation.Helpers
+  nameWithType: MainRobot.Robot.Navigation.Helpers
+  fullName: MainRobot.Robot.Navigation.Helpers
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall
+  commentId: T:MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall
+  href: MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall.html
+  name: HelperInvisibleWall
+  nameWithType: HelperInvisibleWall
+  fullName: MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  commentId: T:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  parent: MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html
+  name: IHelperInvisibleWall
+  nameWithType: IHelperInvisibleWall
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+- uid: MainRobot.Robot.Navigation.Helpers
+  commentId: N:MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Helpers
+  nameWithType: MainRobot.Robot.Navigation.Helpers
+  fullName: MainRobot.Robot.Navigation.Helpers
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html

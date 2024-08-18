@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Model
+  commentId: N:MainRobot.Robot.Navigation.Model
+  id: MainRobot.Robot.Navigation.Model
+  children:
+  - MainRobot.Robot.Navigation.Model.DoMovimentEndModel
+  - MainRobot.Robot.Navigation.Model.EndMovModel
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Navigation.Model
+  nameWithType: MainRobot.Robot.Navigation.Model
+  fullName: MainRobot.Robot.Navigation.Model
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Navigation.Model.EndMovModel
+  commentId: T:MainRobot.Robot.Navigation.Model.EndMovModel
+  parent: MainRobot.Robot.Navigation.Model
+  href: MainRobot.Robot.Navigation.Model.EndMovModel.html
+  name: EndMovModel
+  nameWithType: EndMovModel
+  fullName: MainRobot.Robot.Navigation.Model.EndMovModel
+- uid: MainRobot.Robot.Navigation.Model.DoMovimentEndModel
+  commentId: T:MainRobot.Robot.Navigation.Model.DoMovimentEndModel
+  href: MainRobot.Robot.Navigation.Model.DoMovimentEndModel.html
+  name: DoMovimentEndModel
+  nameWithType: DoMovimentEndModel
+  fullName: MainRobot.Robot.Navigation.Model.DoMovimentEndModel
+- uid: MainRobot.Robot.Navigation.Model
+  commentId: N:MainRobot.Robot.Navigation.Model
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Model
+  nameWithType: MainRobot.Robot.Navigation.Model
+  fullName: MainRobot.Robot.Navigation.Model
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Model
+    name: Model
+    href: MainRobot.Robot.Navigation.Model.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Model
+    name: Model
+    href: MainRobot.Robot.Navigation.Model.html

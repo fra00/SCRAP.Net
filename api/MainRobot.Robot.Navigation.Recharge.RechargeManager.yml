@@ -1,0 +1,712 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  commentId: T:MainRobot.Robot.Navigation.Recharge.RechargeManager
+  id: RechargeManager
+  parent: MainRobot.Robot.Navigation.Recharge
+  children:
+  - MainRobot.Robot.Navigation.Recharge.RechargeManager.#ctor(MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Comunication.Interface.ICommandComunication,MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation)
+  - MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge
+  - MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge
+  - MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge
+  langs:
+  - csharp
+  - vb
+  name: RechargeManager
+  nameWithType: RechargeManager
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  type: Class
+  source:
+    id: RechargeManager
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Recharge\RechargeManager.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge
+  syntax:
+    content: 'public class RechargeManager : IRechargeManager'
+    content.vb: Public Class RechargeManager Implements IRechargeManager
+  inheritance:
+  - System.Object
+  implements:
+  - MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.#ctor(MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Comunication.Interface.ICommandComunication,MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation)
+  commentId: M:MainRobot.Robot.Navigation.Recharge.RechargeManager.#ctor(MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Comunication.Interface.ICommandComunication,MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation)
+  id: '#ctor(MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Comunication.Interface.ICommandComunication,MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation)'
+  parent: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  langs:
+  - csharp
+  - vb
+  name: RechargeManager(INavigationMover, ICommandComunication, IRechargeNavigation)
+  nameWithType: RechargeManager.RechargeManager(INavigationMover, ICommandComunication, IRechargeNavigation)
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.RechargeManager(MainRobot.Robot.Navigation.Interface.INavigationMover, MainRobot.Robot.Comunication.Interface.ICommandComunication, MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Recharge\RechargeManager.cs
+    startLine: 16
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge
+  syntax:
+    content: public RechargeManager(INavigationMover navigationMover, ICommandComunication comunication, IRechargeNavigation rechargeNavigation)
+    parameters:
+    - id: navigationMover
+      type: MainRobot.Robot.Navigation.Interface.INavigationMover
+    - id: comunication
+      type: MainRobot.Robot.Comunication.Interface.ICommandComunication
+    - id: rechargeNavigation
+      type: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+    content.vb: Public Sub New(navigationMover As INavigationMover, comunication As ICommandComunication, rechargeNavigation As IRechargeNavigation)
+  overload: MainRobot.Robot.Navigation.Recharge.RechargeManager.#ctor*
+  nameWithType.vb: RechargeManager.New(INavigationMover, ICommandComunication, IRechargeNavigation)
+  fullName.vb: MainRobot.Robot.Navigation.Recharge.RechargeManager.New(MainRobot.Robot.Navigation.Interface.INavigationMover, MainRobot.Robot.Comunication.Interface.ICommandComunication, MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation)
+  name.vb: New(INavigationMover, ICommandComunication, IRechargeNavigation)
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge
+  id: PlaceInRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  langs:
+  - csharp
+  - vb
+  name: PlaceInRecharge()
+  nameWithType: RechargeManager.PlaceInRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge()
+  type: Method
+  source:
+    id: PlaceInRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Recharge\RechargeManager.cs
+    startLine: 29
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge
+  summary: il robot è arrivato in ricarica setto gli stati in ricarica
+  example: []
+  syntax:
+    content: public Task PlaceInRecharge()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function PlaceInRecharge() As Task
+  overload: MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge*
+  implements:
+  - MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.PlaceInRecharge
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge
+  id: ExitFromRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  langs:
+  - csharp
+  - vb
+  name: ExitFromRecharge()
+  nameWithType: RechargeManager.ExitFromRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge()
+  type: Method
+  source:
+    id: ExitFromRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Recharge\RechargeManager.cs
+    startLine: 48
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge
+  example: []
+  syntax:
+    content: public Task ExitFromRecharge()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ExitFromRecharge() As Task
+  overload: MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge*
+  implements:
+  - MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.ExitFromRecharge
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge
+  id: NavigateToRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  langs:
+  - csharp
+  - vb
+  name: NavigateToRecharge()
+  nameWithType: RechargeManager.NavigateToRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge()
+  type: Method
+  source:
+    id: NavigateToRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Recharge\RechargeManager.cs
+    startLine: 61
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge
+  summary: Inizia l'avvicinamento alla base di ricarica
+  example: []
+  syntax:
+    content: public Task NavigateToRecharge()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function NavigateToRecharge() As Task
+  overload: MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge*
+  implements:
+  - MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.NavigateToRecharge
+references:
+- uid: MainRobot.Robot.Navigation.Recharge
+  commentId: N:MainRobot.Robot.Navigation.Recharge
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Recharge
+  nameWithType: MainRobot.Robot.Navigation.Recharge
+  fullName: MainRobot.Robot.Navigation.Recharge
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge
+    name: Recharge
+    href: MainRobot.Robot.Navigation.Recharge.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge
+    name: Recharge
+    href: MainRobot.Robot.Navigation.Recharge.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+  commentId: T:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+  parent: MainRobot.Robot.Navigation.Recharge.Interface
+  href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html
+  name: IRechargeManager
+  nameWithType: IRechargeManager
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Navigation.Recharge.Interface
+  commentId: N:MainRobot.Robot.Navigation.Recharge.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Recharge.Interface
+  nameWithType: MainRobot.Robot.Navigation.Recharge.Interface
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge
+    name: Recharge
+    href: MainRobot.Robot.Navigation.Recharge.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Recharge.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge
+    name: Recharge
+    href: MainRobot.Robot.Navigation.Recharge.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Recharge.Interface.html
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.#ctor*
+  commentId: Overload:MainRobot.Robot.Navigation.Recharge.RechargeManager.#ctor
+  href: MainRobot.Robot.Navigation.Recharge.RechargeManager.html#MainRobot_Robot_Navigation_Recharge_RechargeManager__ctor_MainRobot_Robot_Navigation_Interface_INavigationMover_MainRobot_Robot_Comunication_Interface_ICommandComunication_MainRobot_Robot_Navigation_Recharge_Interface_IRechargeNavigation_
+  name: RechargeManager
+  nameWithType: RechargeManager.RechargeManager
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.RechargeManager
+  nameWithType.vb: RechargeManager.New
+  fullName.vb: MainRobot.Robot.Navigation.Recharge.RechargeManager.New
+  name.vb: New
+- uid: MainRobot.Robot.Navigation.Interface.INavigationMover
+  commentId: T:MainRobot.Robot.Navigation.Interface.INavigationMover
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.INavigationMover.html
+  name: INavigationMover
+  nameWithType: INavigationMover
+  fullName: MainRobot.Robot.Navigation.Interface.INavigationMover
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  commentId: T:MainRobot.Robot.Comunication.Interface.ICommandComunication
+  parent: MainRobot.Robot.Comunication.Interface
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html
+  name: ICommandComunication
+  nameWithType: ICommandComunication
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+  commentId: T:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+  parent: MainRobot.Robot.Navigation.Recharge.Interface
+  href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.html
+  name: IRechargeNavigation
+  nameWithType: IRechargeNavigation
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+- uid: MainRobot.Robot.Navigation.Interface
+  commentId: N:MainRobot.Robot.Navigation.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Interface
+  nameWithType: MainRobot.Robot.Navigation.Interface
+  fullName: MainRobot.Robot.Navigation.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Interface.html
+- uid: MainRobot.Robot.Comunication.Interface
+  commentId: N:MainRobot.Robot.Comunication.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.Interface
+  nameWithType: MainRobot.Robot.Comunication.Interface
+  fullName: MainRobot.Robot.Comunication.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge*
+  commentId: Overload:MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge
+  href: MainRobot.Robot.Navigation.Recharge.RechargeManager.html#MainRobot_Robot_Navigation_Recharge_RechargeManager_PlaceInRecharge
+  name: PlaceInRecharge
+  nameWithType: RechargeManager.PlaceInRecharge
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.PlaceInRecharge
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.PlaceInRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.PlaceInRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+  href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_PlaceInRecharge
+  name: PlaceInRecharge()
+  nameWithType: IRechargeManager.PlaceInRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.PlaceInRecharge()
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.PlaceInRecharge
+    name: PlaceInRecharge
+    href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_PlaceInRecharge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.PlaceInRecharge
+    name: PlaceInRecharge
+    href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_PlaceInRecharge
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge*
+  commentId: Overload:MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge
+  href: MainRobot.Robot.Navigation.Recharge.RechargeManager.html#MainRobot_Robot_Navigation_Recharge_RechargeManager_ExitFromRecharge
+  name: ExitFromRecharge
+  nameWithType: RechargeManager.ExitFromRecharge
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.ExitFromRecharge
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.ExitFromRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.ExitFromRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+  href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_ExitFromRecharge
+  name: ExitFromRecharge()
+  nameWithType: IRechargeManager.ExitFromRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.ExitFromRecharge()
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.ExitFromRecharge
+    name: ExitFromRecharge
+    href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_ExitFromRecharge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.ExitFromRecharge
+    name: ExitFromRecharge
+    href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_ExitFromRecharge
+  - name: (
+  - name: )
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge*
+  commentId: Overload:MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge
+  href: MainRobot.Robot.Navigation.Recharge.RechargeManager.html#MainRobot_Robot_Navigation_Recharge_RechargeManager_NavigateToRecharge
+  name: NavigateToRecharge
+  nameWithType: RechargeManager.NavigateToRecharge
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager.NavigateToRecharge
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.NavigateToRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.NavigateToRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+  href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_NavigateToRecharge
+  name: NavigateToRecharge()
+  nameWithType: IRechargeManager.NavigateToRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.NavigateToRecharge()
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.NavigateToRecharge
+    name: NavigateToRecharge
+    href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_NavigateToRecharge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.NavigateToRecharge
+    name: NavigateToRecharge
+    href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeManager_NavigateToRecharge
+  - name: (
+  - name: )

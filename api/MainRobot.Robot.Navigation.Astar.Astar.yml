@@ -1,0 +1,1498 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Astar.Astar
+  commentId: T:MainRobot.Robot.Navigation.Astar.Astar
+  id: Astar
+  parent: MainRobot.Robot.Navigation.Astar
+  children:
+  - MainRobot.Robot.Navigation.Astar.Astar.#ctor(MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall)
+  - MainRobot.Robot.Navigation.Astar.Astar.AstarWeight
+  - MainRobot.Robot.Navigation.Astar.Astar.CalculateScore(MainRobot.Robot.Navigation.Astar.Path)
+  - MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity(MainRobot.Robot.Navigation.Astar.Path)
+  - MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle
+  - MainRobot.Robot.Navigation.Astar.Astar.FindClosest(MainRobot.Robot.Navigation.Astar.Path)
+  - MainRobot.Robot.Navigation.Astar.Astar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap
+  - MainRobot.Robot.Navigation.Astar.Astar.IsObstacle(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Astar.Astar.IsWall(MainRobot.Common.RPoint,System.Int32)
+  - MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Astar.Astar.Search
+  - MainRobot.Robot.Navigation.Astar.Astar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  - MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  - MainRobot.Robot.Navigation.Astar.Astar.obstacleInMap
+  langs:
+  - csharp
+  - vb
+  name: Astar
+  nameWithType: Astar
+  fullName: MainRobot.Robot.Navigation.Astar.Astar
+  type: Class
+  source:
+    id: Astar
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 14
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: 'public class Astar : IAstar'
+    content.vb: Public Class Astar Implements IAstar
+  inheritance:
+  - System.Object
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Navigation.Astar.Astar.obstacleInMap
+  commentId: F:MainRobot.Robot.Navigation.Astar.Astar.obstacleInMap
+  id: obstacleInMap
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: obstacleInMap
+  nameWithType: Astar.obstacleInMap
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.obstacleInMap
+  type: Field
+  source:
+    id: obstacleInMap
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 26
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public bool[,] obstacleInMap
+    return:
+      type: System.Boolean[,]
+    content.vb: Public obstacleInMap As Boolean(,)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.AstarWeight
+  commentId: P:MainRobot.Robot.Navigation.Astar.Astar.AstarWeight
+  id: AstarWeight
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: AstarWeight
+  nameWithType: Astar.AstarWeight
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.AstarWeight
+  type: Property
+  source:
+    id: AstarWeight
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 29
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public List<Weight> AstarWeight { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.Weight}
+    content.vb: Public ReadOnly Property AstarWeight As List(Of Weight)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.AstarWeight*
+- uid: MainRobot.Robot.Navigation.Astar.Astar.#ctor(MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.#ctor(MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall)
+  id: '#ctor(MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall)'
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: Astar(IHelperInvisibleWall)
+  nameWithType: Astar.Astar(IHelperInvisibleWall)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.Astar(MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 97
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public Astar(IHelperInvisibleWall helperInvisbleWall = null)
+    parameters:
+    - id: helperInvisbleWall
+      type: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+    content.vb: Public Sub New(helperInvisbleWall As IHelperInvisibleWall = Nothing)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.#ctor*
+  nameWithType.vb: Astar.New(IHelperInvisibleWall)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Astar.New(MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall)
+  name.vb: New(IHelperInvisibleWall)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  id: FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: FindPath(RPoint, RPoint)
+  nameWithType: Astar.FindPath(RPoint, RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.FindPath(MainRobot.Common.RPoint, MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: FindPath
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 109
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public Path FindPath(RPoint s, RPoint e)
+    parameters:
+    - id: s
+      type: MainRobot.Common.RPoint
+    - id: e
+      type: MainRobot.Common.RPoint
+    return:
+      type: MainRobot.Robot.Navigation.Astar.Path
+    content.vb: Public Function FindPath(s As RPoint, e As RPoint) As Path
+  overload: MainRobot.Robot.Navigation.Astar.Astar.FindPath*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.Search
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.Search
+  id: Search
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: Search()
+  nameWithType: Astar.Search()
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.Search()
+  type: Method
+  source:
+    id: Search
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 139
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public Path Search()
+    return:
+      type: MainRobot.Robot.Navigation.Astar.Path
+    content.vb: Public Function Search() As Path
+  overload: MainRobot.Robot.Navigation.Astar.Astar.Search*
+- uid: MainRobot.Robot.Navigation.Astar.Astar.FindClosest(MainRobot.Robot.Navigation.Astar.Path)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.FindClosest(MainRobot.Robot.Navigation.Astar.Path)
+  id: FindClosest(MainRobot.Robot.Navigation.Astar.Path)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: FindClosest(Path)
+  nameWithType: Astar.FindClosest(Path)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.FindClosest(MainRobot.Robot.Navigation.Astar.Path)
+  type: Method
+  source:
+    id: FindClosest
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 231
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public List<Path> FindClosest(Path p)
+    parameters:
+    - id: p
+      type: MainRobot.Robot.Navigation.Astar.Path
+    return:
+      type: System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.Path}
+    content.vb: Public Function FindClosest(p As Path) As List(Of Path)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.FindClosest*
+- uid: MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity(MainRobot.Robot.Navigation.Astar.Path)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity(MainRobot.Robot.Navigation.Astar.Path)
+  id: CalculateValidity(MainRobot.Robot.Navigation.Astar.Path)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: CalculateValidity(Path)
+  nameWithType: Astar.CalculateValidity(Path)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity(MainRobot.Robot.Navigation.Astar.Path)
+  type: Method
+  source:
+    id: CalculateValidity
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 267
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public bool CalculateValidity(Path p)
+    parameters:
+    - id: p
+      type: MainRobot.Robot.Navigation.Astar.Path
+    return:
+      type: System.Boolean
+    content.vb: Public Function CalculateValidity(p As Path) As Boolean
+  overload: MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity*
+- uid: MainRobot.Robot.Navigation.Astar.Astar.CalculateScore(MainRobot.Robot.Navigation.Astar.Path)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.CalculateScore(MainRobot.Robot.Navigation.Astar.Path)
+  id: CalculateScore(MainRobot.Robot.Navigation.Astar.Path)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: CalculateScore(Path)
+  nameWithType: Astar.CalculateScore(Path)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.CalculateScore(MainRobot.Robot.Navigation.Astar.Path)
+  type: Method
+  source:
+    id: CalculateScore
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 322
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public double CalculateScore(Path p)
+    parameters:
+    - id: p
+      type: MainRobot.Robot.Navigation.Astar.Path
+    return:
+      type: System.Double
+    content.vb: Public Function CalculateScore(p As Path) As Double
+  overload: MainRobot.Robot.Navigation.Astar.Astar.CalculateScore*
+- uid: MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered(MainRobot.Common.RPoint)
+  id: ObstacleEncountered(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: ObstacleEncountered(RPoint)
+  nameWithType: Astar.ObstacleEncountered(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: ObstacleEncountered
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 329
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public void ObstacleEncountered(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    content.vb: Public Sub ObstacleEncountered(point As RPoint)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.ObstacleEncountered(MainRobot.Common.RPoint)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle
+  id: ClearObstacle
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: ClearObstacle()
+  nameWithType: Astar.ClearObstacle()
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle()
+  type: Method
+  source:
+    id: ClearObstacle
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 335
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public void ClearObstacle()
+    content.vb: Public Sub ClearObstacle()
+  overload: MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.ClearObstacle
+- uid: MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  id: SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: SetWeightPoints(IEnumerable<RPoint>, bool)
+  nameWithType: Astar.SetWeightPoints(IEnumerable<RPoint>, bool)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints(System.Collections.Generic.IEnumerable<MainRobot.Common.RPoint>, bool)
+  type: Method
+  source:
+    id: SetWeightPoints
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 340
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public void SetWeightPoints(IEnumerable<RPoint> points, bool increment)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint}
+    - id: increment
+      type: System.Boolean
+    content.vb: Public Sub SetWeightPoints(points As IEnumerable(Of RPoint), increment As Boolean)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  nameWithType.vb: Astar.SetWeightPoints(IEnumerable(Of RPoint), Boolean)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints(System.Collections.Generic.IEnumerable(Of MainRobot.Common.RPoint), Boolean)
+  name.vb: SetWeightPoints(IEnumerable(Of RPoint), Boolean)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  id: SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: SetWeight(RPoint, bool)
+  nameWithType: Astar.SetWeight(RPoint, bool)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.SetWeight(MainRobot.Common.RPoint, bool)
+  type: Method
+  source:
+    id: SetWeight
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 366
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public void SetWeight(RPoint point, bool increment)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    - id: increment
+      type: System.Boolean
+    content.vb: Public Sub SetWeight(point As RPoint, increment As Boolean)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.SetWeight*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  nameWithType.vb: Astar.SetWeight(RPoint, Boolean)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Astar.SetWeight(MainRobot.Common.RPoint, Boolean)
+  name.vb: SetWeight(RPoint, Boolean)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd(MainRobot.Common.RPoint)
+  id: ObstacleAdd(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: ObstacleAdd(RPoint)
+  nameWithType: Astar.ObstacleAdd(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: ObstacleAdd
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 389
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  summary: Set obstacle in map but not change weight
+  example: []
+  syntax:
+    content: public void ObstacleAdd(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+      description: ''
+    content.vb: Public Sub ObstacleAdd(point As RPoint)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.ObstacleAdd(MainRobot.Common.RPoint)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.IsObstacle(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.IsObstacle(MainRobot.Common.RPoint)
+  id: IsObstacle(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: IsObstacle(RPoint)
+  nameWithType: Astar.IsObstacle(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.IsObstacle(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: IsObstacle
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 394
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public bool IsObstacle(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsObstacle(point As RPoint) As Boolean
+  overload: MainRobot.Robot.Navigation.Astar.Astar.IsObstacle*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.IsObstacle(MainRobot.Common.RPoint)
+- uid: MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap
+  id: GetObstacleInMap
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: GetObstacleInMap()
+  nameWithType: Astar.GetObstacleInMap()
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap()
+  type: Method
+  source:
+    id: GetObstacleInMap
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 399
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public bool[,] GetObstacleInMap()
+    return:
+      type: System.Boolean[,]
+    content.vb: Public Function GetObstacleInMap() As Boolean(,)
+  overload: MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.GetObstacleInMap
+- uid: MainRobot.Robot.Navigation.Astar.Astar.IsWall(MainRobot.Common.RPoint,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Astar.IsWall(MainRobot.Common.RPoint,System.Int32)
+  id: IsWall(MainRobot.Common.RPoint,System.Int32)
+  parent: MainRobot.Robot.Navigation.Astar.Astar
+  langs:
+  - csharp
+  - vb
+  name: IsWall(RPoint, int)
+  nameWithType: Astar.IsWall(RPoint, int)
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.IsWall(MainRobot.Common.RPoint, int)
+  type: Method
+  source:
+    id: IsWall
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Astar.cs
+    startLine: 404
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  example: []
+  syntax:
+    content: public bool IsWall(RPoint point, int tolerance)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+    - id: tolerance
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsWall(point As RPoint, tolerance As Integer) As Boolean
+  overload: MainRobot.Robot.Navigation.Astar.Astar.IsWall*
+  implements:
+  - MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint,System.Int32)
+  nameWithType.vb: Astar.IsWall(RPoint, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Astar.IsWall(MainRobot.Common.RPoint, Integer)
+  name.vb: IsWall(RPoint, Integer)
+references:
+- uid: MainRobot.Robot.Navigation.Astar
+  commentId: N:MainRobot.Robot.Navigation.Astar
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Astar
+  nameWithType: MainRobot.Robot.Navigation.Astar
+  fullName: MainRobot.Robot.Navigation.Astar
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Astar
+    name: Astar
+    href: MainRobot.Robot.Navigation.Astar.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Astar
+    name: Astar
+    href: MainRobot.Robot.Navigation.Astar.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: MainRobot.Robot.Navigation.Astar.IAstar
+  commentId: T:MainRobot.Robot.Navigation.Astar.IAstar
+  parent: MainRobot.Robot.Navigation.Astar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html
+  name: IAstar
+  nameWithType: IAstar
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean[,]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool[,]
+  nameWithType: bool[,]
+  fullName: bool[,]
+  nameWithType.vb: Boolean(,)
+  fullName.vb: Boolean(,)
+  name.vb: Boolean(,)
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ','
+  - name: ']'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: ','
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.AstarWeight*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.AstarWeight
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_AstarWeight
+  name: AstarWeight
+  nameWithType: Astar.AstarWeight
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.AstarWeight
+- uid: System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.Weight}
+  commentId: T:System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.Weight}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Weight>
+  nameWithType: List<Weight>
+  fullName: System.Collections.Generic.List<MainRobot.Robot.Navigation.Astar.Weight>
+  nameWithType.vb: List(Of Weight)
+  fullName.vb: System.Collections.Generic.List(Of MainRobot.Robot.Navigation.Astar.Weight)
+  name.vb: List(Of Weight)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MainRobot.Robot.Navigation.Astar.Weight
+    name: Weight
+    href: MainRobot.Robot.Navigation.Astar.Weight.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Navigation.Astar.Weight
+    name: Weight
+    href: MainRobot.Robot.Navigation.Astar.Weight.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MainRobot.Robot.Navigation.Astar.Astar.#ctor*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.#ctor
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar__ctor_MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_
+  name: Astar
+  nameWithType: Astar.Astar
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.Astar
+  nameWithType.vb: Astar.New
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Astar.New
+  name.vb: New
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  commentId: T:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  parent: MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html
+  name: IHelperInvisibleWall
+  nameWithType: IHelperInvisibleWall
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+- uid: MainRobot.Robot.Navigation.Helpers
+  commentId: N:MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Helpers
+  nameWithType: MainRobot.Robot.Navigation.Helpers
+  fullName: MainRobot.Robot.Navigation.Helpers
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+- uid: MainRobot.Robot.Navigation.Astar.Astar.FindPath*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.FindPath
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_FindPath_MainRobot_Common_RPoint_MainRobot_Common_RPoint_
+  name: FindPath
+  nameWithType: Astar.FindPath
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.FindPath
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_FindPath_MainRobot_Common_RPoint_MainRobot_Common_RPoint_
+  name: FindPath(RPoint, RPoint)
+  nameWithType: IAstar.FindPath(RPoint, RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.FindPath(MainRobot.Common.RPoint, MainRobot.Common.RPoint)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+    name: FindPath
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_FindPath_MainRobot_Common_RPoint_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: ','
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+    name: FindPath
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_FindPath_MainRobot_Common_RPoint_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: ','
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: MainRobot.Robot.Navigation.Astar.Path
+  commentId: T:MainRobot.Robot.Navigation.Astar.Path
+  parent: MainRobot.Robot.Navigation.Astar
+  href: MainRobot.Robot.Navigation.Astar.Path.html
+  name: Path
+  nameWithType: Path
+  fullName: MainRobot.Robot.Navigation.Astar.Path
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: MainRobot.Robot.Navigation.Astar.Astar.Search*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.Search
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_Search
+  name: Search
+  nameWithType: Astar.Search
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.Search
+- uid: MainRobot.Robot.Navigation.Astar.Astar.FindClosest*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.FindClosest
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_FindClosest_MainRobot_Robot_Navigation_Astar_Path_
+  name: FindClosest
+  nameWithType: Astar.FindClosest
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.FindClosest
+- uid: System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.Path}
+  commentId: T:System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.Path}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Path>
+  nameWithType: List<Path>
+  fullName: System.Collections.Generic.List<MainRobot.Robot.Navigation.Astar.Path>
+  nameWithType.vb: List(Of Path)
+  fullName.vb: System.Collections.Generic.List(Of MainRobot.Robot.Navigation.Astar.Path)
+  name.vb: List(Of Path)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MainRobot.Robot.Navigation.Astar.Path
+    name: Path
+    href: MainRobot.Robot.Navigation.Astar.Path.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Navigation.Astar.Path
+    name: Path
+    href: MainRobot.Robot.Navigation.Astar.Path.html
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_CalculateValidity_MainRobot_Robot_Navigation_Astar_Path_
+  name: CalculateValidity
+  nameWithType: Astar.CalculateValidity
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.CalculateValidity
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: MainRobot.Robot.Navigation.Astar.Astar.CalculateScore*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.CalculateScore
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_CalculateScore_MainRobot_Robot_Navigation_Astar_Path_
+  name: CalculateScore
+  nameWithType: Astar.CalculateScore
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.CalculateScore
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_ObstacleEncountered_MainRobot_Common_RPoint_
+  name: ObstacleEncountered
+  nameWithType: Astar.ObstacleEncountered
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.ObstacleEncountered
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleEncountered(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.ObstacleEncountered(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ObstacleEncountered_MainRobot_Common_RPoint_
+  name: ObstacleEncountered(RPoint)
+  nameWithType: IAstar.ObstacleEncountered(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleEncountered(MainRobot.Common.RPoint)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleEncountered(MainRobot.Common.RPoint)
+    name: ObstacleEncountered
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ObstacleEncountered_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleEncountered(MainRobot.Common.RPoint)
+    name: ObstacleEncountered
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ObstacleEncountered_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_ClearObstacle
+  name: ClearObstacle
+  nameWithType: Astar.ClearObstacle
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.ClearObstacle
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.ClearObstacle
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.ClearObstacle
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ClearObstacle
+  name: ClearObstacle()
+  nameWithType: IAstar.ClearObstacle()
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.ClearObstacle()
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.ClearObstacle
+    name: ClearObstacle
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ClearObstacle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.ClearObstacle
+    name: ClearObstacle
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ClearObstacle
+  - name: (
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_SetWeightPoints_System_Collections_Generic_IEnumerable_MainRobot_Common_RPoint__System_Boolean_
+  name: SetWeightPoints
+  nameWithType: Astar.SetWeightPoints
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.SetWeightPoints
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  isExternal: true
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_SetWeightPoints_System_Collections_Generic_IEnumerable_MainRobot_Common_RPoint__System_Boolean_
+  name: SetWeightPoints(IEnumerable<RPoint>, bool)
+  nameWithType: IAstar.SetWeightPoints(IEnumerable<RPoint>, bool)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable<MainRobot.Common.RPoint>, bool)
+  nameWithType.vb: IAstar.SetWeightPoints(IEnumerable(Of RPoint), Boolean)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable(Of MainRobot.Common.RPoint), Boolean)
+  name.vb: SetWeightPoints(IEnumerable(Of RPoint), Boolean)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+    name: SetWeightPoints
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_SetWeightPoints_System_Collections_Generic_IEnumerable_MainRobot_Common_RPoint__System_Boolean_
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.SetWeightPoints(System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint},System.Boolean)
+    name: SetWeightPoints
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_SetWeightPoints_System_Collections_Generic_IEnumerable_MainRobot_Common_RPoint__System_Boolean_
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint}
+  commentId: T:System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<RPoint>
+  nameWithType: IEnumerable<RPoint>
+  fullName: System.Collections.Generic.IEnumerable<MainRobot.Common.RPoint>
+  nameWithType.vb: IEnumerable(Of RPoint)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of MainRobot.Common.RPoint)
+  name.vb: IEnumerable(Of RPoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.SetWeight*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.SetWeight
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_SetWeight_MainRobot_Common_RPoint_System_Boolean_
+  name: SetWeight
+  nameWithType: Astar.SetWeight
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.SetWeight
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  isExternal: true
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_SetWeight_MainRobot_Common_RPoint_System_Boolean_
+  name: SetWeight(RPoint, bool)
+  nameWithType: IAstar.SetWeight(RPoint, bool)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint, bool)
+  nameWithType.vb: IAstar.SetWeight(RPoint, Boolean)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint, Boolean)
+  name.vb: SetWeight(RPoint, Boolean)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+    name: SetWeight
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_SetWeight_MainRobot_Common_RPoint_System_Boolean_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+    name: SetWeight
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_SetWeight_MainRobot_Common_RPoint_System_Boolean_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_ObstacleAdd_MainRobot_Common_RPoint_
+  name: ObstacleAdd
+  nameWithType: Astar.ObstacleAdd
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.ObstacleAdd
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleAdd(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.ObstacleAdd(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ObstacleAdd_MainRobot_Common_RPoint_
+  name: ObstacleAdd(RPoint)
+  nameWithType: IAstar.ObstacleAdd(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleAdd(MainRobot.Common.RPoint)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleAdd(MainRobot.Common.RPoint)
+    name: ObstacleAdd
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ObstacleAdd_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.ObstacleAdd(MainRobot.Common.RPoint)
+    name: ObstacleAdd
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_ObstacleAdd_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.IsObstacle*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.IsObstacle
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_IsObstacle_MainRobot_Common_RPoint_
+  name: IsObstacle
+  nameWithType: Astar.IsObstacle
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.IsObstacle
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.IsObstacle(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.IsObstacle(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_IsObstacle_MainRobot_Common_RPoint_
+  name: IsObstacle(RPoint)
+  nameWithType: IAstar.IsObstacle(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.IsObstacle(MainRobot.Common.RPoint)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.IsObstacle(MainRobot.Common.RPoint)
+    name: IsObstacle
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_IsObstacle_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.IsObstacle(MainRobot.Common.RPoint)
+    name: IsObstacle
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_IsObstacle_MainRobot_Common_RPoint_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_GetObstacleInMap
+  name: GetObstacleInMap
+  nameWithType: Astar.GetObstacleInMap
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.GetObstacleInMap
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.GetObstacleInMap
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.GetObstacleInMap
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_GetObstacleInMap
+  name: GetObstacleInMap()
+  nameWithType: IAstar.GetObstacleInMap()
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.GetObstacleInMap()
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.GetObstacleInMap
+    name: GetObstacleInMap
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_GetObstacleInMap
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.GetObstacleInMap
+    name: GetObstacleInMap
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_GetObstacleInMap
+  - name: (
+  - name: )
+- uid: MainRobot.Robot.Navigation.Astar.Astar.IsWall*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Astar.IsWall
+  href: MainRobot.Robot.Navigation.Astar.Astar.html#MainRobot_Robot_Navigation_Astar_Astar_IsWall_MainRobot_Common_RPoint_System_Int32_
+  name: IsWall
+  nameWithType: Astar.IsWall
+  fullName: MainRobot.Robot.Navigation.Astar.Astar.IsWall
+- uid: MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint,System.Int32)
+  parent: MainRobot.Robot.Navigation.Astar.IAstar
+  isExternal: true
+  href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_IsWall_MainRobot_Common_RPoint_System_Int32_
+  name: IsWall(RPoint, int)
+  nameWithType: IAstar.IsWall(RPoint, int)
+  fullName: MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint, int)
+  nameWithType.vb: IAstar.IsWall(RPoint, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint, Integer)
+  name.vb: IsWall(RPoint, Integer)
+  spec.csharp:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint,System.Int32)
+    name: IsWall
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_IsWall_MainRobot_Common_RPoint_System_Int32_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar.IsWall(MainRobot.Common.RPoint,System.Int32)
+    name: IsWall
+    href: MainRobot.Robot.Navigation.Astar.IAstar.html#MainRobot_Robot_Navigation_Astar_IAstar_IsWall_MainRobot_Common_RPoint_System_Int32_
+  - name: (
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

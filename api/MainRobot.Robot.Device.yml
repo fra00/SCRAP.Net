@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device
+  commentId: N:MainRobot.Robot.Device
+  id: MainRobot.Robot.Device
+  children:
+  - MainRobot.Robot.Device.FakeSerial
+  - MainRobot.Robot.Device.ISerial
+  - MainRobot.Robot.Device.Serial
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Device
+  nameWithType: MainRobot.Robot.Device
+  fullName: MainRobot.Robot.Device
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Device.FakeSerial
+  commentId: T:MainRobot.Robot.Device.FakeSerial
+  href: MainRobot.Robot.Device.FakeSerial.html
+  name: FakeSerial
+  nameWithType: FakeSerial
+  fullName: MainRobot.Robot.Device.FakeSerial
+- uid: MainRobot.Robot.Device.ISerial
+  commentId: T:MainRobot.Robot.Device.ISerial
+  parent: MainRobot.Robot.Device
+  href: MainRobot.Robot.Device.ISerial.html
+  name: ISerial
+  nameWithType: ISerial
+  fullName: MainRobot.Robot.Device.ISerial
+- uid: MainRobot.Robot.Device.Serial
+  commentId: T:MainRobot.Robot.Device.Serial
+  href: MainRobot.Robot.Device.Serial.html
+  name: Serial
+  nameWithType: Serial
+  fullName: MainRobot.Robot.Device.Serial
+- uid: MainRobot.Robot.Device
+  commentId: N:MainRobot.Robot.Device
+  href: MainRobot.html
+  name: MainRobot.Robot.Device
+  nameWithType: MainRobot.Robot.Device
+  fullName: MainRobot.Robot.Device
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html

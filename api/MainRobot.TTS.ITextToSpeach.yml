@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.TTS.ITextToSpeach
+  commentId: T:MainRobot.TTS.ITextToSpeach
+  id: ITextToSpeach
+  parent: MainRobot.TTS
+  children:
+  - MainRobot.TTS.ITextToSpeach.TalkAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITextToSpeach
+  nameWithType: ITextToSpeach
+  fullName: MainRobot.TTS.ITextToSpeach
+  type: Interface
+  source:
+    id: ITextToSpeach
+    path: C:\Condivisa\Progetti\Robot\TTS\ITextToSpeach.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.TTS
+  syntax:
+    content: public interface ITextToSpeach
+    content.vb: Public Interface ITextToSpeach
+- uid: MainRobot.TTS.ITextToSpeach.TalkAsync(System.String)
+  commentId: M:MainRobot.TTS.ITextToSpeach.TalkAsync(System.String)
+  id: TalkAsync(System.String)
+  parent: MainRobot.TTS.ITextToSpeach
+  langs:
+  - csharp
+  - vb
+  name: TalkAsync(string)
+  nameWithType: ITextToSpeach.TalkAsync(string)
+  fullName: MainRobot.TTS.ITextToSpeach.TalkAsync(string)
+  type: Method
+  source:
+    id: TalkAsync
+    path: C:\Condivisa\Progetti\Robot\TTS\ITextToSpeach.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.TTS
+  syntax:
+    content: void TalkAsync(string textToSpeach)
+    parameters:
+    - id: textToSpeach
+      type: System.String
+    content.vb: Sub TalkAsync(textToSpeach As String)
+  overload: MainRobot.TTS.ITextToSpeach.TalkAsync*
+  nameWithType.vb: ITextToSpeach.TalkAsync(String)
+  fullName.vb: MainRobot.TTS.ITextToSpeach.TalkAsync(String)
+  name.vb: TalkAsync(String)
+references:
+- uid: MainRobot.TTS
+  commentId: N:MainRobot.TTS
+  href: MainRobot.html
+  name: MainRobot.TTS
+  nameWithType: MainRobot.TTS
+  fullName: MainRobot.TTS
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.TTS
+    name: TTS
+    href: MainRobot.TTS.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.TTS
+    name: TTS
+    href: MainRobot.TTS.html
+- uid: MainRobot.TTS.ITextToSpeach.TalkAsync*
+  commentId: Overload:MainRobot.TTS.ITextToSpeach.TalkAsync
+  href: MainRobot.TTS.ITextToSpeach.html#MainRobot_TTS_ITextToSpeach_TalkAsync_System_String_
+  name: TalkAsync
+  nameWithType: ITextToSpeach.TalkAsync
+  fullName: MainRobot.TTS.ITextToSpeach.TalkAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

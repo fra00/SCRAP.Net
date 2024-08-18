@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  id: WebSocketHandler
+  parent: MainRobot.Robot.Comunication.WebSocketTransport
+  children:
+  - MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.#ctor(MainRobot.Robot.Navigation.Interface.INavigation,MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Navigation.Interface.IMovement,MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall,MainRobot.Robot.ActionExec.IActionExec,MainRobot.TTS.ITextToSpeach)
+  - MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  langs:
+  - csharp
+  - vb
+  name: WebSocketHandler
+  nameWithType: WebSocketHandler
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  type: Class
+  source:
+    id: WebSocketHandler
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\WebSocketTransport\WebSocketHandler.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.WebSocketTransport
+  syntax:
+    content: public class WebSocketHandler
+    content.vb: Public Class WebSocketHandler
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.#ctor(MainRobot.Robot.Navigation.Interface.INavigation,MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Navigation.Interface.IMovement,MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall,MainRobot.Robot.ActionExec.IActionExec,MainRobot.TTS.ITextToSpeach)
+  commentId: M:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.#ctor(MainRobot.Robot.Navigation.Interface.INavigation,MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Navigation.Interface.IMovement,MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall,MainRobot.Robot.ActionExec.IActionExec,MainRobot.TTS.ITextToSpeach)
+  id: '#ctor(MainRobot.Robot.Navigation.Interface.INavigation,MainRobot.Robot.Navigation.Interface.INavigationMover,MainRobot.Robot.Navigation.Interface.IMovement,MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall,MainRobot.Robot.ActionExec.IActionExec,MainRobot.TTS.ITextToSpeach)'
+  parent: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  langs:
+  - csharp
+  - vb
+  name: WebSocketHandler(INavigation, INavigationMover, IMovement, IHelperInvisibleWall, IActionExec, ITextToSpeach)
+  nameWithType: WebSocketHandler.WebSocketHandler(INavigation, INavigationMover, IMovement, IHelperInvisibleWall, IActionExec, ITextToSpeach)
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.WebSocketHandler(MainRobot.Robot.Navigation.Interface.INavigation, MainRobot.Robot.Navigation.Interface.INavigationMover, MainRobot.Robot.Navigation.Interface.IMovement, MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall, MainRobot.Robot.ActionExec.IActionExec, MainRobot.TTS.ITextToSpeach)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\WebSocketTransport\WebSocketHandler.cs
+    startLine: 16
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.WebSocketTransport
+  syntax:
+    content: public WebSocketHandler(INavigation navigation, INavigationMover navigationMover, IMovement movement, IHelperInvisibleWall invisibleWall, IActionExec actionExec, ITextToSpeach tts)
+    parameters:
+    - id: navigation
+      type: MainRobot.Robot.Navigation.Interface.INavigation
+    - id: navigationMover
+      type: MainRobot.Robot.Navigation.Interface.INavigationMover
+    - id: movement
+      type: MainRobot.Robot.Navigation.Interface.IMovement
+    - id: invisibleWall
+      type: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+    - id: actionExec
+      type: MainRobot.Robot.ActionExec.IActionExec
+    - id: tts
+      type: MainRobot.TTS.ITextToSpeach
+    content.vb: Public Sub New(navigation As INavigation, navigationMover As INavigationMover, movement As IMovement, invisibleWall As IHelperInvisibleWall, actionExec As IActionExec, tts As ITextToSpeach)
+  overload: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.#ctor*
+  nameWithType.vb: WebSocketHandler.New(INavigation, INavigationMover, IMovement, IHelperInvisibleWall, IActionExec, ITextToSpeach)
+  fullName.vb: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.New(MainRobot.Robot.Navigation.Interface.INavigation, MainRobot.Robot.Navigation.Interface.INavigationMover, MainRobot.Robot.Navigation.Interface.IMovement, MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall, MainRobot.Robot.ActionExec.IActionExec, MainRobot.TTS.ITextToSpeach)
+  name.vb: New(INavigation, INavigationMover, IMovement, IHelperInvisibleWall, IActionExec, ITextToSpeach)
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  commentId: M:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  id: handler(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  parent: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+  langs:
+  - csharp
+  - vb
+  name: handler(WebSocketOutputData)
+  nameWithType: WebSocketHandler.handler(WebSocketOutputData)
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  type: Method
+  source:
+    id: handler
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\WebSocketTransport\WebSocketHandler.cs
+    startLine: 31
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.WebSocketTransport
+  syntax:
+    content: public Task<WebSocketOutputData> handler(WebSocketOutputData input)
+    parameters:
+    - id: input
+      type: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData}
+    content.vb: Public Function handler(input As WebSocketOutputData) As Task(Of WebSocketOutputData)
+  overload: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler*
+references:
+- uid: MainRobot.Robot.Comunication.WebSocketTransport
+  commentId: N:MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.WebSocketTransport
+  nameWithType: MainRobot.Robot.Comunication.WebSocketTransport
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport
+    name: WebSocketTransport
+    href: MainRobot.Robot.Comunication.WebSocketTransport.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport
+    name: WebSocketTransport
+    href: MainRobot.Robot.Comunication.WebSocketTransport.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.#ctor*
+  commentId: Overload:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.#ctor
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.html#MainRobot_Robot_Comunication_WebSocketTransport_WebSocketHandler__ctor_MainRobot_Robot_Navigation_Interface_INavigation_MainRobot_Robot_Navigation_Interface_INavigationMover_MainRobot_Robot_Navigation_Interface_IMovement_MainRobot_Robot_Navigation_Helpers_IHelperInvisibleWall_MainRobot_Robot_ActionExec_IActionExec_MainRobot_TTS_ITextToSpeach_
+  name: WebSocketHandler
+  nameWithType: WebSocketHandler.WebSocketHandler
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.WebSocketHandler
+  nameWithType.vb: WebSocketHandler.New
+  fullName.vb: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.New
+  name.vb: New
+- uid: MainRobot.Robot.Navigation.Interface.INavigation
+  commentId: T:MainRobot.Robot.Navigation.Interface.INavigation
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.INavigation.html
+  name: INavigation
+  nameWithType: INavigation
+  fullName: MainRobot.Robot.Navigation.Interface.INavigation
+- uid: MainRobot.Robot.Navigation.Interface.INavigationMover
+  commentId: T:MainRobot.Robot.Navigation.Interface.INavigationMover
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.INavigationMover.html
+  name: INavigationMover
+  nameWithType: INavigationMover
+  fullName: MainRobot.Robot.Navigation.Interface.INavigationMover
+- uid: MainRobot.Robot.Navigation.Interface.IMovement
+  commentId: T:MainRobot.Robot.Navigation.Interface.IMovement
+  parent: MainRobot.Robot.Navigation.Interface
+  href: MainRobot.Robot.Navigation.Interface.IMovement.html
+  name: IMovement
+  nameWithType: IMovement
+  fullName: MainRobot.Robot.Navigation.Interface.IMovement
+- uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  commentId: T:MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+  parent: MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall.html
+  name: IHelperInvisibleWall
+  nameWithType: IHelperInvisibleWall
+  fullName: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+- uid: MainRobot.Robot.ActionExec.IActionExec
+  commentId: T:MainRobot.Robot.ActionExec.IActionExec
+  parent: MainRobot.Robot.ActionExec
+  href: MainRobot.Robot.ActionExec.IActionExec.html
+  name: IActionExec
+  nameWithType: IActionExec
+  fullName: MainRobot.Robot.ActionExec.IActionExec
+- uid: MainRobot.TTS.ITextToSpeach
+  commentId: T:MainRobot.TTS.ITextToSpeach
+  parent: MainRobot.TTS
+  href: MainRobot.TTS.ITextToSpeach.html
+  name: ITextToSpeach
+  nameWithType: ITextToSpeach
+  fullName: MainRobot.TTS.ITextToSpeach
+- uid: MainRobot.Robot.Navigation.Interface
+  commentId: N:MainRobot.Robot.Navigation.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Interface
+  nameWithType: MainRobot.Robot.Navigation.Interface
+  fullName: MainRobot.Robot.Navigation.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Interface.html
+- uid: MainRobot.Robot.Navigation.Helpers
+  commentId: N:MainRobot.Robot.Navigation.Helpers
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Helpers
+  nameWithType: MainRobot.Robot.Navigation.Helpers
+  fullName: MainRobot.Robot.Navigation.Helpers
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Helpers
+    name: Helpers
+    href: MainRobot.Robot.Navigation.Helpers.html
+- uid: MainRobot.Robot.ActionExec
+  commentId: N:MainRobot.Robot.ActionExec
+  href: MainRobot.html
+  name: MainRobot.Robot.ActionExec
+  nameWithType: MainRobot.Robot.ActionExec
+  fullName: MainRobot.Robot.ActionExec
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.ActionExec
+    name: ActionExec
+    href: MainRobot.Robot.ActionExec.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.ActionExec
+    name: ActionExec
+    href: MainRobot.Robot.ActionExec.html
+- uid: MainRobot.TTS
+  commentId: N:MainRobot.TTS
+  href: MainRobot.html
+  name: MainRobot.TTS
+  nameWithType: MainRobot.TTS
+  fullName: MainRobot.TTS
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.TTS
+    name: TTS
+    href: MainRobot.TTS.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.TTS
+    name: TTS
+    href: MainRobot.TTS.html
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler*
+  commentId: Overload:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.html#MainRobot_Robot_Comunication_WebSocketTransport_WebSocketHandler_handler_MainRobot_Robot_Comunication_WebSocketTransport_WebSocketOutputData_
+  name: handler
+  nameWithType: WebSocketHandler.handler
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler.handler
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  parent: MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData.html
+  name: WebSocketOutputData
+  nameWithType: WebSocketOutputData
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+- uid: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData}
+  commentId: T:System.Threading.Tasks.Task{MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WebSocketOutputData>
+  nameWithType: Task<WebSocketOutputData>
+  fullName: System.Threading.Tasks.Task<MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData>
+  nameWithType.vb: Task(Of WebSocketOutputData)
+  fullName.vb: System.Threading.Tasks.Task(Of MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  name.vb: Task(Of WebSocketOutputData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+    name: WebSocketOutputData
+    href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+    name: WebSocketOutputData
+    href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

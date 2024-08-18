@@ -1,0 +1,844 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device.FakeSerial
+  commentId: T:MainRobot.Robot.Device.FakeSerial
+  id: FakeSerial
+  parent: MainRobot.Robot.Device
+  children:
+  - MainRobot.Robot.Device.FakeSerial.#ctor(System.String,System.Nullable{System.Boolean})
+  - MainRobot.Robot.Device.FakeSerial.CloseSerial
+  - MainRobot.Robot.Device.FakeSerial.OpenSerial(System.Action{System.String})
+  - MainRobot.Robot.Device.FakeSerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  - MainRobot.Robot.Device.FakeSerial.WriteLine(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FakeSerial
+  nameWithType: FakeSerial
+  fullName: MainRobot.Robot.Device.FakeSerial
+  type: Class
+  source:
+    id: FakeSerial
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeSerial.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: 'public class FakeSerial : ISerial'
+    content.vb: Public Class FakeSerial Implements ISerial
+  inheritance:
+  - System.Object
+  implements:
+  - MainRobot.Robot.Device.ISerial
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Device.FakeSerial.#ctor(System.String,System.Nullable{System.Boolean})
+  commentId: M:MainRobot.Robot.Device.FakeSerial.#ctor(System.String,System.Nullable{System.Boolean})
+  id: '#ctor(System.String,System.Nullable{System.Boolean})'
+  parent: MainRobot.Robot.Device.FakeSerial
+  langs:
+  - csharp
+  - vb
+  name: FakeSerial(string?, bool?)
+  nameWithType: FakeSerial.FakeSerial(string?, bool?)
+  fullName: MainRobot.Robot.Device.FakeSerial.FakeSerial(string?, bool?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeSerial.cs
+    startLine: 12
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: public FakeSerial(string? fixedResponse = null, bool? remote = null)
+    parameters:
+    - id: fixedResponse
+      type: System.String
+    - id: remote
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Sub New(fixedResponse As String = Nothing, remote As Boolean? = Nothing)
+  overload: MainRobot.Robot.Device.FakeSerial.#ctor*
+  nameWithType.vb: FakeSerial.New(String, Boolean?)
+  fullName.vb: MainRobot.Robot.Device.FakeSerial.New(String, Boolean?)
+  name.vb: New(String, Boolean?)
+- uid: MainRobot.Robot.Device.FakeSerial.CloseSerial
+  commentId: M:MainRobot.Robot.Device.FakeSerial.CloseSerial
+  id: CloseSerial
+  parent: MainRobot.Robot.Device.FakeSerial
+  langs:
+  - csharp
+  - vb
+  name: CloseSerial()
+  nameWithType: FakeSerial.CloseSerial()
+  fullName: MainRobot.Robot.Device.FakeSerial.CloseSerial()
+  type: Method
+  source:
+    id: CloseSerial
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeSerial.cs
+    startLine: 31
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  example: []
+  syntax:
+    content: public void CloseSerial()
+    content.vb: Public Sub CloseSerial()
+  overload: MainRobot.Robot.Device.FakeSerial.CloseSerial*
+  implements:
+  - MainRobot.Robot.Device.ISerial.CloseSerial
+- uid: MainRobot.Robot.Device.FakeSerial.OpenSerial(System.Action{System.String})
+  commentId: M:MainRobot.Robot.Device.FakeSerial.OpenSerial(System.Action{System.String})
+  id: OpenSerial(System.Action{System.String})
+  parent: MainRobot.Robot.Device.FakeSerial
+  langs:
+  - csharp
+  - vb
+  name: OpenSerial(Action<string>)
+  nameWithType: FakeSerial.OpenSerial(Action<string>)
+  fullName: MainRobot.Robot.Device.FakeSerial.OpenSerial(System.Action<string>)
+  type: Method
+  source:
+    id: OpenSerial
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeSerial.cs
+    startLine: 36
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  example: []
+  syntax:
+    content: public void OpenSerial(Action<string> dataReceivedHandler)
+    parameters:
+    - id: dataReceivedHandler
+      type: System.Action{System.String}
+    content.vb: Public Sub OpenSerial(dataReceivedHandler As Action(Of String))
+  overload: MainRobot.Robot.Device.FakeSerial.OpenSerial*
+  implements:
+  - MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+  nameWithType.vb: FakeSerial.OpenSerial(Action(Of String))
+  fullName.vb: MainRobot.Robot.Device.FakeSerial.OpenSerial(System.Action(Of String))
+  name.vb: OpenSerial(Action(Of String))
+- uid: MainRobot.Robot.Device.FakeSerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  commentId: M:MainRobot.Robot.Device.FakeSerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  id: OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  parent: MainRobot.Robot.Device.FakeSerial
+  langs:
+  - csharp
+  - vb
+  name: OpenSerialByte(string, int, Action<byte[]>)
+  nameWithType: FakeSerial.OpenSerialByte(string, int, Action<byte[]>)
+  fullName: MainRobot.Robot.Device.FakeSerial.OpenSerialByte(string, int, System.Action<byte[]>)
+  type: Method
+  source:
+    id: OpenSerialByte
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeSerial.cs
+    startLine: 41
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  example: []
+  syntax:
+    content: public void OpenSerialByte(string serialName, int speed, Action<byte[]> dataReceivedHandler)
+    parameters:
+    - id: serialName
+      type: System.String
+    - id: speed
+      type: System.Int32
+    - id: dataReceivedHandler
+      type: System.Action{System.Byte[]}
+    content.vb: Public Sub OpenSerialByte(serialName As String, speed As Integer, dataReceivedHandler As Action(Of Byte()))
+  overload: MainRobot.Robot.Device.FakeSerial.OpenSerialByte*
+  implements:
+  - MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  nameWithType.vb: FakeSerial.OpenSerialByte(String, Integer, Action(Of Byte()))
+  fullName.vb: MainRobot.Robot.Device.FakeSerial.OpenSerialByte(String, Integer, System.Action(Of Byte()))
+  name.vb: OpenSerialByte(String, Integer, Action(Of Byte()))
+- uid: MainRobot.Robot.Device.FakeSerial.WriteLine(System.String)
+  commentId: M:MainRobot.Robot.Device.FakeSerial.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: MainRobot.Robot.Device.FakeSerial
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string)
+  nameWithType: FakeSerial.WriteLine(string)
+  fullName: MainRobot.Robot.Device.FakeSerial.WriteLine(string)
+  type: Method
+  source:
+    id: WriteLine
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeSerial.cs
+    startLine: 46
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  example: []
+  syntax:
+    content: public void WriteLine(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub WriteLine(message As String)
+  overload: MainRobot.Robot.Device.FakeSerial.WriteLine*
+  implements:
+  - MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+  nameWithType.vb: FakeSerial.WriteLine(String)
+  fullName.vb: MainRobot.Robot.Device.FakeSerial.WriteLine(String)
+  name.vb: WriteLine(String)
+references:
+- uid: MainRobot.Robot.Device
+  commentId: N:MainRobot.Robot.Device
+  href: MainRobot.html
+  name: MainRobot.Robot.Device
+  nameWithType: MainRobot.Robot.Device
+  fullName: MainRobot.Robot.Device
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: MainRobot.Robot.Device.ISerial
+  commentId: T:MainRobot.Robot.Device.ISerial
+  parent: MainRobot.Robot.Device
+  href: MainRobot.Robot.Device.ISerial.html
+  name: ISerial
+  nameWithType: ISerial
+  fullName: MainRobot.Robot.Device.ISerial
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Device.FakeSerial.#ctor*
+  commentId: Overload:MainRobot.Robot.Device.FakeSerial.#ctor
+  href: MainRobot.Robot.Device.FakeSerial.html#MainRobot_Robot_Device_FakeSerial__ctor_System_String_System_Nullable_System_Boolean__
+  name: FakeSerial
+  nameWithType: FakeSerial.FakeSerial
+  fullName: MainRobot.Robot.Device.FakeSerial.FakeSerial
+  nameWithType.vb: FakeSerial.New
+  fullName.vb: MainRobot.Robot.Device.FakeSerial.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MainRobot.Robot.Device.FakeSerial.CloseSerial*
+  commentId: Overload:MainRobot.Robot.Device.FakeSerial.CloseSerial
+  href: MainRobot.Robot.Device.FakeSerial.html#MainRobot_Robot_Device_FakeSerial_CloseSerial
+  name: CloseSerial
+  nameWithType: FakeSerial.CloseSerial
+  fullName: MainRobot.Robot.Device.FakeSerial.CloseSerial
+- uid: MainRobot.Robot.Device.ISerial.CloseSerial
+  commentId: M:MainRobot.Robot.Device.ISerial.CloseSerial
+  parent: MainRobot.Robot.Device.ISerial
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_CloseSerial
+  name: CloseSerial()
+  nameWithType: ISerial.CloseSerial()
+  fullName: MainRobot.Robot.Device.ISerial.CloseSerial()
+  spec.csharp:
+  - uid: MainRobot.Robot.Device.ISerial.CloseSerial
+    name: CloseSerial
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_CloseSerial
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Device.ISerial.CloseSerial
+    name: CloseSerial
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_CloseSerial
+  - name: (
+  - name: )
+- uid: MainRobot.Robot.Device.FakeSerial.OpenSerial*
+  commentId: Overload:MainRobot.Robot.Device.FakeSerial.OpenSerial
+  href: MainRobot.Robot.Device.FakeSerial.html#MainRobot_Robot_Device_FakeSerial_OpenSerial_System_Action_System_String__
+  name: OpenSerial
+  nameWithType: FakeSerial.OpenSerial
+  fullName: MainRobot.Robot.Device.FakeSerial.OpenSerial
+- uid: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+  commentId: M:MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+  parent: MainRobot.Robot.Device.ISerial
+  isExternal: true
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerial_System_Action_System_String__
+  name: OpenSerial(Action<string>)
+  nameWithType: ISerial.OpenSerial(Action<string>)
+  fullName: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action<string>)
+  nameWithType.vb: ISerial.OpenSerial(Action(Of String))
+  fullName.vb: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action(Of String))
+  name.vb: OpenSerial(Action(Of String))
+  spec.csharp:
+  - uid: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+    name: OpenSerial
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerial_System_Action_System_String__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+    name: OpenSerial
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerial_System_Action_System_String__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MainRobot.Robot.Device.FakeSerial.OpenSerialByte*
+  commentId: Overload:MainRobot.Robot.Device.FakeSerial.OpenSerialByte
+  href: MainRobot.Robot.Device.FakeSerial.html#MainRobot_Robot_Device_FakeSerial_OpenSerialByte_System_String_System_Int32_System_Action_System_Byte____
+  name: OpenSerialByte
+  nameWithType: FakeSerial.OpenSerialByte
+  fullName: MainRobot.Robot.Device.FakeSerial.OpenSerialByte
+- uid: MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  commentId: M:MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  parent: MainRobot.Robot.Device.ISerial
+  isExternal: true
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerialByte_System_String_System_Int32_System_Action_System_Byte____
+  name: OpenSerialByte(string, int, Action<byte[]>)
+  nameWithType: ISerial.OpenSerialByte(string, int, Action<byte[]>)
+  fullName: MainRobot.Robot.Device.ISerial.OpenSerialByte(string, int, System.Action<byte[]>)
+  nameWithType.vb: ISerial.OpenSerialByte(String, Integer, Action(Of Byte()))
+  fullName.vb: MainRobot.Robot.Device.ISerial.OpenSerialByte(String, Integer, System.Action(Of Byte()))
+  name.vb: OpenSerialByte(String, Integer, Action(Of Byte()))
+  spec.csharp:
+  - uid: MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+    name: OpenSerialByte
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerialByte_System_String_System_Int32_System_Action_System_Byte____
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+    name: OpenSerialByte
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerialByte_System_String_System_Int32_System_Action_System_Byte____
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Action{System.Byte[]}
+  commentId: T:System.Action{System.Byte[]}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<byte[]>
+  nameWithType: Action<byte[]>
+  fullName: System.Action<byte[]>
+  nameWithType.vb: Action(Of Byte())
+  fullName.vb: System.Action(Of Byte())
+  name.vb: Action(Of Byte())
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: MainRobot.Robot.Device.FakeSerial.WriteLine*
+  commentId: Overload:MainRobot.Robot.Device.FakeSerial.WriteLine
+  href: MainRobot.Robot.Device.FakeSerial.html#MainRobot_Robot_Device_FakeSerial_WriteLine_System_String_
+  name: WriteLine
+  nameWithType: FakeSerial.WriteLine
+  fullName: MainRobot.Robot.Device.FakeSerial.WriteLine
+- uid: MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+  commentId: M:MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+  parent: MainRobot.Robot.Device.ISerial
+  isExternal: true
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_WriteLine_System_String_
+  name: WriteLine(string)
+  nameWithType: ISerial.WriteLine(string)
+  fullName: MainRobot.Robot.Device.ISerial.WriteLine(string)
+  nameWithType.vb: ISerial.WriteLine(String)
+  fullName.vb: MainRobot.Robot.Device.ISerial.WriteLine(String)
+  name.vb: WriteLine(String)
+  spec.csharp:
+  - uid: MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+    name: WriteLine
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_WriteLine_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+    name: WriteLine
+    href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_WriteLine_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

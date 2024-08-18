@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.IRobot
+  commentId: T:MainRobot.Robot.IRobot
+  id: IRobot
+  parent: MainRobot.Robot
+  children:
+  - MainRobot.Robot.IRobot.InitRobot
+  langs:
+  - csharp
+  - vb
+  name: IRobot
+  nameWithType: IRobot
+  fullName: MainRobot.Robot.IRobot
+  type: Interface
+  source:
+    id: IRobot
+    path: C:\Condivisa\Progetti\Robot\Robot\IRobot.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot
+  syntax:
+    content: public interface IRobot
+    content.vb: Public Interface IRobot
+- uid: MainRobot.Robot.IRobot.InitRobot
+  commentId: M:MainRobot.Robot.IRobot.InitRobot
+  id: InitRobot
+  parent: MainRobot.Robot.IRobot
+  langs:
+  - csharp
+  - vb
+  name: InitRobot()
+  nameWithType: IRobot.InitRobot()
+  fullName: MainRobot.Robot.IRobot.InitRobot()
+  type: Method
+  source:
+    id: InitRobot
+    path: C:\Condivisa\Progetti\Robot\Robot\IRobot.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot
+  syntax:
+    content: Task InitRobot()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InitRobot() As Task
+  overload: MainRobot.Robot.IRobot.InitRobot*
+references:
+- uid: MainRobot.Robot
+  commentId: N:MainRobot.Robot
+  href: MainRobot.html
+  name: MainRobot.Robot
+  nameWithType: MainRobot.Robot
+  fullName: MainRobot.Robot
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+- uid: MainRobot.Robot.IRobot.InitRobot*
+  commentId: Overload:MainRobot.Robot.IRobot.InitRobot
+  href: MainRobot.Robot.IRobot.html#MainRobot_Robot_IRobot_InitRobot
+  name: InitRobot
+  nameWithType: IRobot.InitRobot
+  fullName: MainRobot.Robot.IRobot.InitRobot
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

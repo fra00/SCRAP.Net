@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+  commentId: T:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+  id: LlmStudioResponseChoiche
+  parent: MainRobot.Robot.ActionExec.LLM
+  children:
+  - MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason
+  - MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index
+  - MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message
+  langs:
+  - csharp
+  - vb
+  name: LlmStudioResponseChoiche
+  nameWithType: LlmStudioResponseChoiche
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+  type: Class
+  source:
+    id: LlmStudioResponseChoiche
+    path: C:\Condivisa\Progetti\Robot\Robot\LLM\LMStudio\LlmModel.cs
+    startLine: 41
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.ActionExec.LLM
+  syntax:
+    content: public class LlmStudioResponseChoiche
+    content.vb: Public Class LlmStudioResponseChoiche
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index
+  commentId: P:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index
+  id: index
+  parent: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: LlmStudioResponseChoiche.index
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index
+  type: Property
+  source:
+    id: index
+    path: C:\Condivisa\Progetti\Robot\Robot\LLM\LMStudio\LlmModel.cs
+    startLine: 43
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.ActionExec.LLM
+  syntax:
+    content: public int index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property index As Integer
+  overload: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index*
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message
+  commentId: P:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message
+  id: message
+  parent: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+  langs:
+  - csharp
+  - vb
+  name: message
+  nameWithType: LlmStudioResponseChoiche.message
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message
+  type: Property
+  source:
+    id: message
+    path: C:\Condivisa\Progetti\Robot\Robot\LLM\LMStudio\LlmModel.cs
+    startLine: 44
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.ActionExec.LLM
+  syntax:
+    content: public LlmStudioResponseMessage message { get; set; }
+    parameters: []
+    return:
+      type: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseMessage
+    content.vb: Public Property message As LlmStudioResponseMessage
+  overload: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message*
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason
+  commentId: P:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason
+  id: finish_reason
+  parent: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+  langs:
+  - csharp
+  - vb
+  name: finish_reason
+  nameWithType: LlmStudioResponseChoiche.finish_reason
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason
+  type: Property
+  source:
+    id: finish_reason
+    path: C:\Condivisa\Progetti\Robot\Robot\LLM\LMStudio\LlmModel.cs
+    startLine: 45
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.ActionExec.LLM
+  syntax:
+    content: public string finish_reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property finish_reason As String
+  overload: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason*
+references:
+- uid: MainRobot.Robot.ActionExec.LLM
+  commentId: N:MainRobot.Robot.ActionExec.LLM
+  href: MainRobot.html
+  name: MainRobot.Robot.ActionExec.LLM
+  nameWithType: MainRobot.Robot.ActionExec.LLM
+  fullName: MainRobot.Robot.ActionExec.LLM
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.ActionExec
+    name: ActionExec
+    href: MainRobot.Robot.ActionExec.html
+  - name: .
+  - uid: MainRobot.Robot.ActionExec.LLM
+    name: LLM
+    href: MainRobot.Robot.ActionExec.LLM.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.ActionExec
+    name: ActionExec
+    href: MainRobot.Robot.ActionExec.html
+  - name: .
+  - uid: MainRobot.Robot.ActionExec.LLM
+    name: LLM
+    href: MainRobot.Robot.ActionExec.LLM.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index*
+  commentId: Overload:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index
+  href: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.html#MainRobot_Robot_ActionExec_LLM_LlmStudioResponseChoiche_index
+  name: index
+  nameWithType: LlmStudioResponseChoiche.index
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message*
+  commentId: Overload:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message
+  href: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.html#MainRobot_Robot_ActionExec_LLM_LlmStudioResponseChoiche_message
+  name: message
+  nameWithType: LlmStudioResponseChoiche.message
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.message
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseMessage
+  commentId: T:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseMessage
+  parent: MainRobot.Robot.ActionExec.LLM
+  href: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseMessage.html
+  name: LlmStudioResponseMessage
+  nameWithType: LlmStudioResponseMessage
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseMessage
+- uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason*
+  commentId: Overload:MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason
+  href: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.html#MainRobot_Robot_ActionExec_LLM_LlmStudioResponseChoiche_finish_reason
+  name: finish_reason
+  nameWithType: LlmStudioResponseChoiche.finish_reason
+  fullName: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche.finish_reason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

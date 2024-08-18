@@ -1,0 +1,524 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.IMovement
+  commentId: T:MainRobot.Robot.Navigation.IMovement
+  id: IMovement
+  parent: MainRobot.Robot.Navigation
+  children:
+  - MainRobot.Robot.Navigation.IMovement.Backward(System.Int32)
+  - MainRobot.Robot.Navigation.IMovement.Forward(System.Int32)
+  - MainRobot.Robot.Navigation.IMovement.ObstacleFinded(System.String,System.Int32,System.Int32,System.Int32)
+  - MainRobot.Robot.Navigation.IMovement.Rotate(System.Boolean,System.Int32)
+  - MainRobot.Robot.Navigation.IMovement.Stop
+  - MainRobot.Robot.Navigation.IMovement.TurnLeft(System.Int32,System.Int32)
+  - MainRobot.Robot.Navigation.IMovement.TurnRight(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IMovement
+  nameWithType: IMovement
+  fullName: MainRobot.Robot.Navigation.IMovement
+  type: Interface
+  source:
+    id: IMovement
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 4
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  syntax:
+    content: public interface IMovement
+    content.vb: Public Interface IMovement
+- uid: MainRobot.Robot.Navigation.IMovement.Backward(System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.IMovement.Backward(System.Int32)
+  id: Backward(System.Int32)
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: Backward(int)
+  nameWithType: IMovement.Backward(int)
+  fullName: MainRobot.Robot.Navigation.IMovement.Backward(int)
+  type: Method
+  source:
+    id: Backward
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 11
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: move backward
+  example: []
+  syntax:
+    content: Task<EndMovModel> Backward(int distance)
+    parameters:
+    - id: distance
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+      description: ''
+    content.vb: Function Backward(distance As Integer) As Task(Of EndMovModel)
+  overload: MainRobot.Robot.Navigation.IMovement.Backward*
+  nameWithType.vb: IMovement.Backward(Integer)
+  fullName.vb: MainRobot.Robot.Navigation.IMovement.Backward(Integer)
+  name.vb: Backward(Integer)
+- uid: MainRobot.Robot.Navigation.IMovement.Forward(System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.IMovement.Forward(System.Int32)
+  id: Forward(System.Int32)
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: Forward(int)
+  nameWithType: IMovement.Forward(int)
+  fullName: MainRobot.Robot.Navigation.IMovement.Forward(int)
+  type: Method
+  source:
+    id: Forward
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 13
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  syntax:
+    content: Task<EndMovModel> Forward(int distance)
+    parameters:
+    - id: distance
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+    content.vb: Function Forward(distance As Integer) As Task(Of EndMovModel)
+  overload: MainRobot.Robot.Navigation.IMovement.Forward*
+  nameWithType.vb: IMovement.Forward(Integer)
+  fullName.vb: MainRobot.Robot.Navigation.IMovement.Forward(Integer)
+  name.vb: Forward(Integer)
+- uid: MainRobot.Robot.Navigation.IMovement.ObstacleFinded(System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.IMovement.ObstacleFinded(System.String,System.Int32,System.Int32,System.Int32)
+  id: ObstacleFinded(System.String,System.Int32,System.Int32,System.Int32)
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: ObstacleFinded(string, int, int, int)
+  nameWithType: IMovement.ObstacleFinded(string, int, int, int)
+  fullName: MainRobot.Robot.Navigation.IMovement.ObstacleFinded(string, int, int, int)
+  type: Method
+  source:
+    id: ObstacleFinded
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 22
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: ''
+  example: []
+  syntax:
+    content: RPoint ObstacleFinded(string distance, int angle, int distanceForward, int backward)
+    parameters:
+    - id: distance
+      type: System.String
+      description: ''
+    - id: angle
+      type: System.Int32
+      description: ''
+    - id: distanceForward
+      type: System.Int32
+      description: ''
+    - id: backward
+      type: System.Int32
+      description: ''
+    return:
+      type: MainRobot.Common.RPoint
+      description: ''
+    content.vb: Function ObstacleFinded(distance As String, angle As Integer, distanceForward As Integer, backward As Integer) As RPoint
+  overload: MainRobot.Robot.Navigation.IMovement.ObstacleFinded*
+  nameWithType.vb: IMovement.ObstacleFinded(String, Integer, Integer, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.IMovement.ObstacleFinded(String, Integer, Integer, Integer)
+  name.vb: ObstacleFinded(String, Integer, Integer, Integer)
+- uid: MainRobot.Robot.Navigation.IMovement.Stop
+  commentId: M:MainRobot.Robot.Navigation.IMovement.Stop
+  id: Stop
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: IMovement.Stop()
+  fullName: MainRobot.Robot.Navigation.IMovement.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 28
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Stop
+  example: []
+  syntax:
+    content: Task Stop()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function [Stop]() As Task
+  overload: MainRobot.Robot.Navigation.IMovement.Stop*
+- uid: MainRobot.Robot.Navigation.IMovement.TurnLeft(System.Int32,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.IMovement.TurnLeft(System.Int32,System.Int32)
+  id: TurnLeft(System.Int32,System.Int32)
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: TurnLeft(int, int)
+  nameWithType: IMovement.TurnLeft(int, int)
+  fullName: MainRobot.Robot.Navigation.IMovement.TurnLeft(int, int)
+  type: Method
+  source:
+    id: TurnLeft
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 35
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Rotate Robot to left
+  example: []
+  syntax:
+    content: Task<EndMovModel> TurnLeft(int angleToStop, int deltaAngle)
+    parameters:
+    - id: angleToStop
+      type: System.Int32
+      description: ''
+    - id: deltaAngle
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+      description: ''
+    content.vb: Function TurnLeft(angleToStop As Integer, deltaAngle As Integer) As Task(Of EndMovModel)
+  overload: MainRobot.Robot.Navigation.IMovement.TurnLeft*
+  nameWithType.vb: IMovement.TurnLeft(Integer, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.IMovement.TurnLeft(Integer, Integer)
+  name.vb: TurnLeft(Integer, Integer)
+- uid: MainRobot.Robot.Navigation.IMovement.TurnRight(System.Int32,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.IMovement.TurnRight(System.Int32,System.Int32)
+  id: TurnRight(System.Int32,System.Int32)
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: TurnRight(int, int)
+  nameWithType: IMovement.TurnRight(int, int)
+  fullName: MainRobot.Robot.Navigation.IMovement.TurnRight(int, int)
+  type: Method
+  source:
+    id: TurnRight
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 43
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Rotate Robot to right
+  example: []
+  syntax:
+    content: Task<EndMovModel> TurnRight(int angleToStop, int deltaAngle)
+    parameters:
+    - id: angleToStop
+      type: System.Int32
+      description: ''
+    - id: deltaAngle
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+      description: ''
+    content.vb: Function TurnRight(angleToStop As Integer, deltaAngle As Integer) As Task(Of EndMovModel)
+  overload: MainRobot.Robot.Navigation.IMovement.TurnRight*
+  nameWithType.vb: IMovement.TurnRight(Integer, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.IMovement.TurnRight(Integer, Integer)
+  name.vb: TurnRight(Integer, Integer)
+- uid: MainRobot.Robot.Navigation.IMovement.Rotate(System.Boolean,System.Int32)
+  commentId: M:MainRobot.Robot.Navigation.IMovement.Rotate(System.Boolean,System.Int32)
+  id: Rotate(System.Boolean,System.Int32)
+  parent: MainRobot.Robot.Navigation.IMovement
+  langs:
+  - csharp
+  - vb
+  name: Rotate(bool, int)
+  nameWithType: IMovement.Rotate(bool, int)
+  fullName: MainRobot.Robot.Navigation.IMovement.Rotate(bool, int)
+  type: Method
+  source:
+    id: Rotate
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IMovement.cs
+    startLine: 51
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Rotate robot left or right
+  example: []
+  syntax:
+    content: Task<EndMovModel> Rotate(bool left, int deltaAngle)
+    parameters:
+    - id: left
+      type: System.Boolean
+      description: true for left false for Right
+    - id: deltaAngle
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+      description: ''
+    content.vb: Function Rotate(left As Boolean, deltaAngle As Integer) As Task(Of EndMovModel)
+  overload: MainRobot.Robot.Navigation.IMovement.Rotate*
+  nameWithType.vb: IMovement.Rotate(Boolean, Integer)
+  fullName.vb: MainRobot.Robot.Navigation.IMovement.Rotate(Boolean, Integer)
+  name.vb: Rotate(Boolean, Integer)
+references:
+- uid: MainRobot.Robot.Navigation
+  commentId: N:MainRobot.Robot.Navigation
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation
+  nameWithType: MainRobot.Robot.Navigation
+  fullName: MainRobot.Robot.Navigation
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+- uid: MainRobot.Robot.Navigation.IMovement.Backward*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.Backward
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_Backward_System_Int32_
+  name: Backward
+  nameWithType: IMovement.Backward
+  fullName: MainRobot.Robot.Navigation.IMovement.Backward
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+  commentId: T:System.Threading.Tasks.Task{MainRobot.Robot.Navigation.EndMovModel}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<EndMovModel>
+  nameWithType: Task<EndMovModel>
+  fullName: System.Threading.Tasks.Task<MainRobot.Robot.Navigation.EndMovModel>
+  nameWithType.vb: Task(Of EndMovModel)
+  fullName.vb: System.Threading.Tasks.Task(Of MainRobot.Robot.Navigation.EndMovModel)
+  name.vb: Task(Of EndMovModel)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: MainRobot.Robot.Navigation.EndMovModel
+    name: EndMovModel
+    href: MainRobot.Robot.Navigation.EndMovModel.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Navigation.EndMovModel
+    name: EndMovModel
+    href: MainRobot.Robot.Navigation.EndMovModel.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.Robot.Navigation.IMovement.Forward*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.Forward
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_Forward_System_Int32_
+  name: Forward
+  nameWithType: IMovement.Forward
+  fullName: MainRobot.Robot.Navigation.IMovement.Forward
+- uid: MainRobot.Robot.Navigation.IMovement.ObstacleFinded*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.ObstacleFinded
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_ObstacleFinded_System_String_System_Int32_System_Int32_System_Int32_
+  name: ObstacleFinded
+  nameWithType: IMovement.ObstacleFinded
+  fullName: MainRobot.Robot.Navigation.IMovement.ObstacleFinded
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: MainRobot.Robot.Navigation.IMovement.Stop*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.Stop
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_Stop
+  name: Stop
+  nameWithType: IMovement.Stop
+  fullName: MainRobot.Robot.Navigation.IMovement.Stop
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: MainRobot.Robot.Navigation.IMovement.TurnLeft*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.TurnLeft
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_TurnLeft_System_Int32_System_Int32_
+  name: TurnLeft
+  nameWithType: IMovement.TurnLeft
+  fullName: MainRobot.Robot.Navigation.IMovement.TurnLeft
+- uid: MainRobot.Robot.Navigation.IMovement.TurnRight*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.TurnRight
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_TurnRight_System_Int32_System_Int32_
+  name: TurnRight
+  nameWithType: IMovement.TurnRight
+  fullName: MainRobot.Robot.Navigation.IMovement.TurnRight
+- uid: MainRobot.Robot.Navigation.IMovement.Rotate*
+  commentId: Overload:MainRobot.Robot.Navigation.IMovement.Rotate
+  href: MainRobot.Robot.Navigation.IMovement.html#MainRobot_Robot_Navigation_IMovement_Rotate_System_Boolean_System_Int32_
+  name: Rotate
+  nameWithType: IMovement.Rotate
+  fullName: MainRobot.Robot.Navigation.IMovement.Rotate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

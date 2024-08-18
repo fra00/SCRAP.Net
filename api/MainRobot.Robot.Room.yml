@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Room
+  commentId: N:MainRobot.Robot.Room
+  id: MainRobot.Robot.Room
+  children:
+  - MainRobot.Robot.Room.IRoomInfo
+  - MainRobot.Robot.Room.RoomInfo
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Room
+  nameWithType: MainRobot.Robot.Room
+  fullName: MainRobot.Robot.Room
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Room.IRoomInfo
+  commentId: T:MainRobot.Robot.Room.IRoomInfo
+  parent: MainRobot.Robot.Room
+  href: MainRobot.Robot.Room.IRoomInfo.html
+  name: IRoomInfo
+  nameWithType: IRoomInfo
+  fullName: MainRobot.Robot.Room.IRoomInfo
+- uid: MainRobot.Robot.Room.RoomInfo
+  commentId: T:MainRobot.Robot.Room.RoomInfo
+  href: MainRobot.Robot.Room.RoomInfo.html
+  name: RoomInfo
+  nameWithType: RoomInfo
+  fullName: MainRobot.Robot.Room.RoomInfo
+- uid: MainRobot.Robot.Room
+  commentId: N:MainRobot.Robot.Room
+  href: MainRobot.html
+  name: MainRobot.Robot.Room
+  nameWithType: MainRobot.Robot.Room
+  fullName: MainRobot.Robot.Room
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Room
+    name: Room
+    href: MainRobot.Robot.Room.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Room
+    name: Room
+    href: MainRobot.Robot.Room.html

@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  commentId: T:Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  id: FakeRemoteArduino
+  parent: Robot.Robot.Device.FakeArduino
+  children:
+  - Robot.Robot.Device.FakeArduino.FakeRemoteArduino.#ctor
+  - Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial(System.Action{System.String})
+  - Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FakeRemoteArduino
+  nameWithType: FakeRemoteArduino
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  type: Class
+  source:
+    id: FakeRemoteArduino
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeArduino\FakeRemoteArduino.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  syntax:
+    content: 'public class FakeRemoteArduino : IFakeArduino'
+    content.vb: Public Class FakeRemoteArduino Implements IFakeArduino
+  inheritance:
+  - System.Object
+  implements:
+  - Robot.Robot.Device.FakeArduino.IFakeArduino
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.#ctor
+  commentId: M:Robot.Robot.Device.FakeArduino.FakeRemoteArduino.#ctor
+  id: '#ctor'
+  parent: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  langs:
+  - csharp
+  - vb
+  name: FakeRemoteArduino()
+  nameWithType: FakeRemoteArduino.FakeRemoteArduino()
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.FakeRemoteArduino()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeArduino\FakeRemoteArduino.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  syntax:
+    content: public FakeRemoteArduino()
+    content.vb: Public Sub New()
+  overload: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.#ctor*
+  nameWithType.vb: FakeRemoteArduino.New()
+  fullName.vb: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.New()
+  name.vb: New()
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial(System.Action{System.String})
+  commentId: M:Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial(System.Action{System.String})
+  id: OpenSerial(System.Action{System.String})
+  parent: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  langs:
+  - csharp
+  - vb
+  name: OpenSerial(Action<string>)
+  nameWithType: FakeRemoteArduino.OpenSerial(Action<string>)
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial(System.Action<string>)
+  type: Method
+  source:
+    id: OpenSerial
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeArduino\FakeRemoteArduino.cs
+    startLine: 21
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  example: []
+  syntax:
+    content: public void OpenSerial(Action<string> dataReceivedHandler)
+    parameters:
+    - id: dataReceivedHandler
+      type: System.Action{System.String}
+    content.vb: Public Sub OpenSerial(dataReceivedHandler As Action(Of String))
+  overload: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial*
+  implements:
+  - Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+  nameWithType.vb: FakeRemoteArduino.OpenSerial(Action(Of String))
+  fullName.vb: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial(System.Action(Of String))
+  name.vb: OpenSerial(Action(Of String))
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine(System.String)
+  commentId: M:Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string)
+  nameWithType: FakeRemoteArduino.WriteLine(string)
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine(string)
+  type: Method
+  source:
+    id: WriteLine
+    path: C:\Condivisa\Progetti\Robot\Robot\Device\FakeArduino\FakeRemoteArduino.cs
+    startLine: 32
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  example: []
+  syntax:
+    content: public void WriteLine(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub WriteLine(message As String)
+  overload: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine*
+  implements:
+  - Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+  nameWithType.vb: FakeRemoteArduino.WriteLine(String)
+  fullName.vb: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine(String)
+  name.vb: WriteLine(String)
+references:
+- uid: Robot.Robot.Device.FakeArduino
+  commentId: N:Robot.Robot.Device.FakeArduino
+  href: Robot.html
+  name: Robot.Robot.Device.FakeArduino
+  nameWithType: Robot.Robot.Device.FakeArduino
+  fullName: Robot.Robot.Device.FakeArduino
+  spec.csharp:
+  - uid: Robot
+    name: Robot
+    href: Robot.html
+  - name: .
+  - uid: Robot.Robot
+    name: Robot
+    href: Robot.Robot.html
+  - name: .
+  - uid: Robot.Robot.Device
+    name: Device
+    href: Robot.Robot.Device.html
+  - name: .
+  - uid: Robot.Robot.Device.FakeArduino
+    name: FakeArduino
+    href: Robot.Robot.Device.FakeArduino.html
+  spec.vb:
+  - uid: Robot
+    name: Robot
+    href: Robot.html
+  - name: .
+  - uid: Robot.Robot
+    name: Robot
+    href: Robot.Robot.html
+  - name: .
+  - uid: Robot.Robot.Device
+    name: Device
+    href: Robot.Robot.Device.html
+  - name: .
+  - uid: Robot.Robot.Device.FakeArduino
+    name: FakeArduino
+    href: Robot.Robot.Device.FakeArduino.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino
+  commentId: T:Robot.Robot.Device.FakeArduino.IFakeArduino
+  parent: Robot.Robot.Device.FakeArduino
+  href: Robot.Robot.Device.FakeArduino.IFakeArduino.html
+  name: IFakeArduino
+  nameWithType: IFakeArduino
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.#ctor*
+  commentId: Overload:Robot.Robot.Device.FakeArduino.FakeRemoteArduino.#ctor
+  href: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.html#Robot_Robot_Device_FakeArduino_FakeRemoteArduino__ctor
+  name: FakeRemoteArduino
+  nameWithType: FakeRemoteArduino.FakeRemoteArduino
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.FakeRemoteArduino
+  nameWithType.vb: FakeRemoteArduino.New
+  fullName.vb: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.New
+  name.vb: New
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial*
+  commentId: Overload:Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial
+  href: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.html#Robot_Robot_Device_FakeArduino_FakeRemoteArduino_OpenSerial_System_Action_System_String__
+  name: OpenSerial
+  nameWithType: FakeRemoteArduino.OpenSerial
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.OpenSerial
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+  commentId: M:Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+  parent: Robot.Robot.Device.FakeArduino.IFakeArduino
+  isExternal: true
+  href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_OpenSerial_System_Action_System_String__
+  name: OpenSerial(Action<string>)
+  nameWithType: IFakeArduino.OpenSerial(Action<string>)
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action<string>)
+  nameWithType.vb: IFakeArduino.OpenSerial(Action(Of String))
+  fullName.vb: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action(Of String))
+  name.vb: OpenSerial(Action(Of String))
+  spec.csharp:
+  - uid: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+    name: OpenSerial
+    href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_OpenSerial_System_Action_System_String__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+    name: OpenSerial
+    href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_OpenSerial_System_Action_System_String__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine*
+  commentId: Overload:Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine
+  href: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.html#Robot_Robot_Device_FakeArduino_FakeRemoteArduino_WriteLine_System_String_
+  name: WriteLine
+  nameWithType: FakeRemoteArduino.WriteLine
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.WriteLine
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+  commentId: M:Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+  parent: Robot.Robot.Device.FakeArduino.IFakeArduino
+  isExternal: true
+  href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_WriteLine_System_String_
+  name: WriteLine(string)
+  nameWithType: IFakeArduino.WriteLine(string)
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(string)
+  nameWithType.vb: IFakeArduino.WriteLine(String)
+  fullName.vb: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(String)
+  name.vb: WriteLine(String)
+  spec.csharp:
+  - uid: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+    name: WriteLine
+    href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_WriteLine_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+    name: WriteLine
+    href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_WriteLine_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

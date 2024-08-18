@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.ControllerWeb
+  commentId: N:MainRobot.Robot.ControllerWeb
+  id: MainRobot.Robot.ControllerWeb
+  children:
+  - MainRobot.Robot.ControllerWeb.NavigationWebController
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.ControllerWeb
+  nameWithType: MainRobot.Robot.ControllerWeb
+  fullName: MainRobot.Robot.ControllerWeb
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.ControllerWeb.NavigationWebController
+  commentId: T:MainRobot.Robot.ControllerWeb.NavigationWebController
+  href: MainRobot.Robot.ControllerWeb.NavigationWebController.html
+  name: NavigationWebController
+  nameWithType: NavigationWebController
+  fullName: MainRobot.Robot.ControllerWeb.NavigationWebController

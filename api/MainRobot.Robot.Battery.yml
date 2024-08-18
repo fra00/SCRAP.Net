@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Battery
+  commentId: N:MainRobot.Robot.Battery
+  id: MainRobot.Robot.Battery
+  children:
+  - MainRobot.Robot.Battery.BatteryManager
+  - MainRobot.Robot.Battery.IBatteryManager
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Battery
+  nameWithType: MainRobot.Robot.Battery
+  fullName: MainRobot.Robot.Battery
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Battery.BatteryManager
+  commentId: T:MainRobot.Robot.Battery.BatteryManager
+  href: MainRobot.Robot.Battery.BatteryManager.html
+  name: BatteryManager
+  nameWithType: BatteryManager
+  fullName: MainRobot.Robot.Battery.BatteryManager
+- uid: MainRobot.Robot.Battery.IBatteryManager
+  commentId: T:MainRobot.Robot.Battery.IBatteryManager
+  parent: MainRobot.Robot.Battery
+  href: MainRobot.Robot.Battery.IBatteryManager.html
+  name: IBatteryManager
+  nameWithType: IBatteryManager
+  fullName: MainRobot.Robot.Battery.IBatteryManager
+- uid: MainRobot.Robot.Battery
+  commentId: N:MainRobot.Robot.Battery
+  href: MainRobot.html
+  name: MainRobot.Robot.Battery
+  nameWithType: MainRobot.Robot.Battery
+  fullName: MainRobot.Robot.Battery
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Battery
+    name: Battery
+    href: MainRobot.Robot.Battery.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Battery
+    name: Battery
+    href: MainRobot.Robot.Battery.html

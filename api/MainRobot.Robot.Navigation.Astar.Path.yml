@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Astar.Path
+  commentId: T:MainRobot.Robot.Navigation.Astar.Path
+  id: Path
+  parent: MainRobot.Robot.Navigation.Astar
+  children:
+  - MainRobot.Robot.Navigation.Astar.Path.#ctor(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.Astar.Path.#ctor(MainRobot.Robot.Navigation.Astar.PointPath)
+  - MainRobot.Robot.Navigation.Astar.Path.CurrentPoint
+  - MainRobot.Robot.Navigation.Astar.Path.Order
+  - MainRobot.Robot.Navigation.Astar.Path.Parent
+  - MainRobot.Robot.Navigation.Astar.Path.PathPoint
+  - MainRobot.Robot.Navigation.Astar.Path.Score
+  - MainRobot.Robot.Navigation.Astar.Path.Tentative_G
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: Path
+  fullName: MainRobot.Robot.Navigation.Astar.Path
+  type: Class
+  source:
+    id: Path
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public class Path
+    content.vb: Public Class Path
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Navigation.Astar.Path.CurrentPoint
+  commentId: F:MainRobot.Robot.Navigation.Astar.Path.CurrentPoint
+  id: CurrentPoint
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: CurrentPoint
+  nameWithType: Path.CurrentPoint
+  fullName: MainRobot.Robot.Navigation.Astar.Path.CurrentPoint
+  type: Field
+  source:
+    id: CurrentPoint
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public PointPath CurrentPoint
+    return:
+      type: MainRobot.Robot.Navigation.Astar.PointPath
+    content.vb: Public CurrentPoint As PointPath
+- uid: MainRobot.Robot.Navigation.Astar.Path.PathPoint
+  commentId: F:MainRobot.Robot.Navigation.Astar.Path.PathPoint
+  id: PathPoint
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: PathPoint
+  nameWithType: Path.PathPoint
+  fullName: MainRobot.Robot.Navigation.Astar.Path.PathPoint
+  type: Field
+  source:
+    id: PathPoint
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public List<PointPath> PathPoint
+    return:
+      type: System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.PointPath}
+    content.vb: Public PathPoint As List(Of PointPath)
+- uid: MainRobot.Robot.Navigation.Astar.Path.Parent
+  commentId: F:MainRobot.Robot.Navigation.Astar.Path.Parent
+  id: Parent
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: Path.Parent
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Parent
+  type: Field
+  source:
+    id: Parent
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 8
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public Path Parent
+    return:
+      type: MainRobot.Robot.Navigation.Astar.Path
+    content.vb: Public Parent As Path
+- uid: MainRobot.Robot.Navigation.Astar.Path.Order
+  commentId: F:MainRobot.Robot.Navigation.Astar.Path.Order
+  id: Order
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: Path.Order
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Order
+  type: Field
+  source:
+    id: Order
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public int Order
+    return:
+      type: System.Int32
+    content.vb: Public Order As Integer
+- uid: MainRobot.Robot.Navigation.Astar.Path.Score
+  commentId: F:MainRobot.Robot.Navigation.Astar.Path.Score
+  id: Score
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Path.Score
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Score
+  type: Field
+  source:
+    id: Score
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 10
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public double Score
+    return:
+      type: System.Double
+    content.vb: Public Score As Double
+- uid: MainRobot.Robot.Navigation.Astar.Path.Tentative_G
+  commentId: F:MainRobot.Robot.Navigation.Astar.Path.Tentative_G
+  id: Tentative_G
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: Tentative_G
+  nameWithType: Path.Tentative_G
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Tentative_G
+  type: Field
+  source:
+    id: Tentative_G
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 11
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public int Tentative_G
+    return:
+      type: System.Int32
+    content.vb: Public Tentative_G As Integer
+- uid: MainRobot.Robot.Navigation.Astar.Path.#ctor(MainRobot.Robot.Navigation.Astar.PointPath)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Path.#ctor(MainRobot.Robot.Navigation.Astar.PointPath)
+  id: '#ctor(MainRobot.Robot.Navigation.Astar.PointPath)'
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: Path(PointPath)
+  nameWithType: Path.Path(PointPath)
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Path(MainRobot.Robot.Navigation.Astar.PointPath)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 14
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public Path(PointPath p)
+    parameters:
+    - id: p
+      type: MainRobot.Robot.Navigation.Astar.PointPath
+    content.vb: Public Sub New(p As PointPath)
+  overload: MainRobot.Robot.Navigation.Astar.Path.#ctor*
+  nameWithType.vb: Path.New(PointPath)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Path.New(MainRobot.Robot.Navigation.Astar.PointPath)
+  name.vb: New(PointPath)
+- uid: MainRobot.Robot.Navigation.Astar.Path.#ctor(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.Astar.Path.#ctor(MainRobot.Common.RPoint)
+  id: '#ctor(MainRobot.Common.RPoint)'
+  parent: MainRobot.Robot.Navigation.Astar.Path
+  langs:
+  - csharp
+  - vb
+  name: Path(RPoint)
+  nameWithType: Path.Path(RPoint)
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Path(MainRobot.Common.RPoint)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\Astar\Path.cs
+    startLine: 21
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Astar
+  syntax:
+    content: public Path(RPoint p)
+    parameters:
+    - id: p
+      type: MainRobot.Common.RPoint
+    content.vb: Public Sub New(p As RPoint)
+  overload: MainRobot.Robot.Navigation.Astar.Path.#ctor*
+  nameWithType.vb: Path.New(RPoint)
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Path.New(MainRobot.Common.RPoint)
+  name.vb: New(RPoint)
+references:
+- uid: MainRobot.Robot.Navigation.Astar
+  commentId: N:MainRobot.Robot.Navigation.Astar
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Astar
+  nameWithType: MainRobot.Robot.Navigation.Astar
+  fullName: MainRobot.Robot.Navigation.Astar
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Astar
+    name: Astar
+    href: MainRobot.Robot.Navigation.Astar.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Astar
+    name: Astar
+    href: MainRobot.Robot.Navigation.Astar.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Navigation.Astar.PointPath
+  commentId: T:MainRobot.Robot.Navigation.Astar.PointPath
+  parent: MainRobot.Robot.Navigation.Astar
+  href: MainRobot.Robot.Navigation.Astar.PointPath.html
+  name: PointPath
+  nameWithType: PointPath
+  fullName: MainRobot.Robot.Navigation.Astar.PointPath
+- uid: System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.PointPath}
+  commentId: T:System.Collections.Generic.List{MainRobot.Robot.Navigation.Astar.PointPath}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<PointPath>
+  nameWithType: List<PointPath>
+  fullName: System.Collections.Generic.List<MainRobot.Robot.Navigation.Astar.PointPath>
+  nameWithType.vb: List(Of PointPath)
+  fullName.vb: System.Collections.Generic.List(Of MainRobot.Robot.Navigation.Astar.PointPath)
+  name.vb: List(Of PointPath)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MainRobot.Robot.Navigation.Astar.PointPath
+    name: PointPath
+    href: MainRobot.Robot.Navigation.Astar.PointPath.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Navigation.Astar.PointPath
+    name: PointPath
+    href: MainRobot.Robot.Navigation.Astar.PointPath.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MainRobot.Robot.Navigation.Astar.Path
+  commentId: T:MainRobot.Robot.Navigation.Astar.Path
+  parent: MainRobot.Robot.Navigation.Astar
+  href: MainRobot.Robot.Navigation.Astar.Path.html
+  name: Path
+  nameWithType: Path
+  fullName: MainRobot.Robot.Navigation.Astar.Path
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: MainRobot.Robot.Navigation.Astar.Path.#ctor*
+  commentId: Overload:MainRobot.Robot.Navigation.Astar.Path.#ctor
+  href: MainRobot.Robot.Navigation.Astar.Path.html#MainRobot_Robot_Navigation_Astar_Path__ctor_MainRobot_Robot_Navigation_Astar_PointPath_
+  name: Path
+  nameWithType: Path.Path
+  fullName: MainRobot.Robot.Navigation.Astar.Path.Path
+  nameWithType.vb: Path.New
+  fullName.vb: MainRobot.Robot.Navigation.Astar.Path.New
+  name.vb: New
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html

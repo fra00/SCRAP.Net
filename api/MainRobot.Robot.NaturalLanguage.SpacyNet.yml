@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.NaturalLanguage.SpacyNet
+  commentId: N:MainRobot.Robot.NaturalLanguage.SpacyNet
+  id: MainRobot.Robot.NaturalLanguage.SpacyNet
+  children:
+  - MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.NaturalLanguage.SpacyNet
+  nameWithType: MainRobot.Robot.NaturalLanguage.SpacyNet
+  fullName: MainRobot.Robot.NaturalLanguage.SpacyNet
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData
+  commentId: T:MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData
+  href: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData.html
+  name: IntentData
+  nameWithType: IntentData
+  fullName: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData

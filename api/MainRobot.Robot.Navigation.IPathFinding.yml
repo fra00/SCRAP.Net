@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.IPathFinding
+  commentId: T:MainRobot.Robot.Navigation.IPathFinding
+  id: IPathFinding
+  parent: MainRobot.Robot.Navigation
+  children:
+  - MainRobot.Robot.Navigation.IPathFinding.ClearObstacle
+  - MainRobot.Robot.Navigation.IPathFinding.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered(MainRobot.Common.RPoint)
+  - MainRobot.Robot.Navigation.IPathFinding.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IPathFinding
+  nameWithType: IPathFinding
+  fullName: MainRobot.Robot.Navigation.IPathFinding
+  type: Interface
+  source:
+    id: IPathFinding
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IPathFinding.cs
+    startLine: 4
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  syntax:
+    content: public interface IPathFinding
+    content.vb: Public Interface IPathFinding
+- uid: MainRobot.Robot.Navigation.IPathFinding.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.IPathFinding.FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  id: FindPath(MainRobot.Common.RPoint,MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.IPathFinding
+  langs:
+  - csharp
+  - vb
+  name: FindPath(RPoint, RPoint)
+  nameWithType: IPathFinding.FindPath(RPoint, RPoint)
+  fullName: MainRobot.Robot.Navigation.IPathFinding.FindPath(MainRobot.Common.RPoint, MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: FindPath
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IPathFinding.cs
+    startLine: 12
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: >-
+    Calculate the path from a starting point to a 
+
+    destination using an A* algorithm
+  example: []
+  syntax:
+    content: List<RPoint> FindPath(RPoint start, RPoint end)
+    parameters:
+    - id: start
+      type: MainRobot.Common.RPoint
+      description: ''
+    - id: end
+      type: MainRobot.Common.RPoint
+      description: ''
+    return:
+      type: System.Collections.Generic.List{MainRobot.Common.RPoint}
+      description: ''
+    content.vb: Function FindPath(start As RPoint, [end] As RPoint) As List(Of RPoint)
+  overload: MainRobot.Robot.Navigation.IPathFinding.FindPath*
+- uid: MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered(MainRobot.Common.RPoint)
+  commentId: M:MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered(MainRobot.Common.RPoint)
+  id: ObstacleEncountered(MainRobot.Common.RPoint)
+  parent: MainRobot.Robot.Navigation.IPathFinding
+  langs:
+  - csharp
+  - vb
+  name: ObstacleEncountered(RPoint)
+  nameWithType: IPathFinding.ObstacleEncountered(RPoint)
+  fullName: MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered(MainRobot.Common.RPoint)
+  type: Method
+  source:
+    id: ObstacleEncountered
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IPathFinding.cs
+    startLine: 17
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Set obstacle at point specified
+  example: []
+  syntax:
+    content: void ObstacleEncountered(RPoint point)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+      description: ''
+    content.vb: Sub ObstacleEncountered(point As RPoint)
+  overload: MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered*
+- uid: MainRobot.Robot.Navigation.IPathFinding.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  commentId: M:MainRobot.Robot.Navigation.IPathFinding.SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  id: SetWeight(MainRobot.Common.RPoint,System.Boolean)
+  parent: MainRobot.Robot.Navigation.IPathFinding
+  langs:
+  - csharp
+  - vb
+  name: SetWeight(RPoint, bool)
+  nameWithType: IPathFinding.SetWeight(RPoint, bool)
+  fullName: MainRobot.Robot.Navigation.IPathFinding.SetWeight(MainRobot.Common.RPoint, bool)
+  type: Method
+  source:
+    id: SetWeight
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IPathFinding.cs
+    startLine: 23
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: Increment weight of a point
+  example: []
+  syntax:
+    content: void SetWeight(RPoint point, bool increment)
+    parameters:
+    - id: point
+      type: MainRobot.Common.RPoint
+      description: ''
+    - id: increment
+      type: System.Boolean
+      description: ''
+    content.vb: Sub SetWeight(point As RPoint, increment As Boolean)
+  overload: MainRobot.Robot.Navigation.IPathFinding.SetWeight*
+  nameWithType.vb: IPathFinding.SetWeight(RPoint, Boolean)
+  fullName.vb: MainRobot.Robot.Navigation.IPathFinding.SetWeight(MainRobot.Common.RPoint, Boolean)
+  name.vb: SetWeight(RPoint, Boolean)
+- uid: MainRobot.Robot.Navigation.IPathFinding.ClearObstacle
+  commentId: M:MainRobot.Robot.Navigation.IPathFinding.ClearObstacle
+  id: ClearObstacle
+  parent: MainRobot.Robot.Navigation.IPathFinding
+  langs:
+  - csharp
+  - vb
+  name: ClearObstacle()
+  nameWithType: IPathFinding.ClearObstacle()
+  fullName: MainRobot.Robot.Navigation.IPathFinding.ClearObstacle()
+  type: Method
+  source:
+    id: ClearObstacle
+    path: C:\Condivisa\Progetti\Robot\Robot\Navigation\IPathFinding.cs
+    startLine: 27
+  assemblies:
+  - MainRobot - Backup
+  namespace: MainRobot.Robot.Navigation
+  summary: clear all obstacle
+  example: []
+  syntax:
+    content: void ClearObstacle()
+    content.vb: Sub ClearObstacle()
+  overload: MainRobot.Robot.Navigation.IPathFinding.ClearObstacle*
+references:
+- uid: MainRobot.Robot.Navigation
+  commentId: N:MainRobot.Robot.Navigation
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation
+  nameWithType: MainRobot.Robot.Navigation
+  fullName: MainRobot.Robot.Navigation
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+- uid: MainRobot.Robot.Navigation.IPathFinding.FindPath*
+  commentId: Overload:MainRobot.Robot.Navigation.IPathFinding.FindPath
+  href: MainRobot.Robot.Navigation.IPathFinding.html#MainRobot_Robot_Navigation_IPathFinding_FindPath_MainRobot_Common_RPoint_MainRobot_Common_RPoint_
+  name: FindPath
+  nameWithType: IPathFinding.FindPath
+  fullName: MainRobot.Robot.Navigation.IPathFinding.FindPath
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: System.Collections.Generic.List{MainRobot.Common.RPoint}
+  commentId: T:System.Collections.Generic.List{MainRobot.Common.RPoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<RPoint>
+  nameWithType: List<RPoint>
+  fullName: System.Collections.Generic.List<MainRobot.Common.RPoint>
+  nameWithType.vb: List(Of RPoint)
+  fullName.vb: System.Collections.Generic.List(Of MainRobot.Common.RPoint)
+  name.vb: List(Of RPoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered*
+  commentId: Overload:MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered
+  href: MainRobot.Robot.Navigation.IPathFinding.html#MainRobot_Robot_Navigation_IPathFinding_ObstacleEncountered_MainRobot_Common_RPoint_
+  name: ObstacleEncountered
+  nameWithType: IPathFinding.ObstacleEncountered
+  fullName: MainRobot.Robot.Navigation.IPathFinding.ObstacleEncountered
+- uid: MainRobot.Robot.Navigation.IPathFinding.SetWeight*
+  commentId: Overload:MainRobot.Robot.Navigation.IPathFinding.SetWeight
+  href: MainRobot.Robot.Navigation.IPathFinding.html#MainRobot_Robot_Navigation_IPathFinding_SetWeight_MainRobot_Common_RPoint_System_Boolean_
+  name: SetWeight
+  nameWithType: IPathFinding.SetWeight
+  fullName: MainRobot.Robot.Navigation.IPathFinding.SetWeight
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Navigation.IPathFinding.ClearObstacle*
+  commentId: Overload:MainRobot.Robot.Navigation.IPathFinding.ClearObstacle
+  href: MainRobot.Robot.Navigation.IPathFinding.html#MainRobot_Robot_Navigation_IPathFinding_ClearObstacle
+  name: ClearObstacle
+  nameWithType: IPathFinding.ClearObstacle
+  fullName: MainRobot.Robot.Navigation.IPathFinding.ClearObstacle

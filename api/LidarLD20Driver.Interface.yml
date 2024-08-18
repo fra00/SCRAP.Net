@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: LidarLD20Driver.Interface
+  commentId: N:LidarLD20Driver.Interface
+  id: LidarLD20Driver.Interface
+  children:
+  - LidarLD20Driver.Interface.ISerial
+  - LidarLD20Driver.Interface.Serial
+  langs:
+  - csharp
+  - vb
+  name: LidarLD20Driver.Interface
+  nameWithType: LidarLD20Driver.Interface
+  fullName: LidarLD20Driver.Interface
+  type: Namespace
+  assemblies:
+  - LidarLD20Driver
+references:
+- uid: LidarLD20Driver.Interface.ISerial
+  commentId: T:LidarLD20Driver.Interface.ISerial
+  parent: LidarLD20Driver.Interface
+  href: LidarLD20Driver.Interface.ISerial.html
+  name: ISerial
+  nameWithType: ISerial
+  fullName: LidarLD20Driver.Interface.ISerial
+- uid: LidarLD20Driver.Interface.Serial
+  commentId: T:LidarLD20Driver.Interface.Serial
+  href: LidarLD20Driver.Interface.Serial.html
+  name: Serial
+  nameWithType: Serial
+  fullName: LidarLD20Driver.Interface.Serial
+- uid: LidarLD20Driver.Interface
+  commentId: N:LidarLD20Driver.Interface
+  href: LidarLD20Driver.html
+  name: LidarLD20Driver.Interface
+  nameWithType: LidarLD20Driver.Interface
+  fullName: LidarLD20Driver.Interface
+  spec.csharp:
+  - uid: LidarLD20Driver
+    name: LidarLD20Driver
+    href: LidarLD20Driver.html
+  - name: .
+  - uid: LidarLD20Driver.Interface
+    name: Interface
+    href: LidarLD20Driver.Interface.html
+  spec.vb:
+  - uid: LidarLD20Driver
+    name: LidarLD20Driver
+    href: LidarLD20Driver.html
+  - name: .
+  - uid: LidarLD20Driver.Interface
+    name: Interface
+    href: LidarLD20Driver.Interface.html

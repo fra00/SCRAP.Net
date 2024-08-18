@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.WebSocket
+  commentId: N:MainRobot.Robot.WebSocket
+  id: MainRobot.Robot.WebSocket
+  children:
+  - MainRobot.Robot.WebSocket.RobotWebSocketHandler
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.WebSocket
+  nameWithType: MainRobot.Robot.WebSocket
+  fullName: MainRobot.Robot.WebSocket
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.WebSocket.RobotWebSocketHandler
+  commentId: T:MainRobot.Robot.WebSocket.RobotWebSocketHandler
+  href: MainRobot.Robot.WebSocket.RobotWebSocketHandler.html
+  name: RobotWebSocketHandler
+  nameWithType: RobotWebSocketHandler
+  fullName: MainRobot.Robot.WebSocket.RobotWebSocketHandler

@@ -1,0 +1,1104 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  commentId: T:MainRobot.Robot.Comunication.Interface.ICommandComunication
+  id: ICommandComunication
+  parent: MainRobot.Robot.Comunication.Interface
+  children:
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward(System.Int32)
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward(System.Int32)
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo(System.Int32,System.Int32)
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor(System.Int32)
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor(System.Int32)
+  - MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop
+  langs:
+  - csharp
+  - vb
+  name: ICommandComunication
+  nameWithType: ICommandComunication
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  type: Interface
+  source:
+    id: ICommandComunication
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: public interface ICommandComunication
+    content.vb: Public Interface ICommandComunication
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus
+  id: ForceArduCleanStatus
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: ForceArduCleanStatus()
+  nameWithType: ICommandComunication.ForceArduCleanStatus()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus()
+  type: Method
+  source:
+    id: ForceArduCleanStatus
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 10
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  summary: reset and clean arduino status
+  example: []
+  syntax:
+    content: Task<ComunicationCommandReceived> ForceArduCleanStatus()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
+    content.vb: Function ForceArduCleanStatus() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1
+  id: DisableRele1
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: DisableRele1()
+  nameWithType: ICommandComunication.DisableRele1()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1()
+  type: Method
+  source:
+    id: DisableRele1
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 15
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  summary: disable rele1
+  example: []
+  syntax:
+    content: Task<ComunicationCommandReceived> DisableRele1()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
+    content.vb: Function DisableRele1() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1
+  id: EnableRele1
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: EnableRele1()
+  nameWithType: ICommandComunication.EnableRele1()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1()
+  type: Method
+  source:
+    id: EnableRele1
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 17
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> EnableRele1()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function EnableRele1() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2
+  id: DisableRele2
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: DisableRele2()
+  nameWithType: ICommandComunication.DisableRele2()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2()
+  type: Method
+  source:
+    id: DisableRele2
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 18
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> DisableRele2()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function DisableRele2() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2
+  id: EnableRele2
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: EnableRele2()
+  nameWithType: ICommandComunication.EnableRele2()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2()
+  type: Method
+  source:
+    id: EnableRele2
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 19
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> EnableRele2()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function EnableRele2() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment
+  id: EnableFakeMoviment
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: EnableFakeMoviment()
+  nameWithType: ICommandComunication.EnableFakeMoviment()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment()
+  type: Method
+  source:
+    id: EnableFakeMoviment
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 20
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> EnableFakeMoviment()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function EnableFakeMoviment() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop
+  id: Stop
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ICommandComunication.Stop()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 21
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> Stop()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function [Stop]() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward(System.Int32)
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward(System.Int32)
+  id: Forward(System.Int32)
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: Forward(int)
+  nameWithType: ICommandComunication.Forward(int)
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward(int)
+  type: Method
+  source:
+    id: Forward
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 22
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ResponseSerialForward> Forward(int distance)
+    parameters:
+    - id: distance
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ResponseSerialForward}
+    content.vb: Function Forward(distance As Integer) As Task(Of ResponseSerialForward)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward*
+  nameWithType.vb: ICommandComunication.Forward(Integer)
+  fullName.vb: MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward(Integer)
+  name.vb: Forward(Integer)
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor(System.Int32)
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor(System.Int32)
+  id: StartLeftMotor(System.Int32)
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: StartLeftMotor(int)
+  nameWithType: ICommandComunication.StartLeftMotor(int)
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor(int)
+  type: Method
+  source:
+    id: StartLeftMotor
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 23
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> StartLeftMotor(int angle)
+    parameters:
+    - id: angle
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function StartLeftMotor(angle As Integer) As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor*
+  nameWithType.vb: ICommandComunication.StartLeftMotor(Integer)
+  fullName.vb: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor(Integer)
+  name.vb: StartLeftMotor(Integer)
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor(System.Int32)
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor(System.Int32)
+  id: StartRightMotor(System.Int32)
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: StartRightMotor(int)
+  nameWithType: ICommandComunication.StartRightMotor(int)
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor(int)
+  type: Method
+  source:
+    id: StartRightMotor
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 24
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> StartRightMotor(int angle)
+    parameters:
+    - id: angle
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function StartRightMotor(angle As Integer) As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor*
+  nameWithType.vb: ICommandComunication.StartRightMotor(Integer)
+  fullName.vb: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor(Integer)
+  name.vb: StartRightMotor(Integer)
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward(System.Int32)
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward(System.Int32)
+  id: Backward(System.Int32)
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: Backward(int)
+  nameWithType: ICommandComunication.Backward(int)
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward(int)
+  type: Method
+  source:
+    id: Backward
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 25
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> Backward(int distance)
+    parameters:
+    - id: distance
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function Backward(distance As Integer) As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward*
+  nameWithType.vb: ICommandComunication.Backward(Integer)
+  fullName.vb: MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward(Integer)
+  name.vb: Backward(Integer)
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind
+  id: DisableObstacleFind
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: DisableObstacleFind()
+  nameWithType: ICommandComunication.DisableObstacleFind()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind()
+  type: Method
+  source:
+    id: DisableObstacleFind
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 26
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> DisableObstacleFind()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function DisableObstacleFind() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind
+  id: EnableObstacleFind
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: EnableObstacleFind()
+  nameWithType: ICommandComunication.EnableObstacleFind()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind()
+  type: Method
+  source:
+    id: EnableObstacleFind
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 27
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> EnableObstacleFind()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function EnableObstacleFind() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge
+  id: IsInRecharge
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: IsInRecharge()
+  nameWithType: ICommandComunication.IsInRecharge()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge()
+  type: Method
+  source:
+    id: IsInRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 28
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> IsInRecharge()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function IsInRecharge() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge
+  id: OutInRecharge
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: OutInRecharge()
+  nameWithType: ICommandComunication.OutInRecharge()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge()
+  type: Method
+  source:
+    id: OutInRecharge
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 29
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> OutInRecharge()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function OutInRecharge() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor
+  id: GetDistanceFrontSensor
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: GetDistanceFrontSensor()
+  nameWithType: ICommandComunication.GetDistanceFrontSensor()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor()
+  type: Method
+  source:
+    id: GetDistanceFrontSensor
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 30
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<float> GetDistanceFrontSensor()
+    return:
+      type: System.Threading.Tasks.Task{System.Single}
+    content.vb: Function GetDistanceFrontSensor() As Task(Of Single)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation
+  id: GetSourceOfAlimentation
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: GetSourceOfAlimentation()
+  nameWithType: ICommandComunication.GetSourceOfAlimentation()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation()
+  type: Method
+  source:
+    id: GetSourceOfAlimentation
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 31
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<int> GetSourceOfAlimentation()
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function GetSourceOfAlimentation() As Task(Of Integer)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment
+  id: EnableMoviment
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: EnableMoviment()
+  nameWithType: ICommandComunication.EnableMoviment()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment()
+  type: Method
+  source:
+    id: EnableMoviment
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 32
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> EnableMoviment()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function EnableMoviment() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment
+  id: DisableMoviment
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: DisableMoviment()
+  nameWithType: ICommandComunication.DisableMoviment()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment()
+  type: Method
+  source:
+    id: DisableMoviment
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 33
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> DisableMoviment()
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function DisableMoviment() As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation
+  id: GetLevelOfAlimentation
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: GetLevelOfAlimentation()
+  nameWithType: ICommandComunication.GetLevelOfAlimentation()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation()
+  type: Method
+  source:
+    id: GetLevelOfAlimentation
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 34
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<float?> GetLevelOfAlimentation()
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Single}}
+    content.vb: Function GetLevelOfAlimentation() As Task(Of Single?)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar
+  id: ReadLidar
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: ReadLidar()
+  nameWithType: ICommandComunication.ReadLidar()
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar()
+  type: Method
+  source:
+    id: ReadLidar
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 35
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<List<(float, float)>> ReadLidar()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.Single,System.Single}}}
+    content.vb: Function ReadLidar() As Task(Of List(Of (Single, Single)))
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar*
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo(System.Int32,System.Int32)
+  commentId: M:MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo(System.Int32,System.Int32)
+  id: MoveServo(System.Int32,System.Int32)
+  parent: MainRobot.Robot.Comunication.Interface.ICommandComunication
+  langs:
+  - csharp
+  - vb
+  name: MoveServo(int, int)
+  nameWithType: ICommandComunication.MoveServo(int, int)
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo(int, int)
+  type: Method
+  source:
+    id: MoveServo
+    path: C:\Condivisa\Progetti\Robot\Robot\Comunication\Interface\ICommandComunication.cs
+    startLine: 36
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Interface
+  syntax:
+    content: Task<ComunicationCommandReceived> MoveServo(int numServo, int angle)
+    parameters:
+    - id: numServo
+      type: System.Int32
+    - id: angle
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+    content.vb: Function MoveServo(numServo As Integer, angle As Integer) As Task(Of ComunicationCommandReceived)
+  overload: MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo*
+  nameWithType.vb: ICommandComunication.MoveServo(Integer, Integer)
+  fullName.vb: MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo(Integer, Integer)
+  name.vb: MoveServo(Integer, Integer)
+references:
+- uid: MainRobot.Robot.Comunication.Interface
+  commentId: N:MainRobot.Robot.Comunication.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.Interface
+  nameWithType: MainRobot.Robot.Comunication.Interface
+  fullName: MainRobot.Robot.Comunication.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Interface
+    name: Interface
+    href: MainRobot.Robot.Comunication.Interface.html
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_ForceArduCleanStatus
+  name: ForceArduCleanStatus
+  nameWithType: ICommandComunication.ForceArduCleanStatus
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.ForceArduCleanStatus
+- uid: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+  commentId: T:System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ComunicationCommandReceived>
+  nameWithType: Task<ComunicationCommandReceived>
+  fullName: System.Threading.Tasks.Task<MainRobot.Robot.Comunication.Model.ComunicationCommandReceived>
+  nameWithType.vb: Task(Of ComunicationCommandReceived)
+  fullName.vb: System.Threading.Tasks.Task(Of MainRobot.Robot.Comunication.Model.ComunicationCommandReceived)
+  name.vb: Task(Of ComunicationCommandReceived)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+    name: ComunicationCommandReceived
+    href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+    name: ComunicationCommandReceived
+    href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_DisableRele1
+  name: DisableRele1
+  nameWithType: ICommandComunication.DisableRele1
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele1
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_EnableRele1
+  name: EnableRele1
+  nameWithType: ICommandComunication.EnableRele1
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele1
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_DisableRele2
+  name: DisableRele2
+  nameWithType: ICommandComunication.DisableRele2
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableRele2
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_EnableRele2
+  name: EnableRele2
+  nameWithType: ICommandComunication.EnableRele2
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableRele2
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_EnableFakeMoviment
+  name: EnableFakeMoviment
+  nameWithType: ICommandComunication.EnableFakeMoviment
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableFakeMoviment
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_Stop
+  name: Stop
+  nameWithType: ICommandComunication.Stop
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.Stop
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_Forward_System_Int32_
+  name: Forward
+  nameWithType: ICommandComunication.Forward
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.Forward
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ResponseSerialForward}
+  commentId: T:System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ResponseSerialForward}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseSerialForward>
+  nameWithType: Task<ResponseSerialForward>
+  fullName: System.Threading.Tasks.Task<MainRobot.Robot.Comunication.Model.ResponseSerialForward>
+  nameWithType.vb: Task(Of ResponseSerialForward)
+  fullName.vb: System.Threading.Tasks.Task(Of MainRobot.Robot.Comunication.Model.ResponseSerialForward)
+  name.vb: Task(Of ResponseSerialForward)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: MainRobot.Robot.Comunication.Model.ResponseSerialForward
+    name: ResponseSerialForward
+    href: MainRobot.Robot.Comunication.Model.ResponseSerialForward.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.Comunication.Model.ResponseSerialForward
+    name: ResponseSerialForward
+    href: MainRobot.Robot.Comunication.Model.ResponseSerialForward.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_StartLeftMotor_System_Int32_
+  name: StartLeftMotor
+  nameWithType: ICommandComunication.StartLeftMotor
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartLeftMotor
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_StartRightMotor_System_Int32_
+  name: StartRightMotor
+  nameWithType: ICommandComunication.StartRightMotor
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.StartRightMotor
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_Backward_System_Int32_
+  name: Backward
+  nameWithType: ICommandComunication.Backward
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.Backward
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_DisableObstacleFind
+  name: DisableObstacleFind
+  nameWithType: ICommandComunication.DisableObstacleFind
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableObstacleFind
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_EnableObstacleFind
+  name: EnableObstacleFind
+  nameWithType: ICommandComunication.EnableObstacleFind
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableObstacleFind
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_IsInRecharge
+  name: IsInRecharge
+  nameWithType: ICommandComunication.IsInRecharge
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.IsInRecharge
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_OutInRecharge
+  name: OutInRecharge
+  nameWithType: ICommandComunication.OutInRecharge
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.OutInRecharge
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_GetDistanceFrontSensor
+  name: GetDistanceFrontSensor
+  nameWithType: ICommandComunication.GetDistanceFrontSensor
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetDistanceFrontSensor
+- uid: System.Threading.Tasks.Task{System.Single}
+  commentId: T:System.Threading.Tasks.Task{System.Single}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<float>
+  nameWithType: Task<float>
+  fullName: System.Threading.Tasks.Task<float>
+  nameWithType.vb: Task(Of Single)
+  fullName.vb: System.Threading.Tasks.Task(Of Single)
+  name.vb: Task(Of Single)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_GetSourceOfAlimentation
+  name: GetSourceOfAlimentation
+  nameWithType: ICommandComunication.GetSourceOfAlimentation
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetSourceOfAlimentation
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_EnableMoviment
+  name: EnableMoviment
+  nameWithType: ICommandComunication.EnableMoviment
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.EnableMoviment
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_DisableMoviment
+  name: DisableMoviment
+  nameWithType: ICommandComunication.DisableMoviment
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.DisableMoviment
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_GetLevelOfAlimentation
+  name: GetLevelOfAlimentation
+  nameWithType: ICommandComunication.GetLevelOfAlimentation
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.GetLevelOfAlimentation
+- uid: System.Threading.Tasks.Task{System.Nullable{System.Single}}
+  commentId: T:System.Threading.Tasks.Task{System.Nullable{System.Single}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<float?>
+  nameWithType: Task<float?>
+  fullName: System.Threading.Tasks.Task<float?>
+  nameWithType.vb: Task(Of Single?)
+  fullName.vb: System.Threading.Tasks.Task(Of Single?)
+  name.vb: Task(Of Single?)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '?'
+  - name: )
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_ReadLidar
+  name: ReadLidar
+  nameWithType: ICommandComunication.ReadLidar
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.ReadLidar
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.Single,System.Single}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.Single,System.Single}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<(float, float)>>
+  nameWithType: Task<List<(float, float)>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<(float, float)>>
+  nameWithType.vb: Task(Of List(Of (Single, Single)))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of (Single, Single)))
+  name.vb: Task(Of List(Of (Single, Single)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: )
+  - name: )
+- uid: MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo*
+  commentId: Overload:MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo
+  href: MainRobot.Robot.Comunication.Interface.ICommandComunication.html#MainRobot_Robot_Comunication_Interface_ICommandComunication_MoveServo_System_Int32_System_Int32_
+  name: MoveServo
+  nameWithType: ICommandComunication.MoveServo
+  fullName: MainRobot.Robot.Comunication.Interface.ICommandComunication.MoveServo
