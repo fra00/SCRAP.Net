@@ -1,0 +1,808 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ArduinoEmulator
+ | mysite </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ArduinoEmulator
+ | mysite ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
+            mysite
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WindowFormRobotEmulator.ArduinoEmulator">
+
+
+
+  <h1 id="WindowFormRobotEmulator_ArduinoEmulator" data-uid="WindowFormRobotEmulator.ArduinoEmulator" class="text-break">
+    Class ArduinoEmulator
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WindowFormRobotEmulator.html">WindowFormRobotEmulator</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>WindowFormRobotEmulator.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ArduinoEmulator</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ArduinoEmulator</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator__ctor_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.#ctor*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator__ctor" data-uid="WindowFormRobotEmulator.ArduinoEmulator.#ctor">
+  ArduinoEmulator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArduinoEmulator()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_arrayObstacle" data-uid="WindowFormRobotEmulator.ArduinoEmulator.arrayObstacle">
+  arrayObstacle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool[,] arrayObstacle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_BatteryLevel_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.BatteryLevel*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_BatteryLevel" data-uid="WindowFormRobotEmulator.ArduinoEmulator.BatteryLevel">
+  BatteryLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BatteryLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_EnableMoviment_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.EnableMoviment*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_EnableMoviment" data-uid="WindowFormRobotEmulator.ArduinoEmulator.EnableMoviment">
+  EnableMoviment
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnableMoviment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_IsInRecharge_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.IsInRecharge*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_IsInRecharge" data-uid="WindowFormRobotEmulator.ArduinoEmulator.IsInRecharge">
+  IsInRecharge
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInRecharge { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_ObstacleFind_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.ObstacleFind*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_ObstacleFind" data-uid="WindowFormRobotEmulator.ArduinoEmulator.ObstacleFind">
+  ObstacleFind
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ObstacleFind { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_Rele1_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.Rele1*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_Rele1" data-uid="WindowFormRobotEmulator.ArduinoEmulator.Rele1">
+  Rele1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Rele1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_Rele2_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.Rele2*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_Rele2" data-uid="WindowFormRobotEmulator.ArduinoEmulator.Rele2">
+  Rele2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Rele2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_SimulatedAngle_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulatedAngle*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_SimulatedAngle" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulatedAngle">
+  SimulatedAngle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double SimulatedAngle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_SimulatedPosition_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulatedPosition*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_SimulatedPosition" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulatedPosition">
+  SimulatedPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RPoint SimulatedPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MainRobot.Common.RPoint.html">RPoint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_TeoricAngle_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.TeoricAngle*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_TeoricAngle" data-uid="WindowFormRobotEmulator.ArduinoEmulator.TeoricAngle">
+  TeoricAngle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TeoricAngle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_TeoricPosition_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.TeoricPosition*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_TeoricPosition" data-uid="WindowFormRobotEmulator.ArduinoEmulator.TeoricPosition">
+  TeoricPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RPoint TeoricPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MainRobot.Common.RPoint.html">RPoint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_UpdateSimulatedPosition_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.UpdateSimulatedPosition*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_UpdateSimulatedPosition" data-uid="WindowFormRobotEmulator.ArduinoEmulator.UpdateSimulatedPosition">
+  UpdateSimulatedPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action UpdateSimulatedPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_CalculatePosition_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.CalculatePosition*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_CalculatePosition_MainRobot_Common_RPoint_System_Double_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.CalculatePosition(MainRobot.Common.RPoint,System.Double)">
+  CalculatePosition(RPoint, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CalculatePosition(RPoint position, double angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="MainRobot.Common.RPoint.html">RPoint</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_RunCommand_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.RunCommand*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_RunCommand_System_String_System_Nullable_System_Boolean__" data-uid="WindowFormRobotEmulator.ArduinoEmulator.RunCommand(System.String,System.Nullable{System.Boolean})">
+  RunCommand(string, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; RunCommand(string message, bool? parseOnlyName = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parseOnlyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_SimulateForward_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulateForward*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_SimulateForward_MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_System_Boolean_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulateForward(MainRobot.Robot.Comunication.Model.ComunicationCommandReceived,System.Boolean)">
+  SimulateForward(ComunicationCommandReceived, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; SimulateForward(ComunicationCommandReceived cmd, bool back = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cmd</code> <a class="xref" href="MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html">ComunicationCommandReceived</a></dt>
+    <dd></dd>
+    <dt><code>back</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_SimulateLidar_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulateLidar*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_SimulateLidar" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulateLidar">
+  SimulateLidar()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; SimulateLidar()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_SimulateRotate_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulateRotate*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_SimulateRotate_MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_System_Boolean_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.SimulateRotate(MainRobot.Robot.Comunication.Model.ComunicationCommandReceived,System.Boolean)">
+  SimulateRotate(ComunicationCommandReceived, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SimulateRotate(ComunicationCommandReceived cmd, bool left)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cmd</code> <a class="xref" href="MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html">ComunicationCommandReceived</a></dt>
+    <dd></dd>
+    <dt><code>left</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WindowFormRobotEmulator_ArduinoEmulator_checkFrontalObstacle_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.checkFrontalObstacle*"></a>
+
+  <h3 id="WindowFormRobotEmulator_ArduinoEmulator_checkFrontalObstacle_System_Int32_System_Int32_MainRobot_Common_RPoint_" data-uid="WindowFormRobotEmulator.ArduinoEmulator.checkFrontalObstacle(System.Int32,System.Int32,MainRobot.Common.RPoint)">
+  checkFrontalObstacle(int, int, RPoint?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (string? obs, bool baffo) checkFrontalObstacle(int distance, int remaingDistance, RPoint? point = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>distance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>remaingDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <a class="xref" href="MainRobot.Common.RPoint.html">RPoint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean-.obs">obs</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean-.baffo">baffo</a>)</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
