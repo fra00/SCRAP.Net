@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Http.RestApiClient
+  commentId: T:MainRobot.Http.RestApiClient
+  id: RestApiClient
+  parent: MainRobot.Http
+  children:
+  - MainRobot.Http.RestApiClient.#ctor(System.String)
+  - MainRobot.Http.RestApiClient.SendRequestAsync(System.String,System.String,System.Object)
+  - MainRobot.Http.RestApiClient.addHeader(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RestApiClient
+  nameWithType: RestApiClient
+  fullName: MainRobot.Http.RestApiClient
+  type: Class
+  source:
+    remote:
+      path: Http/RestApiClient.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: RestApiClient
+    path: Http/RestApiClient.cs
+    startLine: 8
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Http
+  syntax:
+    content: public class RestApiClient
+    content.vb: Public Class RestApiClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Http.RestApiClient.#ctor(System.String)
+  commentId: M:MainRobot.Http.RestApiClient.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: MainRobot.Http.RestApiClient
+  langs:
+  - csharp
+  - vb
+  name: RestApiClient(string)
+  nameWithType: RestApiClient.RestApiClient(string)
+  fullName: MainRobot.Http.RestApiClient.RestApiClient(string)
+  type: Constructor
+  source:
+    remote:
+      path: Http/RestApiClient.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: .ctor
+    path: Http/RestApiClient.cs
+    startLine: 13
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Http
+  syntax:
+    content: public RestApiClient(string baseUrl)
+    parameters:
+    - id: baseUrl
+      type: System.String
+    content.vb: Public Sub New(baseUrl As String)
+  overload: MainRobot.Http.RestApiClient.#ctor*
+  nameWithType.vb: RestApiClient.New(String)
+  fullName.vb: MainRobot.Http.RestApiClient.New(String)
+  name.vb: New(String)
+- uid: MainRobot.Http.RestApiClient.addHeader(System.String,System.String)
+  commentId: M:MainRobot.Http.RestApiClient.addHeader(System.String,System.String)
+  id: addHeader(System.String,System.String)
+  parent: MainRobot.Http.RestApiClient
+  langs:
+  - csharp
+  - vb
+  name: addHeader(string, string)
+  nameWithType: RestApiClient.addHeader(string, string)
+  fullName: MainRobot.Http.RestApiClient.addHeader(string, string)
+  type: Method
+  source:
+    remote:
+      path: Http/RestApiClient.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: addHeader
+    path: Http/RestApiClient.cs
+    startLine: 22
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Http
+  syntax:
+    content: public void addHeader(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub addHeader(key As String, value As String)
+  overload: MainRobot.Http.RestApiClient.addHeader*
+  nameWithType.vb: RestApiClient.addHeader(String, String)
+  fullName.vb: MainRobot.Http.RestApiClient.addHeader(String, String)
+  name.vb: addHeader(String, String)
+- uid: MainRobot.Http.RestApiClient.SendRequestAsync(System.String,System.String,System.Object)
+  commentId: M:MainRobot.Http.RestApiClient.SendRequestAsync(System.String,System.String,System.Object)
+  id: SendRequestAsync(System.String,System.String,System.Object)
+  parent: MainRobot.Http.RestApiClient
+  langs:
+  - csharp
+  - vb
+  name: SendRequestAsync(string, string, object)
+  nameWithType: RestApiClient.SendRequestAsync(string, string, object)
+  fullName: MainRobot.Http.RestApiClient.SendRequestAsync(string, string, object)
+  type: Method
+  source:
+    remote:
+      path: Http/RestApiClient.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: SendRequestAsync
+    path: Http/RestApiClient.cs
+    startLine: 27
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Http
+  syntax:
+    content: public Task<HttpResponseMessage> SendRequestAsync(string method, string url, object data = null)
+    parameters:
+    - id: method
+      type: System.String
+    - id: url
+      type: System.String
+    - id: data
+      type: System.Object
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Function SendRequestAsync(method As String, url As String, data As Object = Nothing) As Task(Of HttpResponseMessage)
+  overload: MainRobot.Http.RestApiClient.SendRequestAsync*
+  nameWithType.vb: RestApiClient.SendRequestAsync(String, String, Object)
+  fullName.vb: MainRobot.Http.RestApiClient.SendRequestAsync(String, String, Object)
+  name.vb: SendRequestAsync(String, String, Object)
+references:
+- uid: MainRobot.Http
+  commentId: N:MainRobot.Http
+  href: MainRobot.html
+  name: MainRobot.Http
+  nameWithType: MainRobot.Http
+  fullName: MainRobot.Http
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Http
+    name: Http
+    href: MainRobot.Http.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Http
+    name: Http
+    href: MainRobot.Http.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Http.RestApiClient.#ctor*
+  commentId: Overload:MainRobot.Http.RestApiClient.#ctor
+  href: MainRobot.Http.RestApiClient.html#MainRobot_Http_RestApiClient__ctor_System_String_
+  name: RestApiClient
+  nameWithType: RestApiClient.RestApiClient
+  fullName: MainRobot.Http.RestApiClient.RestApiClient
+  nameWithType.vb: RestApiClient.New
+  fullName.vb: MainRobot.Http.RestApiClient.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MainRobot.Http.RestApiClient.addHeader*
+  commentId: Overload:MainRobot.Http.RestApiClient.addHeader
+  href: MainRobot.Http.RestApiClient.html#MainRobot_Http_RestApiClient_addHeader_System_String_System_String_
+  name: addHeader
+  nameWithType: RestApiClient.addHeader
+  fullName: MainRobot.Http.RestApiClient.addHeader
+- uid: MainRobot.Http.RestApiClient.SendRequestAsync*
+  commentId: Overload:MainRobot.Http.RestApiClient.SendRequestAsync
+  href: MainRobot.Http.RestApiClient.html#MainRobot_Http_RestApiClient_SendRequestAsync_System_String_System_String_System_Object_
+  name: SendRequestAsync
+  nameWithType: RestApiClient.SendRequestAsync
+  fullName: MainRobot.Http.RestApiClient.SendRequestAsync
+- uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  commentId: T:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<HttpResponseMessage>
+  nameWithType: Task<HttpResponseMessage>
+  fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+  nameWithType.vb: Task(Of HttpResponseMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)
+  name.vb: Task(Of HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

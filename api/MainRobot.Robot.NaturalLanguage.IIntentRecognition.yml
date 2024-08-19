@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.NaturalLanguage.IIntentRecognition
+  commentId: T:MainRobot.Robot.NaturalLanguage.IIntentRecognition
+  id: IIntentRecognition
+  parent: MainRobot.Robot.NaturalLanguage
+  children:
+  - MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init
+  - MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IIntentRecognition
+  nameWithType: IIntentRecognition
+  fullName: MainRobot.Robot.NaturalLanguage.IIntentRecognition
+  type: Interface
+  source:
+    remote:
+      path: Robot/NaturalLanguage/IIntentRecognition.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IIntentRecognition
+    path: Robot/NaturalLanguage/IIntentRecognition.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.NaturalLanguage
+  syntax:
+    content: public interface IIntentRecognition
+    content.vb: Public Interface IIntentRecognition
+- uid: MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init
+  commentId: M:MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init
+  id: Init
+  parent: MainRobot.Robot.NaturalLanguage.IIntentRecognition
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: IIntentRecognition.Init()
+  fullName: MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init()
+  type: Method
+  source:
+    remote:
+      path: Robot/NaturalLanguage/IIntentRecognition.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Init
+    path: Robot/NaturalLanguage/IIntentRecognition.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.NaturalLanguage
+  syntax:
+    content: void Init()
+    content.vb: Sub Init()
+  overload: MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init*
+- uid: MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent(System.String)
+  commentId: M:MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent(System.String)
+  id: ProcessIntent(System.String)
+  parent: MainRobot.Robot.NaturalLanguage.IIntentRecognition
+  langs:
+  - csharp
+  - vb
+  name: ProcessIntent(string)
+  nameWithType: IIntentRecognition.ProcessIntent(string)
+  fullName: MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent(string)
+  type: Method
+  source:
+    remote:
+      path: Robot/NaturalLanguage/IIntentRecognition.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ProcessIntent
+    path: Robot/NaturalLanguage/IIntentRecognition.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.NaturalLanguage
+  syntax:
+    content: Task<List<IntentData>> ProcessIntent(string sentence)
+    parameters:
+    - id: sentence
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData}}
+    content.vb: Function ProcessIntent(sentence As String) As Task(Of List(Of IntentData))
+  overload: MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent*
+  nameWithType.vb: IIntentRecognition.ProcessIntent(String)
+  fullName.vb: MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent(String)
+  name.vb: ProcessIntent(String)
+references:
+- uid: MainRobot.Robot.NaturalLanguage
+  commentId: N:MainRobot.Robot.NaturalLanguage
+  href: MainRobot.html
+  name: MainRobot.Robot.NaturalLanguage
+  nameWithType: MainRobot.Robot.NaturalLanguage
+  fullName: MainRobot.Robot.NaturalLanguage
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.NaturalLanguage
+    name: NaturalLanguage
+    href: MainRobot.Robot.NaturalLanguage.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.NaturalLanguage
+    name: NaturalLanguage
+    href: MainRobot.Robot.NaturalLanguage.html
+- uid: MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init*
+  commentId: Overload:MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init
+  href: MainRobot.Robot.NaturalLanguage.IIntentRecognition.html#MainRobot_Robot_NaturalLanguage_IIntentRecognition_Init
+  name: Init
+  nameWithType: IIntentRecognition.Init
+  fullName: MainRobot.Robot.NaturalLanguage.IIntentRecognition.Init
+- uid: MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent*
+  commentId: Overload:MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent
+  href: MainRobot.Robot.NaturalLanguage.IIntentRecognition.html#MainRobot_Robot_NaturalLanguage_IIntentRecognition_ProcessIntent_System_String_
+  name: ProcessIntent
+  nameWithType: IIntentRecognition.ProcessIntent
+  fullName: MainRobot.Robot.NaturalLanguage.IIntentRecognition.ProcessIntent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<IntentData>>
+  nameWithType: Task<List<IntentData>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData>>
+  nameWithType.vb: Task(Of List(Of IntentData))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData))
+  name.vb: Task(Of List(Of IntentData))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData
+    name: IntentData
+    href: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData
+    name: IntentData
+    href: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData.html
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

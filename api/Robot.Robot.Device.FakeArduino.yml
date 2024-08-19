@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Robot.Robot.Device.FakeArduino
+  commentId: N:Robot.Robot.Device.FakeArduino
+  id: Robot.Robot.Device.FakeArduino
+  children:
+  - Robot.Robot.Device.FakeArduino.FakeArduino
+  - Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  - Robot.Robot.Device.FakeArduino.IFakeArduino
+  - Robot.Robot.Device.FakeArduino.StatusRobotArdu
+  langs:
+  - csharp
+  - vb
+  name: Robot.Robot.Device.FakeArduino
+  nameWithType: Robot.Robot.Device.FakeArduino
+  fullName: Robot.Robot.Device.FakeArduino
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: Robot.Robot.Device.FakeArduino.FakeArduino
+  commentId: T:Robot.Robot.Device.FakeArduino.FakeArduino
+  href: Robot.Robot.Device.FakeArduino.FakeArduino.html
+  name: FakeArduino
+  nameWithType: FakeArduino
+  fullName: Robot.Robot.Device.FakeArduino.FakeArduino
+- uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  commentId: T:Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+  href: Robot.Robot.Device.FakeArduino.FakeRemoteArduino.html
+  name: FakeRemoteArduino
+  nameWithType: FakeRemoteArduino
+  fullName: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino
+  commentId: T:Robot.Robot.Device.FakeArduino.IFakeArduino
+  parent: Robot.Robot.Device.FakeArduino
+  href: Robot.Robot.Device.FakeArduino.IFakeArduino.html
+  name: IFakeArduino
+  nameWithType: IFakeArduino
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino
+- uid: Robot.Robot.Device.FakeArduino.StatusRobotArdu
+  commentId: T:Robot.Robot.Device.FakeArduino.StatusRobotArdu
+  href: Robot.Robot.Device.FakeArduino.StatusRobotArdu.html
+  name: StatusRobotArdu
+  nameWithType: StatusRobotArdu
+  fullName: Robot.Robot.Device.FakeArduino.StatusRobotArdu
+- uid: Robot.Robot.Device.FakeArduino
+  commentId: N:Robot.Robot.Device.FakeArduino
+  href: Robot.html
+  name: Robot.Robot.Device.FakeArduino
+  nameWithType: Robot.Robot.Device.FakeArduino
+  fullName: Robot.Robot.Device.FakeArduino
+  spec.csharp:
+  - uid: Robot
+    name: Robot
+    href: Robot.html
+  - name: .
+  - uid: Robot.Robot
+    name: Robot
+    href: Robot.Robot.html
+  - name: .
+  - uid: Robot.Robot.Device
+    name: Device
+    href: Robot.Robot.Device.html
+  - name: .
+  - uid: Robot.Robot.Device.FakeArduino
+    name: FakeArduino
+    href: Robot.Robot.Device.FakeArduino.html
+  spec.vb:
+  - uid: Robot
+    name: Robot
+    href: Robot.html
+  - name: .
+  - uid: Robot.Robot
+    name: Robot
+    href: Robot.Robot.html
+  - name: .
+  - uid: Robot.Robot.Device
+    name: Device
+    href: Robot.Robot.Device.html
+  - name: .
+  - uid: Robot.Robot.Device.FakeArduino
+    name: FakeArduino
+    href: Robot.Robot.Device.FakeArduino.html

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Recharge
+  commentId: N:MainRobot.Robot.Navigation.Recharge
+  id: MainRobot.Robot.Navigation.Recharge
+  children:
+  - MainRobot.Robot.Navigation.Recharge.RechargeManager
+  - MainRobot.Robot.Navigation.Recharge.RechargeNavigation
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Navigation.Recharge
+  nameWithType: MainRobot.Robot.Navigation.Recharge
+  fullName: MainRobot.Robot.Navigation.Recharge
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeManager
+  commentId: T:MainRobot.Robot.Navigation.Recharge.RechargeManager
+  href: MainRobot.Robot.Navigation.Recharge.RechargeManager.html
+  name: RechargeManager
+  nameWithType: RechargeManager
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeManager
+- uid: MainRobot.Robot.Navigation.Recharge.RechargeNavigation
+  commentId: T:MainRobot.Robot.Navigation.Recharge.RechargeNavigation
+  href: MainRobot.Robot.Navigation.Recharge.RechargeNavigation.html
+  name: RechargeNavigation
+  nameWithType: RechargeNavigation
+  fullName: MainRobot.Robot.Navigation.Recharge.RechargeNavigation

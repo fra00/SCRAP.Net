@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot
+  commentId: N:MainRobot
+  id: MainRobot
+  children:
+  - MainRobot.Configuration
+  - MainRobot.Program
+  - MainRobot.RobotConfiguration
+  - MainRobot.ServiceRegistration
+  - MainRobot.StatusFile
+  - MainRobot.StatusLogInfo
+  - MainRobot.StatusRobot
+  langs:
+  - csharp
+  - vb
+  name: MainRobot
+  nameWithType: MainRobot
+  fullName: MainRobot
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Configuration
+  commentId: T:MainRobot.Configuration
+  href: MainRobot.Configuration.html
+  name: Configuration
+  nameWithType: Configuration
+  fullName: MainRobot.Configuration
+- uid: MainRobot.Program
+  commentId: T:MainRobot.Program
+  href: MainRobot.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: MainRobot.Program
+- uid: MainRobot.RobotConfiguration
+  commentId: T:MainRobot.RobotConfiguration
+  href: MainRobot.RobotConfiguration.html
+  name: RobotConfiguration
+  nameWithType: RobotConfiguration
+  fullName: MainRobot.RobotConfiguration
+- uid: MainRobot.ServiceRegistration
+  commentId: T:MainRobot.ServiceRegistration
+  href: MainRobot.ServiceRegistration.html
+  name: ServiceRegistration
+  nameWithType: ServiceRegistration
+  fullName: MainRobot.ServiceRegistration
+- uid: MainRobot.StatusRobot
+  commentId: T:MainRobot.StatusRobot
+  href: MainRobot.StatusRobot.html
+  name: StatusRobot
+  nameWithType: StatusRobot
+  fullName: MainRobot.StatusRobot
+- uid: MainRobot.StatusFile
+  commentId: T:MainRobot.StatusFile
+  parent: MainRobot
+  href: MainRobot.StatusFile.html
+  name: StatusFile
+  nameWithType: StatusFile
+  fullName: MainRobot.StatusFile
+- uid: MainRobot.StatusLogInfo
+  commentId: T:MainRobot.StatusLogInfo
+  href: MainRobot.StatusLogInfo.html
+  name: StatusLogInfo
+  nameWithType: StatusLogInfo
+  fullName: MainRobot.StatusLogInfo
+- uid: MainRobot
+  commentId: N:MainRobot
+  href: MainRobot.html
+  name: MainRobot
+  nameWithType: MainRobot
+  fullName: MainRobot

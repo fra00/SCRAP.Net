@@ -1,0 +1,383 @@
+### YamlMime:TableOfContent
+items:
+- uid: MainRobot
+  name: MainRobot
+  items:
+  - uid: MainRobot.Configuration
+    name: Configuration
+  - uid: MainRobot.Program
+    name: Program
+  - uid: MainRobot.RobotConfiguration
+    name: RobotConfiguration
+  - uid: MainRobot.ServiceRegistration
+    name: ServiceRegistration
+  - uid: MainRobot.StatusFile
+    name: StatusFile
+  - uid: MainRobot.StatusLogInfo
+    name: StatusLogInfo
+  - uid: MainRobot.StatusRobot
+    name: StatusRobot
+- uid: MainRobot.Common
+  name: MainRobot.Common
+  items:
+  - uid: MainRobot.Common.Location
+    name: Location
+  - uid: MainRobot.Common.MathUtil
+    name: MathUtil
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+- uid: MainRobot.Common.Graphics
+  name: MainRobot.Common.Graphics
+  items:
+  - uid: MainRobot.Common.Graphics.ImageUtility
+    name: ImageUtility
+- uid: MainRobot.Http
+  name: MainRobot.Http
+  items:
+  - uid: MainRobot.Http.HttpMethodAttribute
+    name: HttpMethodAttribute
+  - uid: MainRobot.Http.HttpServer
+    name: HttpServer
+  - uid: MainRobot.Http.RestApiClient
+    name: RestApiClient
+  - uid: MainRobot.Http.SerializationMiddleware
+    name: SerializationMiddleware
+- uid: MainRobot.NaturalLanguage.SpacyNet
+  name: MainRobot.NaturalLanguage.SpacyNet
+  items:
+  - uid: MainRobot.NaturalLanguage.SpacyNet.IntentRecognition
+    name: IntentRecognition
+  - uid: MainRobot.NaturalLanguage.SpacyNet.Vocabulary
+    name: Vocabulary
+- uid: MainRobot.Robot
+  name: MainRobot.Robot
+  items:
+  - uid: MainRobot.Robot.IRobot
+    name: IRobot
+  - uid: MainRobot.Robot.LogFileForEmulator
+    name: LogFileForEmulator
+  - uid: MainRobot.Robot.Robot
+    name: Robot
+- uid: MainRobot.Robot.ActionExec
+  name: MainRobot.Robot.ActionExec
+  items:
+  - uid: MainRobot.Robot.ActionExec.ActionExec
+    name: ActionExec
+  - uid: MainRobot.Robot.ActionExec.GeneratedText
+    name: GeneratedText
+  - uid: MainRobot.Robot.ActionExec.IActionExec
+    name: IActionExec
+  - uid: MainRobot.Robot.ActionExec.ILLMRestCall
+    name: ILLMRestCall
+  - uid: MainRobot.Robot.ActionExec.InputsImage
+    name: InputsImage
+  - uid: MainRobot.Robot.ActionExec.LLMHFCall
+    name: LLMHFCall
+  - uid: MainRobot.Robot.ActionExec.LLMHFImageToTextCall
+    name: LLMHFImageToTextCall
+  - uid: MainRobot.Robot.ActionExec.LLMHFInput
+    name: LLMHFInput
+  - uid: MainRobot.Robot.ActionExec.LLMHFInputImage
+    name: LLMHFInputImage
+  - uid: MainRobot.Robot.ActionExec.LLMHFParameters
+    name: LLMHFParameters
+  - uid: MainRobot.Robot.ActionExec.LLMRestCall
+    name: LLMRestCall
+  - uid: MainRobot.Robot.ActionExec.ResultAction
+    name: ResultAction
+- uid: MainRobot.Robot.ActionExec.LLM
+  name: MainRobot.Robot.ActionExec.LLM
+  items:
+  - uid: MainRobot.Robot.ActionExec.LLM.LLMIntentRecognition
+    name: LLMIntentRecognition
+  - uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponse
+    name: LlmStudioResponse
+  - uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseChoiche
+    name: LlmStudioResponseChoiche
+  - uid: MainRobot.Robot.ActionExec.LLM.LlmStudioResponseMessage
+    name: LlmStudioResponseMessage
+- uid: MainRobot.Robot.Battery
+  name: MainRobot.Robot.Battery
+  items:
+  - uid: MainRobot.Robot.Battery.BatteryManager
+    name: BatteryManager
+  - uid: MainRobot.Robot.Battery.IBatteryManager
+    name: IBatteryManager
+- uid: MainRobot.Robot.Comunication
+  name: MainRobot.Robot.Comunication
+  items:
+  - uid: MainRobot.Robot.Comunication.CommandComunication
+    name: CommandComunication
+  - uid: MainRobot.Robot.Comunication.CommandQueue
+    name: CommandQueue
+- uid: MainRobot.Robot.Comunication.ComunicationTransport
+  name: MainRobot.Robot.Comunication.ComunicationTransport
+  items:
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpComunication
+    name: HttpComunication
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.IComunication
+    name: IComunication
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.SerialComunication
+    name: SerialComunication
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  name: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  items:
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.FakeHttpClientComunication
+    name: FakeHttpClientComunication
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.HttpClientComunication
+    name: HttpClientComunication
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication
+    name: IHttpClientComunication
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.TcpClientComunication
+    name: TcpClientComunication
+- uid: MainRobot.Robot.Comunication.Interface
+  name: MainRobot.Robot.Comunication.Interface
+  items:
+  - uid: MainRobot.Robot.Comunication.Interface.ICommandComunication
+    name: ICommandComunication
+  - uid: MainRobot.Robot.Comunication.Interface.ICommandQueue
+    name: ICommandQueue
+- uid: MainRobot.Robot.Comunication.Model
+  name: MainRobot.Robot.Comunication.Model
+  items:
+  - uid: MainRobot.Robot.Comunication.Model.ComunicationCommand
+    name: ComunicationCommand
+  - uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+    name: ComunicationCommandReceived
+  - uid: MainRobot.Robot.Comunication.Model.ResponseSerialForward
+    name: ResponseSerialForward
+- uid: MainRobot.Robot.Comunication.WebSocketTransport
+  name: MainRobot.Robot.Comunication.WebSocketTransport
+  items:
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.ActionType
+    name: ActionType
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.IWebSocketCommand
+    name: IWebSocketCommand
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketCommand
+    name: WebSocketCommand
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketHandler
+    name: WebSocketHandler
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+    name: WebSocketOutputData
+- uid: MainRobot.Robot.ControllerWeb
+  name: MainRobot.Robot.ControllerWeb
+  items:
+  - uid: MainRobot.Robot.ControllerWeb.NavigationWebController
+    name: NavigationWebController
+- uid: MainRobot.Robot.CustomException
+  name: MainRobot.Robot.CustomException
+  items:
+  - uid: MainRobot.Robot.CustomException.ExceptionRunCommand
+    name: ExceptionRunCommand
+- uid: MainRobot.Robot.Device
+  name: MainRobot.Robot.Device
+  items:
+  - uid: MainRobot.Robot.Device.FakeSerial
+    name: FakeSerial
+  - uid: MainRobot.Robot.Device.ISerial
+    name: ISerial
+  - uid: MainRobot.Robot.Device.Serial
+    name: Serial
+- uid: MainRobot.Robot.Device.IpCam
+  name: MainRobot.Robot.Device.IpCam
+  items:
+  - uid: MainRobot.Robot.Device.IpCam.FakeIpCam
+    name: FakeIpCam
+  - uid: MainRobot.Robot.Device.IpCam.IIpCam
+    name: IIpCam
+  - uid: MainRobot.Robot.Device.IpCam.IpCam
+    name: IpCam
+- uid: MainRobot.Robot.Device.Lidar
+  name: MainRobot.Robot.Device.Lidar
+  items:
+  - uid: MainRobot.Robot.Device.Lidar.ILidarManager
+    name: ILidarManager
+  - uid: MainRobot.Robot.Device.Lidar.LidarManager
+    name: LidarManager
+  - uid: MainRobot.Robot.Device.Lidar.LidarUtility
+    name: LidarUtility
+  - uid: MainRobot.Robot.Device.Lidar.LinesInfo
+    name: LinesInfo
+- uid: MainRobot.Robot.LLM.HuggingFace
+  name: MainRobot.Robot.LLM.HuggingFace
+  items:
+  - uid: MainRobot.Robot.LLM.HuggingFace.LLLMApiCall
+    name: LLLMApiCall
+  - uid: MainRobot.Robot.LLM.HuggingFace.LLMHuggingFace
+    name: LLMHuggingFace
+- uid: MainRobot.Robot.NaturalLanguage
+  name: MainRobot.Robot.NaturalLanguage
+  items:
+  - uid: MainRobot.Robot.NaturalLanguage.IIntentRecognition
+    name: IIntentRecognition
+  - uid: MainRobot.Robot.NaturalLanguage.IntentDefinition
+    name: IntentDefinition
+- uid: MainRobot.Robot.NaturalLanguage.Intent
+  name: MainRobot.Robot.NaturalLanguage.Intent
+  items:
+  - uid: MainRobot.Robot.NaturalLanguage.Intent.IntentGoto
+    name: IntentGoto
+  - uid: MainRobot.Robot.NaturalLanguage.Intent.IntentMove
+    name: IntentMove
+  - uid: MainRobot.Robot.NaturalLanguage.Intent.IntentSpeech
+    name: IntentSpeech
+- uid: MainRobot.Robot.NaturalLanguage.SpacyNet
+  name: MainRobot.Robot.NaturalLanguage.SpacyNet
+  items:
+  - uid: MainRobot.Robot.NaturalLanguage.SpacyNet.IntentData
+    name: IntentData
+- uid: MainRobot.Robot.Navigation
+  name: MainRobot.Robot.Navigation
+  items:
+  - uid: MainRobot.Robot.Navigation.Movement
+    name: Movement
+  - uid: MainRobot.Robot.Navigation.Navigation
+    name: Navigation
+  - uid: MainRobot.Robot.Navigation.NavigationMover
+    name: NavigationMover
+  - uid: MainRobot.Robot.Navigation.PathFinding
+    name: PathFinding
+- uid: MainRobot.Robot.Navigation.Astar
+  name: MainRobot.Robot.Navigation.Astar
+  items:
+  - uid: MainRobot.Robot.Navigation.Astar.Astar
+    name: Astar
+  - uid: MainRobot.Robot.Navigation.Astar.IAstar
+    name: IAstar
+  - uid: MainRobot.Robot.Navigation.Astar.Path
+    name: Path
+  - uid: MainRobot.Robot.Navigation.Astar.PointPath
+    name: PointPath
+  - uid: MainRobot.Robot.Navigation.Astar.TempObstacle
+    name: TempObstacle
+  - uid: MainRobot.Robot.Navigation.Astar.Weight
+    name: Weight
+- uid: MainRobot.Robot.Navigation.Helpers
+  name: MainRobot.Robot.Navigation.Helpers
+  items:
+  - uid: MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall
+    name: HelperInvisibleWall
+  - uid: MainRobot.Robot.Navigation.Helpers.IHelperInvisibleWall
+    name: IHelperInvisibleWall
+- uid: MainRobot.Robot.Navigation.Interface
+  name: MainRobot.Robot.Navigation.Interface
+  items:
+  - uid: MainRobot.Robot.Navigation.Interface.IMovement
+    name: IMovement
+  - uid: MainRobot.Robot.Navigation.Interface.INavigation
+    name: INavigation
+  - uid: MainRobot.Robot.Navigation.Interface.INavigationMover
+    name: INavigationMover
+  - uid: MainRobot.Robot.Navigation.Interface.IPathFinding
+    name: IPathFinding
+- uid: MainRobot.Robot.Navigation.Model
+  name: MainRobot.Robot.Navigation.Model
+  items:
+  - uid: MainRobot.Robot.Navigation.Model.DoMovimentEndModel
+    name: DoMovimentEndModel
+  - uid: MainRobot.Robot.Navigation.Model.EndMovModel
+    name: EndMovModel
+- uid: MainRobot.Robot.Navigation.Recharge
+  name: MainRobot.Robot.Navigation.Recharge
+  items:
+  - uid: MainRobot.Robot.Navigation.Recharge.RechargeManager
+    name: RechargeManager
+  - uid: MainRobot.Robot.Navigation.Recharge.RechargeNavigation
+    name: RechargeNavigation
+- uid: MainRobot.Robot.Navigation.Recharge.Interface
+  name: MainRobot.Robot.Navigation.Recharge.Interface
+  items:
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeManager
+    name: IRechargeManager
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+    name: IRechargeNavigation
+- uid: MainRobot.Robot.Room
+  name: MainRobot.Robot.Room
+  items:
+  - uid: MainRobot.Robot.Room.IRoomInfo
+    name: IRoomInfo
+  - uid: MainRobot.Robot.Room.RoomInfo
+    name: RoomInfo
+- uid: MainRobot.Robot.WebSocket
+  name: MainRobot.Robot.WebSocket
+  items:
+  - uid: MainRobot.Robot.WebSocket.RobotWebSocketHandler
+    name: RobotWebSocketHandler
+- uid: MainRobot.TTS
+  name: MainRobot.TTS
+  items:
+  - uid: MainRobot.TTS.ITextToSpeach
+    name: ITextToSpeach
+  - uid: MainRobot.TTS.TextToSpeach
+    name: TextToSpeach
+- uid: MainRobot.WebSocketServer
+  name: MainRobot.WebSocketServer
+  items:
+  - uid: MainRobot.WebSocketServer.IWebSocketServer
+    name: IWebSocketServer
+  - uid: MainRobot.WebSocketServer.WebSocketServer
+    name: WebSocketServer
+- uid: Robot.Common
+  name: Robot.Common
+  items:
+  - uid: Robot.Common.CommandJson
+    name: CommandJson
+- uid: Robot.Common.IO
+  name: Robot.Common.IO
+  items:
+  - uid: Robot.Common.IO.FileMonitor`1
+    name: FileMonitor<T>
+  - uid: Robot.Common.IO.FileMonitor`1.FileChangedEventHandler
+    name: FileMonitor<T>.FileChangedEventHandler
+- uid: Robot.Robot.Device.FakeArduino
+  name: Robot.Robot.Device.FakeArduino
+  items:
+  - uid: Robot.Robot.Device.FakeArduino.FakeArduino
+    name: FakeArduino
+  - uid: Robot.Robot.Device.FakeArduino.FakeRemoteArduino
+    name: FakeRemoteArduino
+  - uid: Robot.Robot.Device.FakeArduino.IFakeArduino
+    name: IFakeArduino
+  - uid: Robot.Robot.Device.FakeArduino.StatusRobotArdu
+    name: StatusRobotArdu
+- uid: Robot.Test
+  name: Robot.Test
+  items:
+  - uid: Robot.Test.AstarTest
+    name: AstarTest
+  - uid: Robot.Test.ComunicationTest
+    name: ComunicationTest
+  - uid: Robot.Test.ImageUtilityTest
+    name: ImageUtilityTest
+  - uid: Robot.Test.IpCamTest
+    name: IpCamTest
+  - uid: Robot.Test.MathUtilityTest
+    name: MathUtilityTest
+  - uid: Robot.Test.MovementTest
+    name: MovementTest
+  - uid: Robot.Test.NavigationRecharge
+    name: NavigationRecharge
+  - uid: Robot.Test.NavigationTest
+    name: NavigationTest
+- uid: WinFormsApp1
+  name: WinFormsApp1
+  items:
+  - uid: WinFormsApp1.Form1
+    name: Form1
+- uid: WindowFormRobotEmulator
+  name: WindowFormRobotEmulator
+  items:
+  - uid: WindowFormRobotEmulator.ArduinoEmulator
+    name: ArduinoEmulator
+  - uid: WindowFormRobotEmulator.ControlMove
+    name: ControlMove
+  - uid: WindowFormRobotEmulator.IdeLidar
+    name: IdeLidar
+  - uid: WindowFormRobotEmulator.Info
+    name: Info
+- uid: WindowFormRobotEmulatorTest
+  name: WindowFormRobotEmulatorTest
+  items:
+  - uid: WindowFormRobotEmulatorTest.Tests
+    name: Tests
+memberLayout: SamePage

@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.WebSocketServer.IWebSocketServer
+  commentId: T:MainRobot.WebSocketServer.IWebSocketServer
+  id: IWebSocketServer
+  parent: MainRobot.WebSocketServer
+  children:
+  - MainRobot.WebSocketServer.IWebSocketServer.Connected
+  - MainRobot.WebSocketServer.IWebSocketServer.Echo
+  - MainRobot.WebSocketServer.IWebSocketServer.Init
+  - MainRobot.WebSocketServer.IWebSocketServer.SendAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  - MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  - MainRobot.WebSocketServer.IWebSocketServer.SetHandler(IWebSocketHandler)
+  langs:
+  - csharp
+  - vb
+  name: IWebSocketServer
+  nameWithType: IWebSocketServer
+  fullName: MainRobot.WebSocketServer.IWebSocketServer
+  type: Interface
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IWebSocketServer
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: public interface IWebSocketServer
+    content.vb: Public Interface IWebSocketServer
+- uid: MainRobot.WebSocketServer.IWebSocketServer.Init
+  commentId: M:MainRobot.WebSocketServer.IWebSocketServer.Init
+  id: Init
+  parent: MainRobot.WebSocketServer.IWebSocketServer
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: IWebSocketServer.Init()
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.Init()
+  type: Method
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Init
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 11
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: Task Init()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Init() As Task
+  overload: MainRobot.WebSocketServer.IWebSocketServer.Init*
+- uid: MainRobot.WebSocketServer.IWebSocketServer.SendAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  commentId: M:MainRobot.WebSocketServer.IWebSocketServer.SendAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  id: SendAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  parent: MainRobot.WebSocketServer.IWebSocketServer
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(WebSocketOutputData)
+  nameWithType: IWebSocketServer.SendAsync(WebSocketOutputData)
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.SendAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  type: Method
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: SendAsync
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 12
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: Task SendAsync(WebSocketOutputData outputdata)
+    parameters:
+    - id: outputdata
+      type: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SendAsync(outputdata As WebSocketOutputData) As Task
+  overload: MainRobot.WebSocketServer.IWebSocketServer.SendAsync*
+- uid: MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  commentId: M:MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  id: SendWithResponseAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  parent: MainRobot.WebSocketServer.IWebSocketServer
+  langs:
+  - csharp
+  - vb
+  name: SendWithResponseAsync(WebSocketOutputData)
+  nameWithType: IWebSocketServer.SendWithResponseAsync(WebSocketOutputData)
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync(MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData)
+  type: Method
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: SendWithResponseAsync
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 13
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: Task<string?> SendWithResponseAsync(WebSocketOutputData message)
+    parameters:
+    - id: message
+      type: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function SendWithResponseAsync(message As WebSocketOutputData) As Task(Of String)
+  overload: MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync*
+- uid: MainRobot.WebSocketServer.IWebSocketServer.Echo
+  commentId: M:MainRobot.WebSocketServer.IWebSocketServer.Echo
+  id: Echo
+  parent: MainRobot.WebSocketServer.IWebSocketServer
+  langs:
+  - csharp
+  - vb
+  name: Echo()
+  nameWithType: IWebSocketServer.Echo()
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.Echo()
+  type: Method
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Echo
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 14
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: Task Echo()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Echo() As Task
+  overload: MainRobot.WebSocketServer.IWebSocketServer.Echo*
+- uid: MainRobot.WebSocketServer.IWebSocketServer.Connected
+  commentId: M:MainRobot.WebSocketServer.IWebSocketServer.Connected
+  id: Connected
+  parent: MainRobot.WebSocketServer.IWebSocketServer
+  langs:
+  - csharp
+  - vb
+  name: Connected()
+  nameWithType: IWebSocketServer.Connected()
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.Connected()
+  type: Method
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Connected
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 15
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: bool Connected()
+    return:
+      type: System.Boolean
+    content.vb: Function Connected() As Boolean
+  overload: MainRobot.WebSocketServer.IWebSocketServer.Connected*
+- uid: MainRobot.WebSocketServer.IWebSocketServer.SetHandler(IWebSocketHandler)
+  commentId: M:MainRobot.WebSocketServer.IWebSocketServer.SetHandler(IWebSocketHandler)
+  id: SetHandler(IWebSocketHandler)
+  parent: MainRobot.WebSocketServer.IWebSocketServer
+  langs:
+  - csharp
+  - vb
+  name: SetHandler(IWebSocketHandler)
+  nameWithType: IWebSocketServer.SetHandler(IWebSocketHandler)
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.SetHandler(IWebSocketHandler)
+  type: Method
+  source:
+    remote:
+      path: WebSocketServer/IWebSocketServer.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: SetHandler
+    path: WebSocketServer/IWebSocketServer.cs
+    startLine: 16
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.WebSocketServer
+  syntax:
+    content: void SetHandler(IWebSocketHandler handler)
+    parameters:
+    - id: handler
+      type: IWebSocketHandler
+    content.vb: Sub SetHandler(handler As IWebSocketHandler)
+  overload: MainRobot.WebSocketServer.IWebSocketServer.SetHandler*
+references:
+- uid: MainRobot.WebSocketServer
+  commentId: N:MainRobot.WebSocketServer
+  href: MainRobot.html
+  name: MainRobot.WebSocketServer
+  nameWithType: MainRobot.WebSocketServer
+  fullName: MainRobot.WebSocketServer
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.WebSocketServer
+    name: WebSocketServer
+    href: MainRobot.WebSocketServer.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.WebSocketServer
+    name: WebSocketServer
+    href: MainRobot.WebSocketServer.html
+- uid: MainRobot.WebSocketServer.IWebSocketServer.Init*
+  commentId: Overload:MainRobot.WebSocketServer.IWebSocketServer.Init
+  href: MainRobot.WebSocketServer.IWebSocketServer.html#MainRobot_WebSocketServer_IWebSocketServer_Init
+  name: Init
+  nameWithType: IWebSocketServer.Init
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.Init
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.WebSocketServer.IWebSocketServer.SendAsync*
+  commentId: Overload:MainRobot.WebSocketServer.IWebSocketServer.SendAsync
+  href: MainRobot.WebSocketServer.IWebSocketServer.html#MainRobot_WebSocketServer_IWebSocketServer_SendAsync_MainRobot_Robot_Comunication_WebSocketTransport_WebSocketOutputData_
+  name: SendAsync
+  nameWithType: IWebSocketServer.SendAsync
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.SendAsync
+- uid: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  commentId: T:MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+  parent: MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData.html
+  name: WebSocketOutputData
+  nameWithType: WebSocketOutputData
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport.WebSocketOutputData
+- uid: MainRobot.Robot.Comunication.WebSocketTransport
+  commentId: N:MainRobot.Robot.Comunication.WebSocketTransport
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.WebSocketTransport
+  nameWithType: MainRobot.Robot.Comunication.WebSocketTransport
+  fullName: MainRobot.Robot.Comunication.WebSocketTransport
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport
+    name: WebSocketTransport
+    href: MainRobot.Robot.Comunication.WebSocketTransport.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.WebSocketTransport
+    name: WebSocketTransport
+    href: MainRobot.Robot.Comunication.WebSocketTransport.html
+- uid: MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync*
+  commentId: Overload:MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync
+  href: MainRobot.WebSocketServer.IWebSocketServer.html#MainRobot_WebSocketServer_IWebSocketServer_SendWithResponseAsync_MainRobot_Robot_Comunication_WebSocketTransport_WebSocketOutputData_
+  name: SendWithResponseAsync
+  nameWithType: IWebSocketServer.SendWithResponseAsync
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.SendWithResponseAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: MainRobot.WebSocketServer.IWebSocketServer.Echo*
+  commentId: Overload:MainRobot.WebSocketServer.IWebSocketServer.Echo
+  href: MainRobot.WebSocketServer.IWebSocketServer.html#MainRobot_WebSocketServer_IWebSocketServer_Echo
+  name: Echo
+  nameWithType: IWebSocketServer.Echo
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.Echo
+- uid: MainRobot.WebSocketServer.IWebSocketServer.Connected*
+  commentId: Overload:MainRobot.WebSocketServer.IWebSocketServer.Connected
+  href: MainRobot.WebSocketServer.IWebSocketServer.html#MainRobot_WebSocketServer_IWebSocketServer_Connected
+  name: Connected
+  nameWithType: IWebSocketServer.Connected
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.Connected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.WebSocketServer.IWebSocketServer.SetHandler*
+  commentId: Overload:MainRobot.WebSocketServer.IWebSocketServer.SetHandler
+  href: MainRobot.WebSocketServer.IWebSocketServer.html#MainRobot_WebSocketServer_IWebSocketServer_SetHandler_IWebSocketHandler_
+  name: SetHandler
+  nameWithType: IWebSocketServer.SetHandler
+  fullName: MainRobot.WebSocketServer.IWebSocketServer.SetHandler
+- uid: IWebSocketHandler
+  commentId: T:IWebSocketHandler
+  href: IWebSocketHandler.html
+  name: IWebSocketHandler
+  nameWithType: IWebSocketHandler
+  fullName: IWebSocketHandler

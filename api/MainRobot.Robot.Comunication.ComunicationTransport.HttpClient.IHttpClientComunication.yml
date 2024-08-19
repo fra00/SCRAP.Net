@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication
+  commentId: T:MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication
+  id: IHttpClientComunication
+  parent: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  children:
+  - MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IHttpClientComunication
+  nameWithType: IHttpClientComunication
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication
+  type: Interface
+  source:
+    remote:
+      path: Robot/Comunication/ComunicationTransport/HttpClient/IHttpClientComunication.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IHttpClientComunication
+    path: Robot/Comunication/ComunicationTransport/HttpClient/IHttpClientComunication.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  syntax:
+    content: public interface IHttpClientComunication
+    content.vb: Public Interface IHttpClientComunication
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync(System.String)
+  commentId: M:MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync(System.String)
+  id: SendAsync(System.String)
+  parent: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(string)
+  nameWithType: IHttpClientComunication.SendAsync(string)
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync(string)
+  type: Method
+  source:
+    remote:
+      path: Robot/Comunication/ComunicationTransport/HttpClient/IHttpClientComunication.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: SendAsync
+    path: Robot/Comunication/ComunicationTransport/HttpClient/IHttpClientComunication.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  syntax:
+    content: Task<string> SendAsync(string command)
+    parameters:
+    - id: command
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function SendAsync(command As String) As Task(Of String)
+  overload: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync*
+  nameWithType.vb: IHttpClientComunication.SendAsync(String)
+  fullName.vb: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync(String)
+  name.vb: SendAsync(String)
+references:
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  commentId: N:MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  nameWithType: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport
+    name: ComunicationTransport
+    href: MainRobot.Robot.Comunication.ComunicationTransport.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+    name: HttpClient
+    href: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport
+    name: ComunicationTransport
+    href: MainRobot.Robot.Comunication.ComunicationTransport.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient
+    name: HttpClient
+    href: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.html
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync*
+  commentId: Overload:MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync
+  href: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.html#MainRobot_Robot_Comunication_ComunicationTransport_HttpClient_IHttpClientComunication_SendAsync_System_String_
+  name: SendAsync
+  nameWithType: IHttpClientComunication.SendAsync
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.IHttpClientComunication.SendAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

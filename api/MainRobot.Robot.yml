@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot
+  commentId: N:MainRobot.Robot
+  id: MainRobot.Robot
+  children:
+  - MainRobot.Robot.IRobot
+  - MainRobot.Robot.LogFileForEmulator
+  - MainRobot.Robot.Robot
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot
+  nameWithType: MainRobot.Robot
+  fullName: MainRobot.Robot
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.IRobot
+  commentId: T:MainRobot.Robot.IRobot
+  parent: MainRobot.Robot
+  href: MainRobot.Robot.IRobot.html
+  name: IRobot
+  nameWithType: IRobot
+  fullName: MainRobot.Robot.IRobot
+- uid: MainRobot.Robot.LogFileForEmulator
+  commentId: T:MainRobot.Robot.LogFileForEmulator
+  href: MainRobot.Robot.LogFileForEmulator.html
+  name: LogFileForEmulator
+  nameWithType: LogFileForEmulator
+  fullName: MainRobot.Robot.LogFileForEmulator
+- uid: MainRobot.Robot.Robot
+  commentId: T:MainRobot.Robot.Robot
+  href: MainRobot.Robot.Robot.html
+  name: Robot
+  nameWithType: Robot
+  fullName: MainRobot.Robot.Robot
+- uid: MainRobot.Robot
+  commentId: N:MainRobot.Robot
+  href: MainRobot.html
+  name: MainRobot.Robot
+  nameWithType: MainRobot.Robot
+  fullName: MainRobot.Robot
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html

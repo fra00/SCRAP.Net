@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device.ISerial
+  commentId: T:MainRobot.Robot.Device.ISerial
+  id: ISerial
+  parent: MainRobot.Robot.Device
+  children:
+  - MainRobot.Robot.Device.ISerial.CloseSerial
+  - MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+  - MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  - MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISerial
+  nameWithType: ISerial
+  fullName: MainRobot.Robot.Device.ISerial
+  type: Interface
+  source:
+    remote:
+      path: Robot/Device/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ISerial
+    path: Robot/Device/ISerial.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: public interface ISerial
+    content.vb: Public Interface ISerial
+- uid: MainRobot.Robot.Device.ISerial.CloseSerial
+  commentId: M:MainRobot.Robot.Device.ISerial.CloseSerial
+  id: CloseSerial
+  parent: MainRobot.Robot.Device.ISerial
+  langs:
+  - csharp
+  - vb
+  name: CloseSerial()
+  nameWithType: ISerial.CloseSerial()
+  fullName: MainRobot.Robot.Device.ISerial.CloseSerial()
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: CloseSerial
+    path: Robot/Device/ISerial.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: void CloseSerial()
+    content.vb: Sub CloseSerial()
+  overload: MainRobot.Robot.Device.ISerial.CloseSerial*
+- uid: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+  commentId: M:MainRobot.Robot.Device.ISerial.OpenSerial(System.Action{System.String})
+  id: OpenSerial(System.Action{System.String})
+  parent: MainRobot.Robot.Device.ISerial
+  langs:
+  - csharp
+  - vb
+  name: OpenSerial(Action<string>)
+  nameWithType: ISerial.OpenSerial(Action<string>)
+  fullName: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action<string>)
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: OpenSerial
+    path: Robot/Device/ISerial.cs
+    startLine: 5
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: void OpenSerial(Action<string> dataReceivedHandler)
+    parameters:
+    - id: dataReceivedHandler
+      type: System.Action{System.String}
+    content.vb: Sub OpenSerial(dataReceivedHandler As Action(Of String))
+  overload: MainRobot.Robot.Device.ISerial.OpenSerial*
+  nameWithType.vb: ISerial.OpenSerial(Action(Of String))
+  fullName.vb: MainRobot.Robot.Device.ISerial.OpenSerial(System.Action(Of String))
+  name.vb: OpenSerial(Action(Of String))
+- uid: MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  commentId: M:MainRobot.Robot.Device.ISerial.OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  id: OpenSerialByte(System.String,System.Int32,System.Action{System.Byte[]})
+  parent: MainRobot.Robot.Device.ISerial
+  langs:
+  - csharp
+  - vb
+  name: OpenSerialByte(string, int, Action<byte[]>)
+  nameWithType: ISerial.OpenSerialByte(string, int, Action<byte[]>)
+  fullName: MainRobot.Robot.Device.ISerial.OpenSerialByte(string, int, System.Action<byte[]>)
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: OpenSerialByte
+    path: Robot/Device/ISerial.cs
+    startLine: 6
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: void OpenSerialByte(string serialName, int speed, Action<byte[]> dataReceivedHandler)
+    parameters:
+    - id: serialName
+      type: System.String
+    - id: speed
+      type: System.Int32
+    - id: dataReceivedHandler
+      type: System.Action{System.Byte[]}
+    content.vb: Sub OpenSerialByte(serialName As String, speed As Integer, dataReceivedHandler As Action(Of Byte()))
+  overload: MainRobot.Robot.Device.ISerial.OpenSerialByte*
+  nameWithType.vb: ISerial.OpenSerialByte(String, Integer, Action(Of Byte()))
+  fullName.vb: MainRobot.Robot.Device.ISerial.OpenSerialByte(String, Integer, System.Action(Of Byte()))
+  name.vb: OpenSerialByte(String, Integer, Action(Of Byte()))
+- uid: MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+  commentId: M:MainRobot.Robot.Device.ISerial.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: MainRobot.Robot.Device.ISerial
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string)
+  nameWithType: ISerial.WriteLine(string)
+  fullName: MainRobot.Robot.Device.ISerial.WriteLine(string)
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/ISerial.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: WriteLine
+    path: Robot/Device/ISerial.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device
+  syntax:
+    content: void WriteLine(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub WriteLine(message As String)
+  overload: MainRobot.Robot.Device.ISerial.WriteLine*
+  nameWithType.vb: ISerial.WriteLine(String)
+  fullName.vb: MainRobot.Robot.Device.ISerial.WriteLine(String)
+  name.vb: WriteLine(String)
+references:
+- uid: MainRobot.Robot.Device
+  commentId: N:MainRobot.Robot.Device
+  href: MainRobot.html
+  name: MainRobot.Robot.Device
+  nameWithType: MainRobot.Robot.Device
+  fullName: MainRobot.Robot.Device
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+- uid: MainRobot.Robot.Device.ISerial.CloseSerial*
+  commentId: Overload:MainRobot.Robot.Device.ISerial.CloseSerial
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_CloseSerial
+  name: CloseSerial
+  nameWithType: ISerial.CloseSerial
+  fullName: MainRobot.Robot.Device.ISerial.CloseSerial
+- uid: MainRobot.Robot.Device.ISerial.OpenSerial*
+  commentId: Overload:MainRobot.Robot.Device.ISerial.OpenSerial
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerial_System_Action_System_String__
+  name: OpenSerial
+  nameWithType: ISerial.OpenSerial
+  fullName: MainRobot.Robot.Device.ISerial.OpenSerial
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Device.ISerial.OpenSerialByte*
+  commentId: Overload:MainRobot.Robot.Device.ISerial.OpenSerialByte
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_OpenSerialByte_System_String_System_Int32_System_Action_System_Byte____
+  name: OpenSerialByte
+  nameWithType: ISerial.OpenSerialByte
+  fullName: MainRobot.Robot.Device.ISerial.OpenSerialByte
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Action{System.Byte[]}
+  commentId: T:System.Action{System.Byte[]}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<byte[]>
+  nameWithType: Action<byte[]>
+  fullName: System.Action<byte[]>
+  nameWithType.vb: Action(Of Byte())
+  fullName.vb: System.Action(Of Byte())
+  name.vb: Action(Of Byte())
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: MainRobot.Robot.Device.ISerial.WriteLine*
+  commentId: Overload:MainRobot.Robot.Device.ISerial.WriteLine
+  href: MainRobot.Robot.Device.ISerial.html#MainRobot_Robot_Device_ISerial_WriteLine_System_String_
+  name: WriteLine
+  nameWithType: ISerial.WriteLine
+  fullName: MainRobot.Robot.Device.ISerial.WriteLine

@@ -1,0 +1,607 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo
+  commentId: T:MainRobot.Robot.Device.Lidar.LinesInfo
+  id: LinesInfo
+  parent: MainRobot.Robot.Device.Lidar
+  children:
+  - MainRobot.Robot.Device.Lidar.LinesInfo.Angle
+  - MainRobot.Robot.Device.Lidar.LinesInfo.Intercept
+  - MainRobot.Robot.Device.Lidar.LinesInfo.Points
+  - MainRobot.Robot.Device.Lidar.LinesInfo.Slope
+  langs:
+  - csharp
+  - vb
+  name: LinesInfo
+  nameWithType: LinesInfo
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo
+  type: Class
+  source:
+    remote:
+      path: Robot/Device/Lidar/LidarUtility.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: LinesInfo
+    path: Robot/Device/Lidar/LidarUtility.cs
+    startLine: 10
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: public class LinesInfo
+    content.vb: Public Class LinesInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Slope
+  commentId: P:MainRobot.Robot.Device.Lidar.LinesInfo.Slope
+  id: Slope
+  parent: MainRobot.Robot.Device.Lidar.LinesInfo
+  langs:
+  - csharp
+  - vb
+  name: Slope
+  nameWithType: LinesInfo.Slope
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Slope
+  type: Property
+  source:
+    remote:
+      path: Robot/Device/Lidar/LidarUtility.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Slope
+    path: Robot/Device/Lidar/LidarUtility.cs
+    startLine: 12
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: public double? Slope { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public Property Slope As Double?
+  overload: MainRobot.Robot.Device.Lidar.LinesInfo.Slope*
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Intercept
+  commentId: P:MainRobot.Robot.Device.Lidar.LinesInfo.Intercept
+  id: Intercept
+  parent: MainRobot.Robot.Device.Lidar.LinesInfo
+  langs:
+  - csharp
+  - vb
+  name: Intercept
+  nameWithType: LinesInfo.Intercept
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Intercept
+  type: Property
+  source:
+    remote:
+      path: Robot/Device/Lidar/LidarUtility.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Intercept
+    path: Robot/Device/Lidar/LidarUtility.cs
+    startLine: 13
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: public double? Intercept { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public Property Intercept As Double?
+  overload: MainRobot.Robot.Device.Lidar.LinesInfo.Intercept*
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Angle
+  commentId: P:MainRobot.Robot.Device.Lidar.LinesInfo.Angle
+  id: Angle
+  parent: MainRobot.Robot.Device.Lidar.LinesInfo
+  langs:
+  - csharp
+  - vb
+  name: Angle
+  nameWithType: LinesInfo.Angle
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Angle
+  type: Property
+  source:
+    remote:
+      path: Robot/Device/Lidar/LidarUtility.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Angle
+    path: Robot/Device/Lidar/LidarUtility.cs
+    startLine: 14
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: public double? Angle { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public Property Angle As Double?
+  overload: MainRobot.Robot.Device.Lidar.LinesInfo.Angle*
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Points
+  commentId: P:MainRobot.Robot.Device.Lidar.LinesInfo.Points
+  id: Points
+  parent: MainRobot.Robot.Device.Lidar.LinesInfo
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: LinesInfo.Points
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Points
+  type: Property
+  source:
+    remote:
+      path: Robot/Device/Lidar/LidarUtility.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Points
+    path: Robot/Device/Lidar/LidarUtility.cs
+    startLine: 15
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.Lidar
+  syntax:
+    content: public IEnumerable<RPoint> Points { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint}
+    content.vb: Public Property Points As IEnumerable(Of RPoint)
+  overload: MainRobot.Robot.Device.Lidar.LinesInfo.Points*
+references:
+- uid: MainRobot.Robot.Device.Lidar
+  commentId: N:MainRobot.Robot.Device.Lidar
+  href: MainRobot.html
+  name: MainRobot.Robot.Device.Lidar
+  nameWithType: MainRobot.Robot.Device.Lidar
+  fullName: MainRobot.Robot.Device.Lidar
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.Lidar
+    name: Lidar
+    href: MainRobot.Robot.Device.Lidar.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.Lidar
+    name: Lidar
+    href: MainRobot.Robot.Device.Lidar.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Slope*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.LinesInfo.Slope
+  href: MainRobot.Robot.Device.Lidar.LinesInfo.html#MainRobot_Robot_Device_Lidar_LinesInfo_Slope
+  name: Slope
+  nameWithType: LinesInfo.Slope
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Slope
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double?
+  nameWithType: double?
+  fullName: double?
+  nameWithType.vb: Double?
+  fullName.vb: Double?
+  name.vb: Double?
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Intercept*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.LinesInfo.Intercept
+  href: MainRobot.Robot.Device.Lidar.LinesInfo.html#MainRobot_Robot_Device_Lidar_LinesInfo_Intercept
+  name: Intercept
+  nameWithType: LinesInfo.Intercept
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Intercept
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Angle*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.LinesInfo.Angle
+  href: MainRobot.Robot.Device.Lidar.LinesInfo.html#MainRobot_Robot_Device_Lidar_LinesInfo_Angle
+  name: Angle
+  nameWithType: LinesInfo.Angle
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Angle
+- uid: MainRobot.Robot.Device.Lidar.LinesInfo.Points*
+  commentId: Overload:MainRobot.Robot.Device.Lidar.LinesInfo.Points
+  href: MainRobot.Robot.Device.Lidar.LinesInfo.html#MainRobot_Robot_Device_Lidar_LinesInfo_Points
+  name: Points
+  nameWithType: LinesInfo.Points
+  fullName: MainRobot.Robot.Device.Lidar.LinesInfo.Points
+- uid: System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint}
+  commentId: T:System.Collections.Generic.IEnumerable{MainRobot.Common.RPoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<RPoint>
+  nameWithType: IEnumerable<RPoint>
+  fullName: System.Collections.Generic.IEnumerable<MainRobot.Common.RPoint>
+  nameWithType.vb: IEnumerable(Of RPoint)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of MainRobot.Common.RPoint)
+  name.vb: IEnumerable(Of RPoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

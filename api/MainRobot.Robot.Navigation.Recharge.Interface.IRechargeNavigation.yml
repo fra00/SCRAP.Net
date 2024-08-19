@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+  commentId: T:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+  id: IRechargeNavigation
+  parent: MainRobot.Robot.Navigation.Recharge.Interface
+  children:
+  - MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge
+  langs:
+  - csharp
+  - vb
+  name: IRechargeNavigation
+  nameWithType: IRechargeNavigation
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+  type: Interface
+  source:
+    remote:
+      path: Robot/Navigation/Recharge/Interface/IRechargeNavigation.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IRechargeNavigation
+    path: Robot/Navigation/Recharge/Interface/IRechargeNavigation.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge.Interface
+  syntax:
+    content: public interface IRechargeNavigation
+    content.vb: Public Interface IRechargeNavigation
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge
+  commentId: M:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge
+  id: StartPositioningInRecharge
+  parent: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation
+  langs:
+  - csharp
+  - vb
+  name: StartPositioningInRecharge()
+  nameWithType: IRechargeNavigation.StartPositioningInRecharge()
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge()
+  type: Method
+  source:
+    remote:
+      path: Robot/Navigation/Recharge/Interface/IRechargeNavigation.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: StartPositioningInRecharge
+    path: Robot/Navigation/Recharge/Interface/IRechargeNavigation.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Navigation.Recharge.Interface
+  syntax:
+    content: Task StartPositioningInRecharge()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function StartPositioningInRecharge() As Task
+  overload: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge*
+references:
+- uid: MainRobot.Robot.Navigation.Recharge.Interface
+  commentId: N:MainRobot.Robot.Navigation.Recharge.Interface
+  href: MainRobot.html
+  name: MainRobot.Robot.Navigation.Recharge.Interface
+  nameWithType: MainRobot.Robot.Navigation.Recharge.Interface
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge
+    name: Recharge
+    href: MainRobot.Robot.Navigation.Recharge.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Recharge.Interface.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation
+    name: Navigation
+    href: MainRobot.Robot.Navigation.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge
+    name: Recharge
+    href: MainRobot.Robot.Navigation.Recharge.html
+  - name: .
+  - uid: MainRobot.Robot.Navigation.Recharge.Interface
+    name: Interface
+    href: MainRobot.Robot.Navigation.Recharge.Interface.html
+- uid: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge*
+  commentId: Overload:MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge
+  href: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.html#MainRobot_Robot_Navigation_Recharge_Interface_IRechargeNavigation_StartPositioningInRecharge
+  name: StartPositioningInRecharge
+  nameWithType: IRechargeNavigation.StartPositioningInRecharge
+  fullName: MainRobot.Robot.Navigation.Recharge.Interface.IRechargeNavigation.StartPositioningInRecharge
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

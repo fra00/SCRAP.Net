@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.ComunicationTransport
+  commentId: N:MainRobot.Robot.Comunication.ComunicationTransport
+  id: MainRobot.Robot.Comunication.ComunicationTransport
+  children:
+  - MainRobot.Robot.Comunication.ComunicationTransport.HttpComunication
+  - MainRobot.Robot.Comunication.ComunicationTransport.IComunication
+  - MainRobot.Robot.Comunication.ComunicationTransport.SerialComunication
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Comunication.ComunicationTransport
+  nameWithType: MainRobot.Robot.Comunication.ComunicationTransport
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.HttpComunication
+  commentId: T:MainRobot.Robot.Comunication.ComunicationTransport.HttpComunication
+  href: MainRobot.Robot.Comunication.ComunicationTransport.HttpComunication.html
+  name: HttpComunication
+  nameWithType: HttpComunication
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.HttpComunication
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.IComunication
+  commentId: T:MainRobot.Robot.Comunication.ComunicationTransport.IComunication
+  parent: MainRobot.Robot.Comunication.ComunicationTransport
+  href: MainRobot.Robot.Comunication.ComunicationTransport.IComunication.html
+  name: IComunication
+  nameWithType: IComunication
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.IComunication
+- uid: MainRobot.Robot.Comunication.ComunicationTransport.SerialComunication
+  commentId: T:MainRobot.Robot.Comunication.ComunicationTransport.SerialComunication
+  href: MainRobot.Robot.Comunication.ComunicationTransport.SerialComunication.html
+  name: SerialComunication
+  nameWithType: SerialComunication
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport.SerialComunication
+- uid: MainRobot.Robot.Comunication.ComunicationTransport
+  commentId: N:MainRobot.Robot.Comunication.ComunicationTransport
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.ComunicationTransport
+  nameWithType: MainRobot.Robot.Comunication.ComunicationTransport
+  fullName: MainRobot.Robot.Comunication.ComunicationTransport
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport
+    name: ComunicationTransport
+    href: MainRobot.Robot.Comunication.ComunicationTransport.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.ComunicationTransport
+    name: ComunicationTransport
+    href: MainRobot.Robot.Comunication.ComunicationTransport.html

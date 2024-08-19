@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device.IpCam
+  commentId: N:MainRobot.Robot.Device.IpCam
+  id: MainRobot.Robot.Device.IpCam
+  children:
+  - MainRobot.Robot.Device.IpCam.FakeIpCam
+  - MainRobot.Robot.Device.IpCam.IIpCam
+  - MainRobot.Robot.Device.IpCam.IpCam
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.Device.IpCam
+  nameWithType: MainRobot.Robot.Device.IpCam
+  fullName: MainRobot.Robot.Device.IpCam
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.Device.IpCam.FakeIpCam
+  commentId: T:MainRobot.Robot.Device.IpCam.FakeIpCam
+  href: MainRobot.Robot.Device.IpCam.FakeIpCam.html
+  name: FakeIpCam
+  nameWithType: FakeIpCam
+  fullName: MainRobot.Robot.Device.IpCam.FakeIpCam
+- uid: MainRobot.Robot.Device.IpCam.IIpCam
+  commentId: T:MainRobot.Robot.Device.IpCam.IIpCam
+  parent: MainRobot.Robot.Device.IpCam
+  href: MainRobot.Robot.Device.IpCam.IIpCam.html
+  name: IIpCam
+  nameWithType: IIpCam
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam
+- uid: MainRobot.Robot.Device.IpCam.IpCam
+  commentId: T:MainRobot.Robot.Device.IpCam.IpCam
+  href: MainRobot.Robot.Device.IpCam.IpCam.html
+  name: IpCam
+  nameWithType: IpCam
+  fullName: MainRobot.Robot.Device.IpCam.IpCam
+- uid: MainRobot.Robot.Device.IpCam
+  commentId: N:MainRobot.Robot.Device.IpCam
+  href: MainRobot.html
+  name: MainRobot.Robot.Device.IpCam
+  nameWithType: MainRobot.Robot.Device.IpCam
+  fullName: MainRobot.Robot.Device.IpCam
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.IpCam
+    name: IpCam
+    href: MainRobot.Robot.Device.IpCam.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.IpCam
+    name: IpCam
+    href: MainRobot.Robot.Device.IpCam.html

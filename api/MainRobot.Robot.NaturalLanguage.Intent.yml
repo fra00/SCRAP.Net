@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.NaturalLanguage.Intent
+  commentId: N:MainRobot.Robot.NaturalLanguage.Intent
+  id: MainRobot.Robot.NaturalLanguage.Intent
+  children:
+  - MainRobot.Robot.NaturalLanguage.Intent.IntentGoto
+  - MainRobot.Robot.NaturalLanguage.Intent.IntentMove
+  - MainRobot.Robot.NaturalLanguage.Intent.IntentSpeech
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Robot.NaturalLanguage.Intent
+  nameWithType: MainRobot.Robot.NaturalLanguage.Intent
+  fullName: MainRobot.Robot.NaturalLanguage.Intent
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Robot.NaturalLanguage.Intent.IntentMove
+  commentId: T:MainRobot.Robot.NaturalLanguage.Intent.IntentMove
+  href: MainRobot.Robot.NaturalLanguage.Intent.IntentMove.html
+  name: IntentMove
+  nameWithType: IntentMove
+  fullName: MainRobot.Robot.NaturalLanguage.Intent.IntentMove
+- uid: MainRobot.Robot.NaturalLanguage.Intent.IntentGoto
+  commentId: T:MainRobot.Robot.NaturalLanguage.Intent.IntentGoto
+  href: MainRobot.Robot.NaturalLanguage.Intent.IntentGoto.html
+  name: IntentGoto
+  nameWithType: IntentGoto
+  fullName: MainRobot.Robot.NaturalLanguage.Intent.IntentGoto
+- uid: MainRobot.Robot.NaturalLanguage.Intent.IntentSpeech
+  commentId: T:MainRobot.Robot.NaturalLanguage.Intent.IntentSpeech
+  href: MainRobot.Robot.NaturalLanguage.Intent.IntentSpeech.html
+  name: IntentSpeech
+  nameWithType: IntentSpeech
+  fullName: MainRobot.Robot.NaturalLanguage.Intent.IntentSpeech

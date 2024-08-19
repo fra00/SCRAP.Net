@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  id: MainRobot.Common
+  children:
+  - MainRobot.Common.Location
+  - MainRobot.Common.MathUtil
+  - MainRobot.Common.RPoint
+  langs:
+  - csharp
+  - vb
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  type: Namespace
+  assemblies:
+  - MainRobot
+references:
+- uid: MainRobot.Common.Location
+  commentId: T:MainRobot.Common.Location
+  href: MainRobot.Common.Location.html
+  name: Location
+  nameWithType: Location
+  fullName: MainRobot.Common.Location
+- uid: MainRobot.Common.MathUtil
+  commentId: T:MainRobot.Common.MathUtil
+  href: MainRobot.Common.MathUtil.html
+  name: MathUtil
+  nameWithType: MathUtil
+  fullName: MainRobot.Common.MathUtil
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  parent: MainRobot.Common
+  href: MainRobot.Common.RPoint.html
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html

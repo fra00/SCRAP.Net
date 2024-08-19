@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>This is the HOMEPAGE. | mysite </title>
+      <title>SCRAP.Net: Control and Planning Platform for Robotic Systems | SCRAP.Net </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="This is the HOMEPAGE. | mysite ">
+      <meta name="title" content="SCRAP.Net: Control and Planning Platform for Robotic Systems | SCRAP.Net ">
       
       <link rel="icon" href="favicon.ico">
       <link rel="stylesheet" href="public/docfx.min.css">
@@ -43,8 +43,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="index.html">
-            <img id="logo" class="svg" src="logo.svg" alt="mysite">
-            mysite
+            <img id="logo" class="svg" src="logo.svg" alt="SCRAP.Net">
+            SCRAP.Net
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,13 +84,67 @@
         </div>
 
         <article data-uid="">
-<h1 id="this-is-the-homepage">This is the <strong>HOMEPAGE</strong>.</h1>
+<h1 id="scrapnet-control-and-planning-platform-for-robotic-systems">SCRAP.Net: Control and Planning Platform for Robotic Systems</h1>
 
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
-<ol>
-<li>Add images to the <em>images</em> folder if the file is referencing an image.</li>
-</ol>
+<p>SCRAP.Net is the core module of the SCRAP platform, designed to provide a flexible architecture for developing autonomous robotic systems. It offers a wide range of features for motion planning, environment interaction, and sensor and actuator integration.</p>
+<pre><code class="lang-mermaid">sequenceDiagram
+    participant Android
+    participant Net
+    participant Arduino
+	participant LLM
+
+    Android-&gt;&gt;Net: Natural Language
+	Net-&gt;&gt;LLM: Send Natural Language
+	LLM-&gt;&gt;Net: Response commands
+    Net-&gt;&gt;Arduino: Send command
+    Arduino-&gt;&gt;Net: Response command
+    Net-&gt;&gt;Android: Response request
+</code></pre>
+<h3 id="key-features">Key Features:</h3>
+<ul>
+<li><p>Built with .NET Core.</p>
+</li>
+<li><p>Cross-platform Compatibility: Runs seamlessly on both Windows and Linux operating systems.</p>
+</li>
+<li><p>Advanced Motion Planning:</p>
+<ul>
+<li>Efficient pathfinding algorithms for navigation in static and dynamic environments.</li>
+<li>Handling complex constraints and obstacles.</li>
+<li>Optimization of paths based on time, energy, or safety criteria.</li>
+</ul>
+</li>
+<li><p>LLM Interface:</p>
+<ul>
+<li>Integration with large language models for natural language understanding and context-aware response generation.</li>
+<li>Interpretation of complex commands and generation of appropriate actions.</li>
+</ul>
+</li>
+<li><p>Modular Architecture:</p>
+<ul>
+<li>Modular structure that facilitates system expansion and customization.</li>
+<li>Support for a wide range of sensors and actuators.</li>
+<li>Accurate environment mapping: Using LIDAR and ultrasonic sensors to create maps of the surrounding environment, enabling robot localization and safer navigation.</li>
+</ul>
+</li>
+<li><p>Communications:</p>
+<ul>
+<li>Communication protocols for synchronization between system components (serial,http).</li>
+</ul>
+</li>
+<li><p>Well-defined APIs:</p>
+<ul>
+<li>RESTful APIs for access to SCRAP.Net features from other systems.</li>
+</ul>
+</li>
+<li><p>Benefits:</p>
+<ul>
+<li>Accelerated Development: Reduction in the time required to develop and test new robotic systems.</li>
+<li>Increased Flexibility: Easy adaptation to new applications and requirements.</li>
+<li>Improved Performance: Optimization of robot performance through advanced planning and control algorithms.</li>
+</ul>
+</li>
+</ul>
+<p>SCRAP.Net offers developers a solid foundation for creating intelligent and reliable robotic systems.</p>
 
 </article>
 

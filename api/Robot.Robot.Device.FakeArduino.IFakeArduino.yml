@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino
+  commentId: T:Robot.Robot.Device.FakeArduino.IFakeArduino
+  id: IFakeArduino
+  parent: Robot.Robot.Device.FakeArduino
+  children:
+  - Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+  - Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IFakeArduino
+  nameWithType: IFakeArduino
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino
+  type: Interface
+  source:
+    remote:
+      path: Robot/Device/FakeArduino/IFakeArduino.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IFakeArduino
+    path: Robot/Device/FakeArduino/IFakeArduino.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  syntax:
+    content: public interface IFakeArduino
+    content.vb: Public Interface IFakeArduino
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+  commentId: M:Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action{System.String})
+  id: OpenSerial(System.Action{System.String})
+  parent: Robot.Robot.Device.FakeArduino.IFakeArduino
+  langs:
+  - csharp
+  - vb
+  name: OpenSerial(Action<string>)
+  nameWithType: IFakeArduino.OpenSerial(Action<string>)
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action<string>)
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/FakeArduino/IFakeArduino.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: OpenSerial
+    path: Robot/Device/FakeArduino/IFakeArduino.cs
+    startLine: 4
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  syntax:
+    content: void OpenSerial(Action<string> dataReceivedHandler)
+    parameters:
+    - id: dataReceivedHandler
+      type: System.Action{System.String}
+    content.vb: Sub OpenSerial(dataReceivedHandler As Action(Of String))
+  overload: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial*
+  nameWithType.vb: IFakeArduino.OpenSerial(Action(Of String))
+  fullName.vb: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial(System.Action(Of String))
+  name.vb: OpenSerial(Action(Of String))
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+  commentId: M:Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: Robot.Robot.Device.FakeArduino.IFakeArduino
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(string)
+  nameWithType: IFakeArduino.WriteLine(string)
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(string)
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/FakeArduino/IFakeArduino.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: WriteLine
+    path: Robot/Device/FakeArduino/IFakeArduino.cs
+    startLine: 5
+  assemblies:
+  - MainRobot
+  namespace: Robot.Robot.Device.FakeArduino
+  syntax:
+    content: void WriteLine(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub WriteLine(message As String)
+  overload: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine*
+  nameWithType.vb: IFakeArduino.WriteLine(String)
+  fullName.vb: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine(String)
+  name.vb: WriteLine(String)
+references:
+- uid: Robot.Robot.Device.FakeArduino
+  commentId: N:Robot.Robot.Device.FakeArduino
+  href: Robot.html
+  name: Robot.Robot.Device.FakeArduino
+  nameWithType: Robot.Robot.Device.FakeArduino
+  fullName: Robot.Robot.Device.FakeArduino
+  spec.csharp:
+  - uid: Robot
+    name: Robot
+    href: Robot.html
+  - name: .
+  - uid: Robot.Robot
+    name: Robot
+    href: Robot.Robot.html
+  - name: .
+  - uid: Robot.Robot.Device
+    name: Device
+    href: Robot.Robot.Device.html
+  - name: .
+  - uid: Robot.Robot.Device.FakeArduino
+    name: FakeArduino
+    href: Robot.Robot.Device.FakeArduino.html
+  spec.vb:
+  - uid: Robot
+    name: Robot
+    href: Robot.html
+  - name: .
+  - uid: Robot.Robot
+    name: Robot
+    href: Robot.Robot.html
+  - name: .
+  - uid: Robot.Robot.Device
+    name: Device
+    href: Robot.Robot.Device.html
+  - name: .
+  - uid: Robot.Robot.Device.FakeArduino
+    name: FakeArduino
+    href: Robot.Robot.Device.FakeArduino.html
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial*
+  commentId: Overload:Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial
+  href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_OpenSerial_System_Action_System_String__
+  name: OpenSerial
+  nameWithType: IFakeArduino.OpenSerial
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino.OpenSerial
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine*
+  commentId: Overload:Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine
+  href: Robot.Robot.Device.FakeArduino.IFakeArduino.html#Robot_Robot_Device_FakeArduino_IFakeArduino_WriteLine_System_String_
+  name: WriteLine
+  nameWithType: IFakeArduino.WriteLine
+  fullName: Robot.Robot.Device.FakeArduino.IFakeArduino.WriteLine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

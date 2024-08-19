@@ -1,0 +1,725 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  commentId: T:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  id: ComunicationCommandReceived
+  parent: MainRobot.Robot.Comunication.Model
+  children:
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor(System.String[])
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3
+  - MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4
+  langs:
+  - csharp
+  - vb
+  name: ComunicationCommandReceived
+  nameWithType: ComunicationCommandReceived
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  type: Class
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ComunicationCommandReceived
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 2
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public class ComunicationCommandReceived
+    content.vb: Public Class ComunicationCommandReceived
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin
+  id: ReceiveOrigin
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceiveOrigin
+  nameWithType: ComunicationCommandReceived.ReceiveOrigin
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceiveOrigin
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 7
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  summary: ARDU or RPI
+  example: []
+  syntax:
+    content: public string ReceiveOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceiveOrigin As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId
+  id: ReceivedId
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceivedId
+  nameWithType: ComunicationCommandReceived.ReceivedId
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceivedId
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 11
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  summary: Command id
+  example: []
+  syntax:
+    content: public string ReceivedId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceivedId As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd
+  id: ReceivedCmd
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceivedCmd
+  nameWithType: ComunicationCommandReceived.ReceivedCmd
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceivedCmd
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 15
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  summary: Command code
+  example: []
+  syntax:
+    content: public string ReceivedCmd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceivedCmd As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1
+  id: ReceivedParam1
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceivedParam1
+  nameWithType: ComunicationCommandReceived.ReceivedParam1
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceivedParam1
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 16
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public string ReceivedParam1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceivedParam1 As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2
+  id: ReceivedParam2
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceivedParam2
+  nameWithType: ComunicationCommandReceived.ReceivedParam2
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceivedParam2
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 17
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public string ReceivedParam2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceivedParam2 As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3
+  id: ReceivedParam3
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceivedParam3
+  nameWithType: ComunicationCommandReceived.ReceivedParam3
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceivedParam3
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 18
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public string ReceivedParam3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceivedParam3 As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4
+  id: ReceivedParam4
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ReceivedParam4
+  nameWithType: ComunicationCommandReceived.ReceivedParam4
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ReceivedParam4
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 19
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public string ReceivedParam4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReceivedParam4 As String
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError
+  commentId: P:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError
+  id: HaveError
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: HaveError
+  nameWithType: ComunicationCommandReceived.HaveError
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError
+  type: Property
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: HaveError
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 20
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public bool HaveError { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HaveError As Boolean
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError*
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor
+  commentId: M:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor
+  id: '#ctor'
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ComunicationCommandReceived()
+  nameWithType: ComunicationCommandReceived.ComunicationCommandReceived()
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ComunicationCommandReceived()
+  type: Constructor
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: .ctor
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 22
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public ComunicationCommandReceived()
+    content.vb: Public Sub New()
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor*
+  nameWithType.vb: ComunicationCommandReceived.New()
+  fullName.vb: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.New()
+  name.vb: New()
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor(System.String[])
+  commentId: M:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor(System.String[])
+  id: '#ctor(System.String[])'
+  parent: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived
+  langs:
+  - csharp
+  - vb
+  name: ComunicationCommandReceived(string[])
+  nameWithType: ComunicationCommandReceived.ComunicationCommandReceived(string[])
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ComunicationCommandReceived(string[])
+  type: Constructor
+  source:
+    remote:
+      path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: .ctor
+    path: Robot/Comunication/Model/ComunicationCommandReceived.cs
+    startLine: 26
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Comunication.Model
+  syntax:
+    content: public ComunicationCommandReceived(string[] array)
+    parameters:
+    - id: array
+      type: System.String[]
+    content.vb: Public Sub New(array As String())
+  overload: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor*
+  nameWithType.vb: ComunicationCommandReceived.New(String())
+  fullName.vb: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.New(String())
+  name.vb: New(String())
+references:
+- uid: MainRobot.Robot.Comunication.Model
+  commentId: N:MainRobot.Robot.Comunication.Model
+  href: MainRobot.html
+  name: MainRobot.Robot.Comunication.Model
+  nameWithType: MainRobot.Robot.Comunication.Model
+  fullName: MainRobot.Robot.Comunication.Model
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Model
+    name: Model
+    href: MainRobot.Robot.Comunication.Model.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication
+    name: Comunication
+    href: MainRobot.Robot.Comunication.html
+  - name: .
+  - uid: MainRobot.Robot.Comunication.Model
+    name: Model
+    href: MainRobot.Robot.Comunication.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceiveOrigin
+  name: ReceiveOrigin
+  nameWithType: ComunicationCommandReceived.ReceiveOrigin
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceiveOrigin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceivedId
+  name: ReceivedId
+  nameWithType: ComunicationCommandReceived.ReceivedId
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedId
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceivedCmd
+  name: ReceivedCmd
+  nameWithType: ComunicationCommandReceived.ReceivedCmd
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedCmd
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceivedParam1
+  name: ReceivedParam1
+  nameWithType: ComunicationCommandReceived.ReceivedParam1
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam1
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceivedParam2
+  name: ReceivedParam2
+  nameWithType: ComunicationCommandReceived.ReceivedParam2
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam2
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceivedParam3
+  name: ReceivedParam3
+  nameWithType: ComunicationCommandReceived.ReceivedParam3
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam3
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_ReceivedParam4
+  name: ReceivedParam4
+  nameWithType: ComunicationCommandReceived.ReceivedParam4
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ReceivedParam4
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived_HaveError
+  name: HaveError
+  nameWithType: ComunicationCommandReceived.HaveError
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.HaveError
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor*
+  commentId: Overload:MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.#ctor
+  href: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.html#MainRobot_Robot_Comunication_Model_ComunicationCommandReceived__ctor
+  name: ComunicationCommandReceived
+  nameWithType: ComunicationCommandReceived.ComunicationCommandReceived
+  fullName: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.ComunicationCommandReceived
+  nameWithType.vb: ComunicationCommandReceived.New
+  fullName.vb: MainRobot.Robot.Comunication.Model.ComunicationCommandReceived.New
+  name.vb: New
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

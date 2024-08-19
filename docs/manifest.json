@@ -12,96 +12,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ClassLibrary1.Config.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ClassLibrary1.Config.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ClassLibrary1.LidarLD20.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ClassLibrary1.LidarLD20.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ClassLibrary1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ClassLibrary1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LidarLD20Driver.Interface.ISerial.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LidarLD20Driver.Interface.ISerial.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LidarLD20Driver.Interface.Serial.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LidarLD20Driver.Interface.Serial.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LidarLD20Driver.Interface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LidarLD20Driver.Interface.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LidarLD20Driver.Model.LidarFrame.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LidarLD20Driver.Model.LidarFrame.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LidarLD20Driver.Model.PointStruct.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LidarLD20Driver.Model.PointStruct.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LidarLD20Driver.Model.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LidarLD20Driver.Model.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MainRobot.Common.Graphics.ImageUtility.yml",
       "output": {
         ".html": {
@@ -492,36 +402,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Comunication.Comunication.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Comunication.Comunication.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Comunication.ComunicationCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Comunication.ComunicationCommand.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Comunication.ComunicationCommandReceived.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Comunication.ComunicationCommandReceived.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MainRobot.Robot.Comunication.ComunicationTransport.HttpClient.FakeHttpClientComunication.yml",
       "output": {
         ".html": {
@@ -606,16 +486,6 @@
       "output": {
         ".html": {
           "relative_path": "api/MainRobot.Robot.Comunication.ComunicationTransport.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Comunication.IComunication.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Comunication.IComunication.html"
         }
       },
       "version": ""
@@ -1142,26 +1012,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Navigation.DoMovimentEndModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Navigation.DoMovimentEndModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Navigation.EndMovModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Navigation.EndMovModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MainRobot.Robot.Navigation.Helpers.HelperInvisibleWall.yml",
       "output": {
         ".html": {
@@ -1186,36 +1036,6 @@
       "output": {
         ".html": {
           "relative_path": "api/MainRobot.Robot.Navigation.Helpers.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Navigation.IMovement.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Navigation.IMovement.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Navigation.INavigation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Navigation.INavigation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MainRobot.Robot.Navigation.IPathFinding.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MainRobot.Robot.Navigation.IPathFinding.html"
         }
       },
       "version": ""
@@ -1792,56 +1612,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SpaCyNet.IntentRecognition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SpaCyNet.IntentRecognition.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SpaCyNet.Vocabulary.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SpaCyNet.Vocabulary.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SpaCyNet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SpaCyNet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TestLidar.Form1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestLidar.Form1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TestLidar.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestLidar.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/WinFormsApp1.Form1.yml",
       "output": {
         ".html": {
@@ -1939,6 +1709,49 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs-other/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs-other/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs-other/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs-other/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs-other/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs-other/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs-other/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs-other/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs-other/toc.json"
         }
       },
       "version": ""

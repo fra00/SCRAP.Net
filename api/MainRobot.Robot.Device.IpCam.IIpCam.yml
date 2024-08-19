@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Robot.Device.IpCam.IIpCam
+  commentId: T:MainRobot.Robot.Device.IpCam.IIpCam
+  id: IIpCam
+  parent: MainRobot.Robot.Device.IpCam
+  children:
+  - MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot
+  - MainRobot.Robot.Device.IpCam.IIpCam.IsDark
+  - MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor(SixLabors.ImageSharp.PixelFormats.Rgba32,SixLabors.ImageSharp.PixelFormats.Rgba32,System.Nullable{System.Int16})
+  langs:
+  - csharp
+  - vb
+  name: IIpCam
+  nameWithType: IIpCam
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam
+  type: Interface
+  source:
+    remote:
+      path: Robot/Device/IpCam/IIpCam.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IIpCam
+    path: Robot/Device/IpCam/IIpCam.cs
+    startLine: 9
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.IpCam
+  syntax:
+    content: public interface IIpCam
+    content.vb: Public Interface IIpCam
+- uid: MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot
+  commentId: M:MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot
+  id: GetSnapshot
+  parent: MainRobot.Robot.Device.IpCam.IIpCam
+  langs:
+  - csharp
+  - vb
+  name: GetSnapshot()
+  nameWithType: IIpCam.GetSnapshot()
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot()
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/IpCam/IIpCam.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: GetSnapshot
+    path: Robot/Device/IpCam/IIpCam.cs
+    startLine: 15
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.IpCam
+  summary: get snapshot for ipCam configured
+  example: []
+  syntax:
+    content: Task<Image<Rgba32>> GetSnapshot()
+    return:
+      type: System.Threading.Tasks.Task{SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32}}
+      description: ''
+    content.vb: Function GetSnapshot() As Task(Of Image(Of Rgba32))
+  overload: MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot*
+- uid: MainRobot.Robot.Device.IpCam.IIpCam.IsDark
+  commentId: M:MainRobot.Robot.Device.IpCam.IIpCam.IsDark
+  id: IsDark
+  parent: MainRobot.Robot.Device.IpCam.IIpCam
+  langs:
+  - csharp
+  - vb
+  name: IsDark()
+  nameWithType: IIpCam.IsDark()
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam.IsDark()
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/IpCam/IIpCam.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: IsDark
+    path: Robot/Device/IpCam/IIpCam.cs
+    startLine: 20
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.IpCam
+  summary: check if image is dark
+  example: []
+  syntax:
+    content: Task<bool> IsDark()
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Function IsDark() As Task(Of Boolean)
+  overload: MainRobot.Robot.Device.IpCam.IIpCam.IsDark*
+- uid: MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor(SixLabors.ImageSharp.PixelFormats.Rgba32,SixLabors.ImageSharp.PixelFormats.Rgba32,System.Nullable{System.Int16})
+  commentId: M:MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor(SixLabors.ImageSharp.PixelFormats.Rgba32,SixLabors.ImageSharp.PixelFormats.Rgba32,System.Nullable{System.Int16})
+  id: TryFindPointOfColor(SixLabors.ImageSharp.PixelFormats.Rgba32,SixLabors.ImageSharp.PixelFormats.Rgba32,System.Nullable{System.Int16})
+  parent: MainRobot.Robot.Device.IpCam.IIpCam
+  langs:
+  - csharp
+  - vb
+  name: TryFindPointOfColor(Rgba32, Rgba32, short?)
+  nameWithType: IIpCam.TryFindPointOfColor(Rgba32, Rgba32, short?)
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor(SixLabors.ImageSharp.PixelFormats.Rgba32, SixLabors.ImageSharp.PixelFormats.Rgba32, short?)
+  type: Method
+  source:
+    remote:
+      path: Robot/Device/IpCam/IIpCam.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: TryFindPointOfColor
+    path: Robot/Device/IpCam/IIpCam.cs
+    startLine: 28
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Robot.Device.IpCam
+  summary: find color into image get from ipcam image
+  example: []
+  syntax:
+    content: Task<RPoint> TryFindPointOfColor(Rgba32 color, Rgba32 tollerance, short? maxAttempts = 10)
+    parameters:
+    - id: color
+      type: SixLabors.ImageSharp.PixelFormats.Rgba32
+      description: ''
+    - id: tollerance
+      type: SixLabors.ImageSharp.PixelFormats.Rgba32
+      description: ''
+    - id: maxAttempts
+      type: System.Nullable{System.Int16}
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{MainRobot.Common.RPoint}
+      description: ''
+    content.vb: Function TryFindPointOfColor(color As Rgba32, tollerance As Rgba32, maxAttempts As Short? = 10) As Task(Of RPoint)
+  overload: MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor*
+  nameWithType.vb: IIpCam.TryFindPointOfColor(Rgba32, Rgba32, Short?)
+  fullName.vb: MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor(SixLabors.ImageSharp.PixelFormats.Rgba32, SixLabors.ImageSharp.PixelFormats.Rgba32, Short?)
+  name.vb: TryFindPointOfColor(Rgba32, Rgba32, Short?)
+references:
+- uid: MainRobot.Robot.Device.IpCam
+  commentId: N:MainRobot.Robot.Device.IpCam
+  href: MainRobot.html
+  name: MainRobot.Robot.Device.IpCam
+  nameWithType: MainRobot.Robot.Device.IpCam
+  fullName: MainRobot.Robot.Device.IpCam
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.IpCam
+    name: IpCam
+    href: MainRobot.Robot.Device.IpCam.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Robot
+    name: Robot
+    href: MainRobot.Robot.html
+  - name: .
+  - uid: MainRobot.Robot.Device
+    name: Device
+    href: MainRobot.Robot.Device.html
+  - name: .
+  - uid: MainRobot.Robot.Device.IpCam
+    name: IpCam
+    href: MainRobot.Robot.Device.IpCam.html
+- uid: MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot*
+  commentId: Overload:MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot
+  href: MainRobot.Robot.Device.IpCam.IIpCam.html#MainRobot_Robot_Device_IpCam_IIpCam_GetSnapshot
+  name: GetSnapshot
+  nameWithType: IIpCam.GetSnapshot
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam.GetSnapshot
+- uid: System.Threading.Tasks.Task{SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32}}
+  commentId: T:System.Threading.Tasks.Task{SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Image<Rgba32>>
+  nameWithType: Task<Image<Rgba32>>
+  fullName: System.Threading.Tasks.Task<SixLabors.ImageSharp.Image<SixLabors.ImageSharp.PixelFormats.Rgba32>>
+  nameWithType.vb: Task(Of Image(Of Rgba32))
+  fullName.vb: System.Threading.Tasks.Task(Of SixLabors.ImageSharp.Image(Of SixLabors.ImageSharp.PixelFormats.Rgba32))
+  name.vb: Task(Of Image(Of Rgba32))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SixLabors.ImageSharp.Image`1
+    name: Image
+    isExternal: true
+  - name: <
+  - uid: SixLabors.ImageSharp.PixelFormats.Rgba32
+    name: Rgba32
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SixLabors.ImageSharp.Image`1
+    name: Image
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SixLabors.ImageSharp.PixelFormats.Rgba32
+    name: Rgba32
+    isExternal: true
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MainRobot.Robot.Device.IpCam.IIpCam.IsDark*
+  commentId: Overload:MainRobot.Robot.Device.IpCam.IIpCam.IsDark
+  href: MainRobot.Robot.Device.IpCam.IIpCam.html#MainRobot_Robot_Device_IpCam_IIpCam_IsDark
+  name: IsDark
+  nameWithType: IIpCam.IsDark
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam.IsDark
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor*
+  commentId: Overload:MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor
+  href: MainRobot.Robot.Device.IpCam.IIpCam.html#MainRobot_Robot_Device_IpCam_IIpCam_TryFindPointOfColor_SixLabors_ImageSharp_PixelFormats_Rgba32_SixLabors_ImageSharp_PixelFormats_Rgba32_System_Nullable_System_Int16__
+  name: TryFindPointOfColor
+  nameWithType: IIpCam.TryFindPointOfColor
+  fullName: MainRobot.Robot.Device.IpCam.IIpCam.TryFindPointOfColor
+- uid: SixLabors.ImageSharp.PixelFormats.Rgba32
+  commentId: T:SixLabors.ImageSharp.PixelFormats.Rgba32
+  parent: SixLabors.ImageSharp.PixelFormats
+  isExternal: true
+  name: Rgba32
+  nameWithType: Rgba32
+  fullName: SixLabors.ImageSharp.PixelFormats.Rgba32
+- uid: System.Nullable{System.Int16}
+  commentId: T:System.Nullable{System.Int16}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short?
+  nameWithType: short?
+  fullName: short?
+  nameWithType.vb: Short?
+  fullName.vb: Short?
+  name.vb: Short?
+  spec.csharp:
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: '?'
+  spec.vb:
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: '?'
+- uid: System.Threading.Tasks.Task{MainRobot.Common.RPoint}
+  commentId: T:System.Threading.Tasks.Task{MainRobot.Common.RPoint}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RPoint>
+  nameWithType: Task<RPoint>
+  fullName: System.Threading.Tasks.Task<MainRobot.Common.RPoint>
+  nameWithType.vb: Task(Of RPoint)
+  fullName.vb: System.Threading.Tasks.Task(Of MainRobot.Common.RPoint)
+  name.vb: Task(Of RPoint)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MainRobot.Common.RPoint
+    name: RPoint
+    href: MainRobot.Common.RPoint.html
+  - name: )
+- uid: SixLabors.ImageSharp.PixelFormats
+  commentId: N:SixLabors.ImageSharp.PixelFormats
+  isExternal: true
+  name: SixLabors.ImageSharp.PixelFormats
+  nameWithType: SixLabors.ImageSharp.PixelFormats
+  fullName: SixLabors.ImageSharp.PixelFormats
+  spec.csharp:
+  - uid: SixLabors
+    name: SixLabors
+    isExternal: true
+  - name: .
+  - uid: SixLabors.ImageSharp
+    name: ImageSharp
+    isExternal: true
+  - name: .
+  - uid: SixLabors.ImageSharp.PixelFormats
+    name: PixelFormats
+    isExternal: true
+  spec.vb:
+  - uid: SixLabors
+    name: SixLabors
+    isExternal: true
+  - name: .
+  - uid: SixLabors.ImageSharp
+    name: ImageSharp
+    isExternal: true
+  - name: .
+  - uid: SixLabors.ImageSharp.PixelFormats
+    name: PixelFormats
+    isExternal: true
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

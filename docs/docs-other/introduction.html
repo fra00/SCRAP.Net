@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction | SCRAP.Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction | SCRAP.Net ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fra00/SCRAP.Net/blob/master/docs-other/introduction.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SCRAP.Net">
+            SCRAP.Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<p>SCRAP is a modular software platform, specifically designed for the development of autonomous robotic systems. Its distributed and scalable architecture allows it to handle a wide range of complexities, from automating simple household tasks to more complex industrial operations.</p>
+<h2 id="system-architecture">System Architecture</h2>
+<p>SCRAP is structured into three main modules, each with a well-defined role:</p>
+<ul>
+<li>SCRAP.Android: Acts as the user interface, providing an intuitive API for human interaction. The Android app includes speech-to-text (STT) functionality for more natural interaction and a graphical user interface for viewing the robot's status and configuring parameters.</li>
+<li>SCRAP.Net: The computational heart of the platform. It implements:
+<ul>
+<li>Motion planning: Uses advanced pathfinding algorithms (A*) to generate optimal paths in dynamic and static environments, considering constraints of space, time, and energy.</li>
+<li>Environment interaction: Handles perception of the environment through sensors (LiDAR, cameras, etc.) and physical interaction with it through actuators (motors, grippers, etc.).</li>
+<li>Communications: Uses communication protocols (WebSocket, HTTP) to exchange data with other modules and external systems.</li>
+<li>LLM interface: Integrates large language models to interpret natural language commands and generate complex actions.</li>
+</ul>
+</li>
+<li>SCRAP.Arduino: The module dedicated to interfacing with the robot's hardware. Manages communication with microcontrollers (typically Arduino) and connected sensors/actuators. Provides a simplified API to control hardware devices and acquire data from sensors.</li>
+</ul>
+<h2 id="command-execution-flow">Command Execution Flow</h2>
+<ol>
+<li>User request: The user sends a command through the Android interface.</li>
+<li>Command processing: SCRAP.Net receives the command and analyzes it.</li>
+<li>Planning: The actions necessary to execute the command are planned, taking into account the current state of the robot and the surrounding environment.</li>
+<li>Execution: Commands are sent to SCRAP.Arduino, which executes them directly on the hardware.</li>
+<li>Feedback: The robot sends feedback on the execution status to SCRAP.Net, which in turn communicates it to the Android interface.</li>
+</ol>
+<h2 id="environment-mapping-and-navigation">Environment Mapping and Navigation</h2>
+<p>SCRAP.Net uses algorithms to build detailed maps of the environment in real time. Maps are used for:</p>
+<ul>
+<li>Localization: Determining the robot's exact position in space.</li>
+<li>Navigation: Planning safe and efficient paths, avoiding static and dynamic obstacles.</li>
+<li>Odometry: Estimating the robot's displacement based on sensor readings.</li>
+</ul>
+<h2 id="hardware-emulator">Hardware Emulator</h2>
+<p>The emulator integrated into SCRAP.Net allows you to simulate the behavior of the robot in a virtual environment. This feature is essential for developing, debugging, and testing new algorithms and functionalities, without the need for a physical robot.</p>
+<h2 id="technologies-used">Technologies Used</h2>
+<ul>
+<li>SCRAP.Net: C# and .NET Core for portability and performance.</li>
+<li>SCRAP.Android: Kotlin for Android app development.</li>
+<li>SCRAP.Arduino: C++ for programming Arduino microcontrollers.</li>
+<li>Communications: WebSocket, HTTP, serial.</li>
+<li>Motion planning: A*.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fra00/SCRAP.Net/blob/master/docs-other/introduction.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

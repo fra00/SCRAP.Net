@@ -1,0 +1,439 @@
+### YamlMime:ManagedReference
+items:
+- uid: MainRobot.Common.RPoint
+  commentId: T:MainRobot.Common.RPoint
+  id: RPoint
+  parent: MainRobot.Common
+  children:
+  - MainRobot.Common.RPoint.#ctor
+  - MainRobot.Common.RPoint.#ctor(System.Int32,System.Int32)
+  - MainRobot.Common.RPoint.X
+  - MainRobot.Common.RPoint.Y
+  langs:
+  - csharp
+  - vb
+  name: RPoint
+  nameWithType: RPoint
+  fullName: MainRobot.Common.RPoint
+  type: Class
+  source:
+    remote:
+      path: Common/RPoint.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: RPoint
+    path: Common/RPoint.cs
+    startLine: 8
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Common
+  syntax:
+    content: public class RPoint
+    content.vb: Public Class RPoint
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MainRobot.Common.RPoint.X
+  commentId: F:MainRobot.Common.RPoint.X
+  id: X
+  parent: MainRobot.Common.RPoint
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: RPoint.X
+  fullName: MainRobot.Common.RPoint.X
+  type: Field
+  source:
+    remote:
+      path: Common/RPoint.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: X
+    path: Common/RPoint.cs
+    startLine: 10
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Common
+  syntax:
+    content: public int X
+    return:
+      type: System.Int32
+    content.vb: Public X As Integer
+- uid: MainRobot.Common.RPoint.Y
+  commentId: F:MainRobot.Common.RPoint.Y
+  id: Y
+  parent: MainRobot.Common.RPoint
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: RPoint.Y
+  fullName: MainRobot.Common.RPoint.Y
+  type: Field
+  source:
+    remote:
+      path: Common/RPoint.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: Y
+    path: Common/RPoint.cs
+    startLine: 11
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Common
+  syntax:
+    content: public int Y
+    return:
+      type: System.Int32
+    content.vb: Public Y As Integer
+- uid: MainRobot.Common.RPoint.#ctor
+  commentId: M:MainRobot.Common.RPoint.#ctor
+  id: '#ctor'
+  parent: MainRobot.Common.RPoint
+  langs:
+  - csharp
+  - vb
+  name: RPoint()
+  nameWithType: RPoint.RPoint()
+  fullName: MainRobot.Common.RPoint.RPoint()
+  type: Constructor
+  source:
+    remote:
+      path: Common/RPoint.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: .ctor
+    path: Common/RPoint.cs
+    startLine: 13
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Common
+  syntax:
+    content: public RPoint()
+    content.vb: Public Sub New()
+  overload: MainRobot.Common.RPoint.#ctor*
+  nameWithType.vb: RPoint.New()
+  fullName.vb: MainRobot.Common.RPoint.New()
+  name.vb: New()
+- uid: MainRobot.Common.RPoint.#ctor(System.Int32,System.Int32)
+  commentId: M:MainRobot.Common.RPoint.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: MainRobot.Common.RPoint
+  langs:
+  - csharp
+  - vb
+  name: RPoint(int, int)
+  nameWithType: RPoint.RPoint(int, int)
+  fullName: MainRobot.Common.RPoint.RPoint(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Common/RPoint.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: .ctor
+    path: Common/RPoint.cs
+    startLine: 19
+  assemblies:
+  - MainRobot
+  namespace: MainRobot.Common
+  syntax:
+    content: public RPoint(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    content.vb: Public Sub New(x As Integer, y As Integer)
+  overload: MainRobot.Common.RPoint.#ctor*
+  nameWithType.vb: RPoint.New(Integer, Integer)
+  fullName.vb: MainRobot.Common.RPoint.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+references:
+- uid: MainRobot.Common
+  commentId: N:MainRobot.Common
+  href: MainRobot.html
+  name: MainRobot.Common
+  nameWithType: MainRobot.Common
+  fullName: MainRobot.Common
+  spec.csharp:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+  spec.vb:
+  - uid: MainRobot
+    name: MainRobot
+    href: MainRobot.html
+  - name: .
+  - uid: MainRobot.Common
+    name: Common
+    href: MainRobot.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: MainRobot.Common.RPoint.#ctor*
+  commentId: Overload:MainRobot.Common.RPoint.#ctor
+  href: MainRobot.Common.RPoint.html#MainRobot_Common_RPoint__ctor
+  name: RPoint
+  nameWithType: RPoint.RPoint
+  fullName: MainRobot.Common.RPoint.RPoint
+  nameWithType.vb: RPoint.New
+  fullName.vb: MainRobot.Common.RPoint.New
+  name.vb: New
