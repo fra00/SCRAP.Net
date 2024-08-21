@@ -15,11 +15,9 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the Repository
 
-1. Open a terminal or command prompt.
+1. Navigate to the directory where you want to save the project.
 
-2. Navigate to the directory where you want to save the project.
-
-3. Run the following command:
+2. Run the following command:
    
    ```
    git clone https://github.com/fra00/SCRAP.Net.git [your_path]
@@ -54,13 +52,7 @@ Before you begin, ensure you have the following installed:
    
    Note: `-v it` changes the language to Italian. Remove it for English.
 
-4. Set the Arduino device IP (for emulator, leave as is):
-   
-   ```csharp
-   public static string HTTP_URL_COMUNICATION = "http://192.168.1.238/?cmdData=";
-   ```
-
-5. Enable hardware simulation and remote Arduino simulation:
+4. Enable hardware simulation and remote Arduino simulation:
    
    ```csharp
    public static bool FAKE_HW = true;
@@ -143,11 +135,11 @@ Remember, the accuracy of your map will directly impact the performance of the p
 ## Configure the Emulator
 
 1. Right-click on the WindowFormRobotEmulator project and select "Properties".
-2. Go to the "Resources" section.
+2. Go to the "Resources" section. 
    ![](../images/2024-08-20-14-29-23-image.png)
-3. Update the map file resource (.png).
+3. Update the map file resource (Update mappaMuri resource .png).
    ![](../images/2024-08-20-14-28-03-image.png)
-4. Modify the path where SCRAP.NET is executed (should be the bin folder of the MainRobot project).
+4. Modify PathRobot the path where SCRAP.NET is executed (should be the bin folder of the MainRobot project).
    
    ![](../images/2024-08-20-14-27-25-image.png)
 
