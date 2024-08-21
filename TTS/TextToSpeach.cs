@@ -30,9 +30,9 @@ namespace MainRobot.TTS
 
             // Configure the process to use cmd.exe as the file name
             process.StartInfo.FileName = Configuration.PATH_ESPEAK + "espeak";
-
+            var arguments = Configuration.ARGUMENTS_ESPEAK.Replace("[@textToSpeach]", textToSpeach); 
             // Pass the command to execute as an argument
-            process.StartInfo.Arguments = "-v it -p 20 \"" + textToSpeach + "\"";
+            process.StartInfo.Arguments = arguments;
 
             // Redirect the standard output to read it later
             process.StartInfo.RedirectStandardOutput = true;

@@ -41,10 +41,12 @@ namespace MainRobot
                 services.AddSingleton<IHttpClientComunication, HttpClientComunication>();
                 //services.AddSingleton<IHttpClientComunication, TcpClientComunication>();
             }
-            if (Configuration.FAKE_HW)
-                services.AddSingleton<ISerial, FakeSerial>();
-            else
-                services.AddSingleton<ISerial, Serial>();
+
+            //if (Configuration.FAKE_HW)
+            //    services.AddSingleton<ISerial, FakeSerial>();
+            //else
+            //    services.AddSingleton<ISerial, Serial>();
+
             //for mobile comunication
             services.AddSingleton<IWebSocketServer, WebSocketServer.WebSocketServer>();
             services.AddSingleton<IWebSocketHandler,RobotWebSocketHandler>();

@@ -79,7 +79,7 @@ namespace MainRobot.Robot.Navigation.Astar
             int width = 1000;
             int height = 1000;
             // Apro l'immagine usando la classe Image di ImageSharp
-            using (Image<Rgba32> image = Image.Load<Rgba32>("mappaMuri.png"))
+            using (Image<Rgba32> image = Image.Load<Rgba32>(Configuration.MAP_FILE_NAME))
             {
                 // Itero su tutti i pixel dell'immagine
                 for (int y = 0; y < width; y++)
