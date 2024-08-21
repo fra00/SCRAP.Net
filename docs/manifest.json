@@ -1715,6 +1715,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "bin/Debug/net7.0/img/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Debug/net7.0/img/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs-other/getting-started.md",
       "output": {
         ".html": {
@@ -1752,6 +1762,66 @@
         },
         ".json": {
           "relative_path": "docs-other/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2024-08-20-14-27-25-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2024-08-20-14-27-25-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2024-08-20-14-28-03-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2024-08-20-14-28-03-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2024-08-20-14-29-23-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2024-08-20-14-29-23-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2024-08-20-14-46-18-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2024-08-20-14-46-18-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2024-08-20-14-46-56-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2024-08-20-14-46-56-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "img/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "img/readme.html"
         }
       },
       "version": ""

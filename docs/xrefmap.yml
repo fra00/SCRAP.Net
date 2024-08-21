@@ -334,6 +334,12 @@ references:
   commentId: T:MainRobot.Configuration
   fullName: MainRobot.Configuration
   nameWithType: Configuration
+- uid: MainRobot.Configuration.ARGUMENTS_ESPEAK
+  name: ARGUMENTS_ESPEAK
+  href: api/MainRobot.Configuration.html#MainRobot_Configuration_ARGUMENTS_ESPEAK
+  commentId: F:MainRobot.Configuration.ARGUMENTS_ESPEAK
+  fullName: MainRobot.Configuration.ARGUMENTS_ESPEAK
+  nameWithType: Configuration.ARGUMENTS_ESPEAK
 - uid: MainRobot.Configuration.CAMERA_IP_PAS
   name: CAMERA_IP_PAS
   href: api/MainRobot.Configuration.html#MainRobot_Configuration_CAMERA_IP_PAS
@@ -382,6 +388,12 @@ references:
   commentId: F:MainRobot.Configuration.HTTP_URL_LLM
   fullName: MainRobot.Configuration.HTTP_URL_LLM
   nameWithType: Configuration.HTTP_URL_LLM
+- uid: MainRobot.Configuration.MAP_FILE_NAME
+  name: MAP_FILE_NAME
+  href: api/MainRobot.Configuration.html#MainRobot_Configuration_MAP_FILE_NAME
+  commentId: F:MainRobot.Configuration.MAP_FILE_NAME
+  fullName: MainRobot.Configuration.MAP_FILE_NAME
+  nameWithType: Configuration.MAP_FILE_NAME
 - uid: MainRobot.Configuration.PATH_ESPEAK
   name: PATH_ESPEAK
   href: api/MainRobot.Configuration.html#MainRobot_Configuration_PATH_ESPEAK

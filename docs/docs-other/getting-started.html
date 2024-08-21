@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>getting-started | SCRAP.Net </title>
+      <title># Getting Started with SCRAP.Net | SCRAP.Net </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="getting-started | SCRAP.Net ">
+      <meta name="title" content="# Getting Started with SCRAP.Net | SCRAP.Net ">
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -84,8 +84,153 @@
         </div>
 
         <article data-uid="">
-<h1 id="getting-started">getting-started</h1>
+<h1 id="-getting-started-with-scrapnet"># Getting Started with SCRAP.Net</h1>
 
+<p>This guide will walk you through the process of setting up SCRAP.Net on your local machine. SCRAP.Net is a project that simulates robot communication with Arduino using HTTP protocol.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have the following installed:</p>
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2022</a> (or newer) with the .NET workload installed</li>
+<li><a href="https://dotnet.microsoft.com/download/dotnet/7.0">.NET Core 7.0</a></li>
+<li><a href="https://espeak.sourceforge.net/">eSpeak</a></li>
+</ul>
+<h2 id="installation-steps">Installation Steps</h2>
+<h3 id="1-clone-the-repository">1. Clone the Repository</h3>
+<ol>
+<li><p>Open a terminal or command prompt.</p>
+</li>
+<li><p>Navigate to the directory where you want to save the project.</p>
+</li>
+<li><p>Run the following command:</p>
+<pre><code>git clone https://github.com/fra00/SCRAP.Net.git [your_path]
+</code></pre>
+<p>Replace <code>[your_path]</code> with your desired directory path.</p>
+</li>
+</ol>
+<h3 id="2-open-the-solution">2. Open the Solution</h3>
+<ol>
+<li>Launch Visual Studio 2022 with administrator privileges.</li>
+<li>Go to &quot;File&quot; -&gt; &quot;Open&quot; -&gt; &quot;Project/Solution&quot;.</li>
+<li>Navigate to the cloned repository and open the file:
+<code>[your_path]\SCRAP.Net\Robot\Robot.sln</code></li>
+</ol>
+<h3 id="3-configure-mainrobot-project">3. Configure MainRobot Project</h3>
+<h4 id="edit-configurationcs">Edit Configuration.cs</h4>
+<ol>
+<li><p>Open <code>Configuration.cs</code> in the MainRobot project.</p>
+</li>
+<li><p>Set the full path to eSpeak:</p>
+<pre><code class="lang-csharp">public static string PATH_ESPEAK = &quot;C:\\Program Files (x86)\\eSpeak\\command_line\\&quot;;
+</code></pre>
+</li>
+<li><p>Modify eSpeak TTS configuration arguments:</p>
+<pre><code class="lang-csharp">public static string ARGUMENTS_ESPEAK = &quot;-v it -p 20 \&quot;[@textToSpeach]\&quot;&quot;;
+</code></pre>
+<p>Note: <code>-v it</code> changes the language to Italian. Remove it for English.</p>
+</li>
+<li><p>Set the Arduino device IP (for emulator, leave as is):</p>
+<pre><code class="lang-csharp">public static string HTTP_URL_COMUNICATION = &quot;http://192.168.1.238/?cmdData=&quot;;
+</code></pre>
+</li>
+<li><p>Enable hardware simulation and remote Arduino simulation:</p>
+<pre><code class="lang-csharp">public static bool FAKE_HW = true;
+public static bool FAKE_REMOTE_ARDUINO = true;
+</code></pre>
+</li>
+</ol>
+<h4 id="edit-robotconfigurationcs">Edit RobotConfiguration.cs</h4>
+<ol>
+<li><p>Open <code>RobotConfiguration.cs</code> in the MainRobot project.</p>
+</li>
+<li><p>Specify the path to load the map:</p>
+<pre><code class="lang-csharp">public static string MAP_FILE_NAME = &quot;img//mappaMuri.png&quot;;
+</code></pre>
+</li>
+<li><p>Set the maximum dimensions of the floor plan in cm:</p>
+<pre><code class="lang-csharp">public static int WIDHT_MAP = 1000;
+public static int HEIGHT_MAP = 1000;
+</code></pre>
+</li>
+<li><p>Set the robot's dimensions in cm:</p>
+<pre><code class="lang-csharp">public static int HALF_WIDTH_ROBOT = 15;
+public static int HALF_HEIGHT_ROBOT = 15;
+</code></pre>
+</li>
+<li><p>Leave the minimum movement size unchanged:</p>
+<pre><code class="lang-csharp">public static int MIN_STEP_FOR_FINDPATH = 10;
+</code></pre>
+</li>
+</ol>
+<h2 id="creating-the-map">Creating the Map</h2>
+<p>The map is a crucial element that you, as the user, need to create. It's used to support the lidar and sensors, and helps speed up pathfinding. Here's how to create and configure the map:</p>
+<h3 id="map-creation-guidelines">Map Creation Guidelines</h3>
+<ol>
+<li><strong>Format</strong>: The map should be a PNG image in black and white.</li>
+<li><strong>Content</strong>:
+<ul>
+<li>Black areas represent walls or obstacles.</li>
+<li>White areas represent the floor or navigable space.</li>
+</ul>
+</li>
+<li><strong>Dimensions</strong>:
+<ul>
+<li>The image size should be calculated based on the <code>WIDHT_MAP</code> and <code>HEIGHT_MAP</code> properties in <code>RobotConfiguration.cs</code>.</li>
+<li>In the current configuration, one pixel corresponds to one centimeter.</li>
+</ul>
+</li>
+<li><strong>Creation Tool</strong>: You can use any graphic editor to create this map.</li>
+</ol>
+<h3 id="steps-to-create-and-configure-the-map">Steps to Create and Configure the Map</h3>
+<ol>
+<li><p>Create a black and white PNG image representing your environment. Ensure the dimensions match your <code>WIDHT_MAP</code> and <code>HEIGHT_MAP</code> settings.</p>
+</li>
+<li><p>Save the map file in your project directory, typically in an <code>img</code> folder.</p>
+</li>
+<li><p>Update the <code>MAP_FILE_NAME</code> in <code>RobotConfiguration.cs</code>:</p>
+<pre><code class="lang-csharp">public static string MAP_FILE_NAME = &quot;img//yourMapFileName.png&quot;;
+</code></pre>
+</li>
+<li><p>Ensure the <code>WIDHT_MAP</code> and <code>HEIGHT_MAP</code> properties in <code>RobotConfiguration.cs</code> match your map's dimensions in centimeters:</p>
+<pre><code class="lang-csharp">public static int WIDHT_MAP = 1000; // if your map is 1000 pixels wide
+public static int HEIGHT_MAP = 1000; // if your map is 1000 pixels tall
+</code></pre>
+</li>
+<li><p>Adjust the robot's dimensions if necessary:</p>
+<pre><code class="lang-csharp">public static int HALF_WIDTH_ROBOT = 15;
+public static int HALF_HEIGHT_ROBOT = 15;
+</code></pre>
+</li>
+</ol>
+<p>Remember, the accuracy of your map will directly impact the performance of the pathfinding algorithm and the overall simulation.</p>
+<h2 id="configure-the-emulator">Configure the Emulator</h2>
+<ol>
+<li><p>Right-click on the WindowFormRobotEmulator project and select &quot;Properties&quot;.</p>
+</li>
+<li><p>Go to the &quot;Resources&quot; section.
+<img src="../images/2024-08-20-14-29-23-image.png" alt=""></p>
+</li>
+<li><p>Update the map file resource (.png).
+<img src="../images/2024-08-20-14-28-03-image.png" alt=""></p>
+</li>
+<li><p>Modify the path where SCRAP.NET is executed (should be the bin folder of the MainRobot project).</p>
+<p><img src="../images/2024-08-20-14-27-25-image.png" alt=""></p>
+</li>
+</ol>
+<h2 id="run-the-projects">Run the Projects</h2>
+<ol>
+<li>Right-click on WindowFormRobotEmulator -&gt; Debug -&gt; Start New Instance</li>
+<li>Right-click on MainRobot -&gt; Debug -&gt; Start New Instance</li>
+</ol>
+<h2 id="verification">Verification</h2>
+<p>If everything is set up correctly:</p>
+<ol>
+<li>A shell should open, executing a series of commands.</li>
+<li>The emulator should launch.</li>
+</ol>
+<p>You should see a console window with various commands being executed, and the emulator interface should appear.</p>
+<p><img src="../images/2024-08-20-14-46-18-image.png" alt=""></p>
+<p><img src="../images/2024-08-20-14-46-56-image.png" alt=""></p>
 
 </article>
 

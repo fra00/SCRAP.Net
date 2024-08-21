@@ -5,6 +5,7 @@ items:
   id: Configuration
   parent: MainRobot
   children:
+  - MainRobot.Configuration.ARGUMENTS_ESPEAK
   - MainRobot.Configuration.CAMERA_IP_PAS
   - MainRobot.Configuration.CAMERA_IP_URL
   - MainRobot.Configuration.CAMERA_IP_USR
@@ -13,6 +14,7 @@ items:
   - MainRobot.Configuration.HTTP_URL_BASE_LLM
   - MainRobot.Configuration.HTTP_URL_COMUNICATION
   - MainRobot.Configuration.HTTP_URL_LLM
+  - MainRobot.Configuration.MAP_FILE_NAME
   - MainRobot.Configuration.PATH_ESPEAK
   - MainRobot.Configuration.SERIAL_ARRAY_SEPARETOR
   - MainRobot.Configuration.SERIAL_END_MESSAGE
@@ -55,6 +57,35 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
+- uid: MainRobot.Configuration.MAP_FILE_NAME
+  commentId: F:MainRobot.Configuration.MAP_FILE_NAME
+  id: MAP_FILE_NAME
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: MAP_FILE_NAME
+  nameWithType: Configuration.MAP_FILE_NAME
+  fullName: MainRobot.Configuration.MAP_FILE_NAME
+  type: Field
+  source:
+    remote:
+      path: Configuration.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: MAP_FILE_NAME
+    path: Configuration.cs
+    startLine: 10
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  summary: path of image used as map
+  example: []
+  syntax:
+    content: public static string MAP_FILE_NAME
+    return:
+      type: System.String
+    content.vb: Public Shared MAP_FILE_NAME As String
 - uid: MainRobot.Configuration.PATH_ESPEAK
   commentId: F:MainRobot.Configuration.PATH_ESPEAK
   id: PATH_ESPEAK
@@ -73,15 +104,46 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: PATH_ESPEAK
     path: Configuration.cs
-    startLine: 7
+    startLine: 14
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: to  speech by default is used eSpeak this is the folder when espeak is installed
+  example: []
   syntax:
     content: public static string PATH_ESPEAK
     return:
       type: System.String
     content.vb: Public Shared PATH_ESPEAK As String
+- uid: MainRobot.Configuration.ARGUMENTS_ESPEAK
+  commentId: F:MainRobot.Configuration.ARGUMENTS_ESPEAK
+  id: ARGUMENTS_ESPEAK
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: ARGUMENTS_ESPEAK
+  nameWithType: Configuration.ARGUMENTS_ESPEAK
+  fullName: MainRobot.Configuration.ARGUMENTS_ESPEAK
+  type: Field
+  source:
+    remote:
+      path: Configuration.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: ARGUMENTS_ESPEAK
+    path: Configuration.cs
+    startLine: 19
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  summary: parameter to configure eSpeak int this case is italian voice with pitch 20
+  example: []
+  syntax:
+    content: public static string ARGUMENTS_ESPEAK
+    return:
+      type: System.String
+    content.vb: Public Shared ARGUMENTS_ESPEAK As String
 - uid: MainRobot.Configuration.SERIAL_NAME
   commentId: F:MainRobot.Configuration.SERIAL_NAME
   id: SERIAL_NAME
@@ -100,10 +162,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_NAME
     path: Configuration.cs
-    startLine: 9
+    startLine: 24
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: 'serial settings : serial name'
+  example: []
   syntax:
     content: public static string SERIAL_NAME
     return:
@@ -127,15 +191,75 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_SPEED
     path: Configuration.cs
-    startLine: 10
+    startLine: 28
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: 'serial settings : serial speed'
+  example: []
   syntax:
     content: public static int SERIAL_SPEED
     return:
       type: System.Int32
     content.vb: Public Shared SERIAL_SPEED As Integer
+- uid: MainRobot.Configuration.HTTP_URL_COMUNICATION
+  commentId: F:MainRobot.Configuration.HTTP_URL_COMUNICATION
+  id: HTTP_URL_COMUNICATION
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: HTTP_URL_COMUNICATION
+  nameWithType: Configuration.HTTP_URL_COMUNICATION
+  fullName: MainRobot.Configuration.HTTP_URL_COMUNICATION
+  type: Field
+  source:
+    remote:
+      path: Configuration.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: HTTP_URL_COMUNICATION
+    path: Configuration.cs
+    startLine: 34
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  summary: 'http settings : url to server http arduino'
+  example: []
+  syntax:
+    content: public static string HTTP_URL_COMUNICATION
+    return:
+      type: System.String
+    content.vb: Public Shared HTTP_URL_COMUNICATION As String
+- uid: MainRobot.Configuration.TCP_URL_COMUNICATION
+  commentId: F:MainRobot.Configuration.TCP_URL_COMUNICATION
+  id: TCP_URL_COMUNICATION
+  parent: MainRobot.Configuration
+  langs:
+  - csharp
+  - vb
+  name: TCP_URL_COMUNICATION
+  nameWithType: Configuration.TCP_URL_COMUNICATION
+  fullName: MainRobot.Configuration.TCP_URL_COMUNICATION
+  type: Field
+  source:
+    remote:
+      path: Configuration.cs
+      branch: master
+      repo: https://github.com/fra00/SCRAP.Net.git
+    id: TCP_URL_COMUNICATION
+    path: Configuration.cs
+    startLine: 39
+  assemblies:
+  - MainRobot
+  namespace: MainRobot
+  summary: TCP settings if is configured as tcp use this to configure "ip;port"
+  example: []
+  syntax:
+    content: public static string TCP_URL_COMUNICATION
+    return:
+      type: System.String
+    content.vb: Public Shared TCP_URL_COMUNICATION As String
 - uid: MainRobot.Configuration.SERIAL_SEPARETOR
   commentId: F:MainRobot.Configuration.SERIAL_SEPARETOR
   id: SERIAL_SEPARETOR
@@ -154,10 +278,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_SEPARETOR
     path: Configuration.cs
-    startLine: 11
+    startLine: 44
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: separator char for command
+  example: []
   syntax:
     content: public static string SERIAL_SEPARETOR
     return:
@@ -181,10 +307,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_ARRAY_SEPARETOR
     path: Configuration.cs
-    startLine: 12
+    startLine: 48
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: separator char for array elements
+  example: []
   syntax:
     content: public static string SERIAL_ARRAY_SEPARETOR
     return:
@@ -208,10 +336,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_START_MESSAGE_RPI
     path: Configuration.cs
-    startLine: 13
+    startLine: 52
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Start chars for message from Server (message from Server to Arduino)
+  example: []
   syntax:
     content: public static string SERIAL_START_MESSAGE_RPI
     return:
@@ -235,10 +365,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_START_MESSAGE_ARDU
     path: Configuration.cs
-    startLine: 14
+    startLine: 56
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Start chars for message from Server (message from Arduino to Server)
+  example: []
   syntax:
     content: public static string SERIAL_START_MESSAGE_ARDU
     return:
@@ -262,10 +394,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SERIAL_END_MESSAGE
     path: Configuration.cs
-    startLine: 15
+    startLine: 60
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Chars for end message
+  example: []
   syntax:
     content: public static string SERIAL_END_MESSAGE
     return:
@@ -289,7 +423,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: HTTP_URL_BASE_LLM
     path: Configuration.cs
-    startLine: 17
+    startLine: 64
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -316,7 +450,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: HTTP_URL_LLM
     path: Configuration.cs
-    startLine: 18
+    startLine: 65
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -325,60 +459,6 @@ items:
     return:
       type: System.String
     content.vb: Public Shared HTTP_URL_LLM As String
-- uid: MainRobot.Configuration.HTTP_URL_COMUNICATION
-  commentId: F:MainRobot.Configuration.HTTP_URL_COMUNICATION
-  id: HTTP_URL_COMUNICATION
-  parent: MainRobot.Configuration
-  langs:
-  - csharp
-  - vb
-  name: HTTP_URL_COMUNICATION
-  nameWithType: Configuration.HTTP_URL_COMUNICATION
-  fullName: MainRobot.Configuration.HTTP_URL_COMUNICATION
-  type: Field
-  source:
-    remote:
-      path: Configuration.cs
-      branch: master
-      repo: https://github.com/fra00/SCRAP.Net.git
-    id: HTTP_URL_COMUNICATION
-    path: Configuration.cs
-    startLine: 20
-  assemblies:
-  - MainRobot
-  namespace: MainRobot
-  syntax:
-    content: public static string HTTP_URL_COMUNICATION
-    return:
-      type: System.String
-    content.vb: Public Shared HTTP_URL_COMUNICATION As String
-- uid: MainRobot.Configuration.TCP_URL_COMUNICATION
-  commentId: F:MainRobot.Configuration.TCP_URL_COMUNICATION
-  id: TCP_URL_COMUNICATION
-  parent: MainRobot.Configuration
-  langs:
-  - csharp
-  - vb
-  name: TCP_URL_COMUNICATION
-  nameWithType: Configuration.TCP_URL_COMUNICATION
-  fullName: MainRobot.Configuration.TCP_URL_COMUNICATION
-  type: Field
-  source:
-    remote:
-      path: Configuration.cs
-      branch: master
-      repo: https://github.com/fra00/SCRAP.Net.git
-    id: TCP_URL_COMUNICATION
-    path: Configuration.cs
-    startLine: 22
-  assemblies:
-  - MainRobot
-  namespace: MainRobot
-  syntax:
-    content: public static string TCP_URL_COMUNICATION
-    return:
-      type: System.String
-    content.vb: Public Shared TCP_URL_COMUNICATION As String
 - uid: MainRobot.Configuration.CAMERA_IP_URL
   commentId: F:MainRobot.Configuration.CAMERA_IP_URL
   id: CAMERA_IP_URL
@@ -397,7 +477,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: CAMERA_IP_URL
     path: Configuration.cs
-    startLine: 24
+    startLine: 68
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -424,7 +504,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: CAMERA_IP_USR
     path: Configuration.cs
-    startLine: 25
+    startLine: 69
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -451,7 +531,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: CAMERA_IP_PAS
     path: Configuration.cs
-    startLine: 26
+    startLine: 70
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -478,7 +558,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: FAKE_HW
     path: Configuration.cs
-    startLine: 28
+    startLine: 73
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -505,7 +585,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: FAKE_REMOTE_ARDUINO
     path: Configuration.cs
-    startLine: 29
+    startLine: 75
   assemblies:
   - MainRobot
   namespace: MainRobot

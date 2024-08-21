@@ -162,10 +162,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: WIDHT_MAP
     path: RobotConfiguration.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: max width of map in cm
+  example: []
   syntax:
     content: public static int WIDHT_MAP
     return:
@@ -189,10 +191,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: HEIGHT_MAP
     path: RobotConfiguration.cs
-    startLine: 10
+    startLine: 17
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: max heeight of map in cm
+  example: []
   syntax:
     content: public static int HEIGHT_MAP
     return:
@@ -216,10 +220,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: HALF_WIDTH_ROBOT
     path: RobotConfiguration.cs
-    startLine: 11
+    startLine: 22
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: half width of robot in cm
+  example: []
   syntax:
     content: public static int HALF_WIDTH_ROBOT
     return:
@@ -243,10 +249,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: HALF_HEIGHT_ROBOT
     path: RobotConfiguration.cs
-    startLine: 12
+    startLine: 27
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: half height of robot in cm
+  example: []
   syntax:
     content: public static int HALF_HEIGHT_ROBOT
     return:
@@ -270,10 +278,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MIN_STEP_FOR_FINDPATH
     path: RobotConfiguration.cs
-    startLine: 13
+    startLine: 32
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: min step use for pathfinding
+  example: []
   syntax:
     content: public static int MIN_STEP_FOR_FINDPATH
     return:
@@ -297,10 +307,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MAX_DISTANCE_FORWARD_CONSEC
     path: RobotConfiguration.cs
-    startLine: 14
+    startLine: 37
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: maximum distance travelled in a straight line, once this distance has been travelled the robot performs position checks
+  example: []
   syntax:
     content: public static int MAX_DISTANCE_FORWARD_CONSEC
     return:
@@ -324,10 +336,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MIN_STEP_FOR_WEIGHTPATH
     path: RobotConfiguration.cs
-    startLine: 17
+    startLine: 42
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Each time an obstacle is detected, the weight of the point where the obstacle was detected is increased by this value
+  example: []
   syntax:
     content: public static int MIN_STEP_FOR_WEIGHTPATH
     return:
@@ -351,10 +365,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: LOG_FILE_EMULATOR
     path: RobotConfiguration.cs
-    startLine: 19
+    startLine: 47
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: used to the emulator to write the path calculation to the path.json file
+  example: []
   syntax:
     content: public static bool LOG_FILE_EMULATOR
     return:
@@ -378,10 +394,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: HAVE_LIDAR
     path: RobotConfiguration.cs
-    startLine: 21
+    startLine: 52
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: true if robot have a lidar
+  example: []
   syntax:
     content: public static bool HAVE_LIDAR
     return:
@@ -405,10 +423,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: ORIENTATION_LIDAR
     path: RobotConfiguration.cs
-    startLine: 24
+    startLine: 57
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: orientation of the lidar sensor relative to the zero of the robot
+  example: []
   syntax:
     content: public static int ORIENTATION_LIDAR
     return:
@@ -432,10 +452,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MIN_DISTANCE_LIDAR
     path: RobotConfiguration.cs
-    startLine: 25
+    startLine: 62
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Min distance valid for lidar
+  example: []
   syntax:
     content: public static int MIN_DISTANCE_LIDAR
     return:
@@ -459,10 +481,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MAX_DISTANCE_LIDAR
     path: RobotConfiguration.cs
-    startLine: 26
+    startLine: 67
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Max distance valid for lidar
+  example: []
   syntax:
     content: public static int MAX_DISTANCE_LIDAR
     return:
@@ -486,10 +510,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: ANGLE_CORRECTION_LIDAR
     path: RobotConfiguration.cs
-    startLine: 27
+    startLine: 72
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: fixed correction of calculated angle from lidar
+  example: []
   syntax:
     content: public static int ANGLE_CORRECTION_LIDAR
     return:
@@ -513,10 +539,15 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: PERC_POINT_OVERLAP_AUTOPOS_LIDAR
     path: RobotConfiguration.cs
-    startLine: 28
+    startLine: 78
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: >-
+    Used for autoposition , if percentage of ovelapping point finded from lidar are greter then this percentage ,
+
+    calculate autoposition
+  example: []
   syntax:
     content: public static int PERC_POINT_OVERLAP_AUTOPOS_LIDAR
     return:
@@ -540,10 +571,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MAX_DISTANCE_AUTOPOS_LIDAR
     path: RobotConfiguration.cs
-    startLine: 29
+    startLine: 83
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: If the distance from teoric position and calculated position from lidar is greater than this value, invalidate autoposition
+  example: []
   syntax:
     content: public static int MAX_DISTANCE_AUTOPOS_LIDAR
     return:
@@ -567,10 +600,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: PointRecharge
     path: RobotConfiguration.cs
-    startLine: 31
+    startLine: 88
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Point where the charging base is positioned
+  example: []
   syntax:
     content: public static RPoint PointRecharge
     return:
@@ -594,10 +629,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: PointStartRecharge
     path: RobotConfiguration.cs
-    startLine: 32
+    startLine: 93
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: point where the robot begins to approach the charging base
+  example: []
   syntax:
     content: public static RPoint PointStartRecharge
     return:
@@ -621,10 +658,12 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: AngleStartRecharge
     path: RobotConfiguration.cs
-    startLine: 33
+    startLine: 98
   assemblies:
   - MainRobot
   namespace: MainRobot
+  summary: Angle to start recharge base
+  example: []
   syntax:
     content: public static int AngleStartRecharge
     return:
@@ -648,7 +687,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SxLedColorRecharge
     path: RobotConfiguration.cs
-    startLine: 35
+    startLine: 100
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -677,7 +716,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: SxLedTolleranceRecharge
     path: RobotConfiguration.cs
-    startLine: 42
+    startLine: 107
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -706,7 +745,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: FrontLedColorRecharge
     path: RobotConfiguration.cs
-    startLine: 50
+    startLine: 115
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -735,7 +774,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: FrontLedTolleranceRecharge
     path: RobotConfiguration.cs
-    startLine: 57
+    startLine: 122
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -764,7 +803,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: DxLedColorRecharge
     path: RobotConfiguration.cs
-    startLine: 64
+    startLine: 129
   assemblies:
   - MainRobot
   namespace: MainRobot
@@ -793,7 +832,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: DxLedTolleranceRecharge
     path: RobotConfiguration.cs
-    startLine: 71
+    startLine: 136
   assemblies:
   - MainRobot
   namespace: MainRobot
