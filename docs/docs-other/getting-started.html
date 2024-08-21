@@ -98,8 +98,6 @@
 <h2 id="installation-steps">Installation Steps</h2>
 <h3 id="1-clone-the-repository">1. Clone the Repository</h3>
 <ol>
-<li><p>Open a terminal or command prompt.</p>
-</li>
 <li><p>Navigate to the directory where you want to save the project.</p>
 </li>
 <li><p>Run the following command:</p>
@@ -128,10 +126,6 @@
 <pre><code class="lang-csharp">public static string ARGUMENTS_ESPEAK = &quot;-v it -p 20 \&quot;[@textToSpeach]\&quot;&quot;;
 </code></pre>
 <p>Note: <code>-v it</code> changes the language to Italian. Remove it for English.</p>
-</li>
-<li><p>Set the Arduino device IP (for emulator, leave as is):</p>
-<pre><code class="lang-csharp">public static string HTTP_URL_COMUNICATION = &quot;http://192.168.1.238/?cmdData=&quot;;
-</code></pre>
 </li>
 <li><p>Enable hardware simulation and remote Arduino simulation:</p>
 <pre><code class="lang-csharp">public static bool FAKE_HW = true;
@@ -210,10 +204,10 @@ public static int HALF_HEIGHT_ROBOT = 15;
 <li><p>Go to the &quot;Resources&quot; section.
 <img src="../images/2024-08-20-14-29-23-image.png" alt=""></p>
 </li>
-<li><p>Update the map file resource (.png).
+<li><p>Update the map file resource (Update mappaMuri resource .png).
 <img src="../images/2024-08-20-14-28-03-image.png" alt=""></p>
 </li>
-<li><p>Modify the path where SCRAP.NET is executed (should be the bin folder of the MainRobot project).</p>
+<li><p>Modify PathRobot the path where SCRAP.NET is executed (should be the bin folder of the MainRobot project).</p>
 <p><img src="../images/2024-08-20-14-27-25-image.png" alt=""></p>
 </li>
 </ol>
