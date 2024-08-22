@@ -31,7 +31,7 @@ These settings enable the use of fake communication classes for the emulator.
 
 ## Emulator Interface
 
-![](C:\Users\Utente\AppData\Roaming\marktext\images\2024-08-22-12-16-09-image.png)
+![](../images/2024-08-22-12-16-09-image.png)
 
 ### Control Buttons
 
@@ -46,18 +46,16 @@ These settings enable the use of fake communication classes for the emulator.
 ### Other Features
 
 - **w.map**: Visualize the weight of detected obstacles in grayscale (best with lidar)
-  ![](C:\Users\Utente\AppData\Roaming\marktext\images\2024-08-22-12-05-10-image.png)
+  ![](../images/2024-08-22-12-05-10-image.png)
 - **Lidar and AutoPosLidar**: Experimental Lidar functionality
 - **Robot Directory button**: Modify the directory where SCRAP.Net runs
 - **Command Textbox**: Shows the history of commands received from SCRAP.NET
-  ![](C:\Users\Utente\AppData\Roaming\marktext\images\2024-08-22-12-18-18-image.png)
+  ![](../images/2024-08-22-12-18-18-image.png)
 - **Robot Position and Status**: Displays current robot information
-  ![](C:\Users\Utente\AppData\Roaming\marktext\images\2024-08-22-12-20-09-image.png)
+  
+  ![](../images/2024-08-22-12-20-09-image.png)
 - **"Control Move" Button**: Opens a form for manually moving the robot
 
 ## Experimental Features
 
 Some buttons and features (like Lidar) are experimental and not final. Use these with caution and expect potential changes or issues.
-
-
-
