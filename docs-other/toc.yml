@@ -3,3 +3,7 @@ items:
   href: introduction.md
 - name: Getting Started
   href: getting-started.md
+- name: Emulator
+  href: emulator.md
+- name: Comunicazione SCRAP.NET e SCRAP.ARDUINO
+  href: com-net-arduino.md
