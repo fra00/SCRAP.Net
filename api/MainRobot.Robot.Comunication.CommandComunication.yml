@@ -115,11 +115,11 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: DisableRele1
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 17
+    startLine: 21
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
-  summary: disable rele1
+  summary: Open rele1
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> DisableRele1()
@@ -148,15 +148,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: EnableRele1
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 22
+    startLine: 30
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Close Rele2
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> EnableRele1()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function EnableRele1() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.EnableRele1*
   implements:
@@ -179,15 +181,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: DisableRele2
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 28
+    startLine: 40
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Open Rele2
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> DisableRele2()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function DisableRele2() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.DisableRele2*
   implements:
@@ -210,15 +214,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: EnableRele2
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 33
+    startLine: 50
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Close Rele2
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> EnableRele2()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function EnableRele2() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.EnableRele2*
   implements:
@@ -241,15 +247,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: EnableFakeMoviment
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 38
+    startLine: 60
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Opern Rele2
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> EnableFakeMoviment()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function EnableFakeMoviment() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.EnableFakeMoviment*
   implements:
@@ -272,7 +280,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: Stop
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 44
+    startLine: 66
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
@@ -303,18 +311,21 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: Forward
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 50
+    startLine: 77
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Move forward
   example: []
   syntax:
     content: public Task<ResponseSerialForward> Forward(int distance)
     parameters:
     - id: distance
       type: System.Int32
+      description: distance in Cm
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ResponseSerialForward}
+      description: ''
     content.vb: Public Function Forward(distance As Integer) As Task(Of ResponseSerialForward)
   overload: MainRobot.Robot.Comunication.CommandComunication.Forward*
   implements:
@@ -340,18 +351,21 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: StartLeftMotor
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 72
+    startLine: 104
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Turn left
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> StartLeftMotor(int angle)
     parameters:
     - id: angle
       type: System.Int32
+      description: angle to rotate
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function StartLeftMotor(angle As Integer) As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.StartLeftMotor*
   implements:
@@ -377,18 +391,21 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: StartRightMotor
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 78
+    startLine: 116
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Turn right
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> StartRightMotor(int angle)
     parameters:
     - id: angle
       type: System.Int32
+      description: angle to rotate
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function StartRightMotor(angle As Integer) As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.StartRightMotor*
   implements:
@@ -414,18 +431,21 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: Backward
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 85
+    startLine: 128
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Move Backward
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> Backward(int distance)
     parameters:
     - id: distance
       type: System.Int32
+      description: distnce in cm
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function Backward(distance As Integer) As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.Backward*
   implements:
@@ -451,15 +471,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: EnableMoviment
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 92
+    startLine: 139
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: 'Enable Moviment : Enable robot to move'
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> EnableMoviment()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function EnableMoviment() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.EnableMoviment*
   implements:
@@ -482,15 +504,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: DisableMoviment
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 99
+    startLine: 150
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Disable Robot to move
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> DisableMoviment()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function DisableMoviment() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.DisableMoviment*
   implements:
@@ -513,15 +537,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: GetLevelOfAlimentation
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 106
+    startLine: 161
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Get volts of battery alimentation
   example: []
   syntax:
     content: public Task<float?> GetLevelOfAlimentation()
     return:
       type: System.Threading.Tasks.Task{System.Nullable{System.Single}}
+      description: Volts of alimentation
     content.vb: Public Function GetLevelOfAlimentation() As Task(Of Single?)
   overload: MainRobot.Robot.Comunication.CommandComunication.GetLevelOfAlimentation*
   implements:
@@ -544,15 +570,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: ReadLidar
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 119
+    startLine: 178
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Get data from lidar
   example: []
   syntax:
     content: public Task<List<(float, float)>?> ReadLidar()
     return:
       type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.Single,System.Single}}}
+      description: List of tuple (angle, distance)
     content.vb: Public Function ReadLidar() As Task(Of List(Of (Single, Single)))
   overload: MainRobot.Robot.Comunication.CommandComunication.ReadLidar*
   implements:
@@ -575,15 +603,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: DisableObstacleFind
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 142
+    startLine: 205
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: After disable no obstacle are detected
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> DisableObstacleFind()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function DisableObstacleFind() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.DisableObstacleFind*
   implements:
@@ -606,15 +636,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: EnableObstacleFind
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 149
+    startLine: 216
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Enable obstacle detection
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> EnableObstacleFind()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function EnableObstacleFind() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.EnableObstacleFind*
   implements:
@@ -637,15 +669,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: IsInRecharge
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 156
+    startLine: 227
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Check if robot is in recharge
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> IsInRecharge()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function IsInRecharge() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.IsInRecharge*
   implements:
@@ -668,15 +702,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: OutInRecharge
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 163
+    startLine: 238
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Exit from recharge
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> OutInRecharge()
     return:
       type: System.Threading.Tasks.Task{MainRobot.Robot.Comunication.Model.ComunicationCommandReceived}
+      description: ''
     content.vb: Public Function OutInRecharge() As Task(Of ComunicationCommandReceived)
   overload: MainRobot.Robot.Comunication.CommandComunication.OutInRecharge*
   implements:
@@ -699,15 +735,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: GetDistanceFrontSensor
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 170
+    startLine: 250
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Read distance from Ultrasonic sensor front , center
   example: []
   syntax:
     content: public Task<float> GetDistanceFrontSensor()
     return:
       type: System.Threading.Tasks.Task{System.Single}
+      description: distance in cm from the obstacle or 0 if there are none
     content.vb: Public Function GetDistanceFrontSensor() As Task(Of Single)
   overload: MainRobot.Robot.Comunication.CommandComunication.GetDistanceFrontSensor*
   implements:
@@ -730,15 +768,17 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: GetSourceOfAlimentation
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 187
+    startLine: 271
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
+  summary: Return status of alimentation
   example: []
   syntax:
     content: public Task<int> GetSourceOfAlimentation()
     return:
       type: System.Threading.Tasks.Task{System.Int32}
+      description: "\"1 network 0 battery\""
     content.vb: Public Function GetSourceOfAlimentation() As Task(Of Integer)
   overload: MainRobot.Robot.Comunication.CommandComunication.GetSourceOfAlimentation*
   implements:
@@ -761,11 +801,11 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: MoveServo
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 206
+    startLine: 290
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
-  summary: ''
+  summary: moves a servo by a set angle
   example: []
   syntax:
     content: public Task<ComunicationCommandReceived> MoveServo(int numServo, int angle)
@@ -802,7 +842,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: TestThreadSleep
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 217
+    startLine: 301
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
@@ -830,7 +870,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: TestThreadSleep1
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 222
+    startLine: 306
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication
@@ -858,7 +898,7 @@ items:
       repo: https://github.com/fra00/SCRAP.Net.git
     id: ForceArduCleanStatus
     path: Robot/Comunication/CommandComunication.cs
-    startLine: 228
+    startLine: 312
   assemblies:
   - MainRobot
   namespace: MainRobot.Robot.Comunication

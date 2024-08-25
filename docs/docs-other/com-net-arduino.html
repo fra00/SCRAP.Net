@@ -85,6 +85,11 @@
 
         <article data-uid="">
 
+<h3 id="scrapnet-and-arduino-communication-guide">SCRAP.Net and Arduino Communication Guide</h3>
+<h2 id="overview">Overview</h2>
+<p>SCRAP.Net is the main program that interfaces with the hardware. It breaks down user requests (e.g., &quot;go to the kitchen&quot;) into a series of commands executed by Arduino. Arduino receives these commands, interfaces with the hardware, and once the command is completed, it responds to SCRAP.Net. This process continues until the initial task is completed.</p>
+<h2 id="communication-flow">Communication Flow</h2>
+<p>Here's an example of how a command to move forward 10 cm is sent and processed:</p>
 <pre><code class="lang-mermaid">sequenceDiagram
     participant Net
     participant Arduino
@@ -96,6 +101,133 @@
     HW-&gt;&gt;Arduino: Response Arduino ARDU_105_11_$$
     Arduino-&gt;&gt;Net: Response from arduino
 </code></pre>
+<h2 id="message-format">Message Format</h2>
+<p>The data transmission format is structured as follows:</p>
+<p><code>[sender]_[id]_[IdCommand]_[param1]_[param2]_[param3]_[param4]_[end]</code></p>
+<p>Example:</p>
+<p><code>RPI_1_11_10_&amp;&amp;</code></p>
+<p>The data transmission format was selected to provide compatibility with various protocols, including serial and HTTP.</p>
+<h3 id="components">Components:</h3>
+<ul>
+<li><strong>[sender]</strong>: Message sender (RPI for SCRAP.Net, ARDU for Arduino)</li>
+<li><strong>[id]</strong>: Auto-incremental command identifier</li>
+<li><strong>[IdCommand]</strong>: ID of the command to send</li>
+<li><strong>[param1...4]</strong>: Optional parameters (arrays are split based on SERIAL_ARRAY_SEPARETOR)</li>
+<li><strong>[end]</strong>: End of message string</li>
+</ul>
+<h2 id="configuration">Configuration</h2>
+<p>These parameters can be configured in the <code>Configuration.cs</code> file:</p>
+<pre><code>public static string SERIAL_SEPARETOR = &quot;_&quot;; 
+public static string SERIAL_ARRAY_SEPARETOR = &quot;;&quot;; 
+public static string SERIAL_START_MESSAGE_RPI = &quot;RPI&quot;; 
+public static string SERIAL_START_MESSAGE_ARDU = &quot;ARDU&quot;; 
+public static string SERIAL_END_MESSAGE = &quot;$$\r\n&quot;;`
+</code></pre>
+<p>`</p>
+<p><strong>IMPORTANT</strong>: The same configurations must be implemented in SCRAP.Arduino and must match, otherwise communication will fail.</p>
+<h2 id="command-implementation">Command Implementation</h2>
+<p>In SCRAP.Net, all Arduino commands are implemented and declared in the <code>CommandComunication</code> class of the <code>MainRobot.Robot.Comunication</code> namespace.</p>
+<h2 id="list-command">List Command</h2>
+<table>
+<thead>
+<tr>
+<th>Method Name</th>
+<th>Parameter 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DisableRele1</td>
+<td>05</td>
+</tr>
+<tr>
+<td>EnableRele1</td>
+<td>06</td>
+</tr>
+<tr>
+<td>DisableRele2</td>
+<td>07</td>
+</tr>
+<tr>
+<td>EnableRele2</td>
+<td>08</td>
+</tr>
+<tr>
+<td>EnableFakeMoviment</td>
+<td>09</td>
+</tr>
+<tr>
+<td>Stop</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Forward</td>
+<td>11{Configuration.SERIAL_SEPARETOR}{distance}</td>
+</tr>
+<tr>
+<td>StartLeftMotor</td>
+<td>12{Configuration.SERIAL_SEPARETOR}{angle}</td>
+</tr>
+<tr>
+<td>StartRightMotor</td>
+<td>13{Configuration.SERIAL_SEPARETOR}{angle}</td>
+</tr>
+<tr>
+<td>Backward</td>
+<td>16{Configuration.SERIAL_SEPARETOR}{distance}</td>
+</tr>
+<tr>
+<td>EnableMoviment</td>
+<td>21</td>
+</tr>
+<tr>
+<td>DisableMoviment</td>
+<td>22</td>
+</tr>
+<tr>
+<td>GetLevelOfAlimentation</td>
+<td>32</td>
+</tr>
+<tr>
+<td>ReadLidar</td>
+<td>33</td>
+</tr>
+<tr>
+<td>DisableObstacleFind</td>
+<td>14</td>
+</tr>
+<tr>
+<td>EnableObstacleFind</td>
+<td>15</td>
+</tr>
+<tr>
+<td>IsInRecharge</td>
+<td>17</td>
+</tr>
+<tr>
+<td>OutInRecharge</td>
+<td>18</td>
+</tr>
+<tr>
+<td>GetDistanceFrontSensor</td>
+<td>30</td>
+</tr>
+<tr>
+<td>GetSourceOfAlimentation</td>
+<td>31</td>
+</tr>
+<tr>
+<td>MoveServo</td>
+<td>40{Configuration.SERIAL_SEPARETOR}{numServo}{Configuration.SERIAL_SEPARETOR}{angle}</td>
+</tr>
+</tbody>
+</table>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li>Always ensure that the configuration in SCRAP.Net and SCRAP.Arduino match.</li>
+<li>Use meaningful and unique command IDs to avoid confusion.</li>
+<li>Test the communication thoroughly in a controlled environment before deployment.</li>
+</ol>
 
 </article>
 
