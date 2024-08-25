@@ -91,4 +91,5 @@ In SCRAP.Net, all Arduino commands are implemented and declared in the `CommandC
 
 1. Always ensure that the configuration in SCRAP.Net and SCRAP.Arduino match.
 2. Use meaningful and unique command IDs to avoid confusion.
-3. 
+
+
